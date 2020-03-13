@@ -1,0 +1,6 @@
+
+*.log
+node_modules/
+package-lock.json
+.vscode
+docs/.vuepress/dist/
