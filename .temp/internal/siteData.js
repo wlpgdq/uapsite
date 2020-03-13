@@ -7,38 +7,6 @@ export const siteData = {
   "base": "/uapsite/",
   "pages": [
     {
-      "title": "FAQ",
-      "frontmatter": {
-        "sidebar": "auto"
-      },
-      "regularPath": "/faq/",
-      "relativePath": "faq/README.md",
-      "key": "v-b7b49082",
-      "path": "/faq/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Why can’t palette.styl and index.styl merge into one API?",
-          "slug": "why-can-t-palette-styl-and-index-styl-merge-into-one-api"
-        },
-        {
-          "level": 2,
-          "title": "What’s the differences between the clientDynamicModules and enhanceAppFiles?",
-          "slug": "what-s-the-differences-between-the-clientdynamicmodules-and-enhanceappfiles"
-        },
-        {
-          "level": 2,
-          "title": "When do I need to use enhanceAppFiles?",
-          "slug": "when-do-i-need-to-use-enhanceappfiles"
-        },
-        {
-          "level": 2,
-          "title": "When do I need to use clientDynamicModules?",
-          "slug": "when-do-i-need-to-use-clientdynamicmodules"
-        }
-      ]
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -67,15 +35,46 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-52f08e60",
-      "path": "/"
+      "key": "v-4413c380",
+      "path": "/",
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
+    },
+    {
+      "title": "Deploy",
+      "frontmatter": {},
+      "regularPath": "/guide/deploy.html",
+      "relativePath": "guide/deploy.md",
+      "key": "v-2e00af06",
+      "path": "/guide/deploy.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Platform Basic Function Database",
+          "slug": "platform-basic-function-database"
+        },
+        {
+          "level": 2,
+          "title": "Program",
+          "slug": "program"
+        }
+      ],
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
+    },
+    {
+      "title": "redis configuration",
+      "frontmatter": {},
+      "regularPath": "/guide/redis-sentry.html",
+      "relativePath": "guide/redis-sentry.md",
+      "key": "v-5f19a21c",
+      "path": "/guide/redis-sentry.html",
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
       "title": "Preparation for deployment",
       "frontmatter": {},
       "regularPath": "/guide/prepare.html",
       "relativePath": "guide/prepare.md",
-      "key": "v-18b1992e",
+      "key": "v-de38b564",
       "path": "/guide/prepare.html",
       "headers": [
         {
@@ -128,80 +127,8 @@ export const siteData = {
           "title": "Unified Application Platform Installation Package",
           "slug": "unified-application-platform-installation-package"
         }
-      ]
-    },
-    {
-      "title": "Deploy",
-      "frontmatter": {},
-      "regularPath": "/guide/deploy.html",
-      "relativePath": "guide/deploy.md",
-      "key": "v-230bca34",
-      "path": "/guide/deploy.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Platform Basic Function Database",
-          "slug": "platform-basic-function-database"
-        },
-        {
-          "level": 2,
-          "title": "Program",
-          "slug": "program"
-        }
-      ]
-    },
-    {
-      "title": "Introduction",
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-5989d1f3",
-      "path": "/guide/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Background",
-          "slug": "background"
-        },
-        {
-          "level": 2,
-          "title": "Product target",
-          "slug": "product-target"
-        },
-        {
-          "level": 2,
-          "title": "Product range definition",
-          "slug": "product-range-definition"
-        },
-        {
-          "level": 2,
-          "title": "Product value",
-          "slug": "product-value"
-        }
-      ]
-    },
-    {
-      "title": "Introduction",
-      "frontmatter": {
-        "title": "Introduction",
-        "metaTitle": "Introduction"
-      },
-      "regularPath": "/guide/userManual/introduction.html",
-      "relativePath": "guide/userManual/introduction.md",
-      "key": "v-3b57c40a",
-      "path": "/guide/userManual/introduction.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Platform Introduction",
-          "slug": "platform-introduction"
-        },
-        {
-          "level": 2,
-          "title": "The Term",
-          "slug": "the-term"
-        }
-      ]
+      ],
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
       "title": "Login and Home",
@@ -211,7 +138,7 @@ export const siteData = {
       },
       "regularPath": "/guide/userManual/login.html",
       "relativePath": "guide/userManual/login.md",
-      "key": "v-40710ecb",
+      "key": "v-fbf75a2a",
       "path": "/guide/userManual/login.html",
       "headers": [
         {
@@ -224,7 +151,32 @@ export const siteData = {
           "title": "Home",
           "slug": "home"
         }
-      ]
+      ],
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
+    },
+    {
+      "title": "Introduction",
+      "frontmatter": {
+        "title": "Introduction",
+        "metaTitle": "Introduction"
+      },
+      "regularPath": "/guide/userManual/introduction.html",
+      "relativePath": "guide/userManual/introduction.md",
+      "key": "v-2b64abca",
+      "path": "/guide/userManual/introduction.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Platform Introduction",
+          "slug": "platform-introduction"
+        },
+        {
+          "level": 2,
+          "title": "The Term",
+          "slug": "the-term"
+        }
+      ],
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
       "title": "Release Notes",
@@ -233,7 +185,7 @@ export const siteData = {
       },
       "regularPath": "/miscellaneous/release-notes.html",
       "relativePath": "miscellaneous/release-notes.md",
-      "key": "v-def1b424",
+      "key": "v-db287be4",
       "path": "/miscellaneous/release-notes.html",
       "headers": [
         {
@@ -296,7 +248,8 @@ export const siteData = {
           "title": "Bug fixes and optimizations",
           "slug": "bug-fixes-and-optimizations-4"
         }
-      ]
+      ],
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
       "title": "Home",
@@ -327,8 +280,9 @@ export const siteData = {
       },
       "regularPath": "/zh/",
       "relativePath": "zh/README.md",
-      "key": "v-2a8ced83",
-      "path": "/zh/"
+      "key": "v-fb41d53a",
+      "path": "/zh/",
+      "lastUpdated": "2020-3-13 4:23:35 PM"
     },
     {
       "title": "FAQ",
@@ -337,7 +291,7 @@ export const siteData = {
       },
       "regularPath": "/zh/faq/",
       "relativePath": "zh/faq/README.md",
-      "key": "v-159d98d4",
+      "key": "v-f8650914",
       "path": "/zh/faq/",
       "headers": [
         {
@@ -360,14 +314,15 @@ export const siteData = {
           "title": "When do I need to use clientDynamicModules?",
           "slug": "when-do-i-need-to-use-clientdynamicmodules"
         }
-      ]
+      ],
+      "lastUpdated": "2020-3-13 4:23:35 PM"
     },
     {
       "title": "介绍",
       "frontmatter": {},
       "regularPath": "/zh/guide/",
       "relativePath": "zh/guide/README.md",
-      "key": "v-36ee8f96",
+      "key": "v-0c63e776",
       "path": "/zh/guide/",
       "headers": [
         {
@@ -390,34 +345,48 @@ export const siteData = {
           "title": "产品价值",
           "slug": "产品价值"
         }
-      ]
+      ],
+      "lastUpdated": "2020-3-13 4:23:35 PM"
     },
     {
-      "title": "部署",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/deploy.html",
-      "relativePath": "zh/guide/deploy.md",
-      "key": "v-0830f196",
-      "path": "/zh/guide/deploy.html",
+      "title": "FAQ",
+      "frontmatter": {
+        "sidebar": "auto"
+      },
+      "regularPath": "/faq/",
+      "relativePath": "faq/README.md",
+      "key": "v-500d679f",
+      "path": "/faq/",
       "headers": [
         {
           "level": 2,
-          "title": "平台基础功能数据库",
-          "slug": "平台基础功能数据库"
+          "title": "Why can’t palette.styl and index.styl merge into one API?",
+          "slug": "why-can-t-palette-styl-and-index-styl-merge-into-one-api"
         },
         {
           "level": 2,
-          "title": "程序",
-          "slug": "程序"
+          "title": "What’s the differences between the clientDynamicModules and enhanceAppFiles?",
+          "slug": "what-s-the-differences-between-the-clientdynamicmodules-and-enhanceappfiles"
+        },
+        {
+          "level": 2,
+          "title": "When do I need to use enhanceAppFiles?",
+          "slug": "when-do-i-need-to-use-enhanceappfiles"
+        },
+        {
+          "level": 2,
+          "title": "When do I need to use clientDynamicModules?",
+          "slug": "when-do-i-need-to-use-clientdynamicmodules"
         }
-      ]
+      ],
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
       "title": "部署前的准备工作",
       "frontmatter": {},
       "regularPath": "/zh/guide/prepare.html",
       "relativePath": "zh/guide/prepare.md",
-      "key": "v-1e3e189b",
+      "key": "v-df02e68a",
       "path": "/zh/guide/prepare.html",
       "headers": [
         {
@@ -470,23 +439,17 @@ export const siteData = {
           "title": "统一应用平台安装包",
           "slug": "统一应用平台安装包"
         }
-      ]
+      ],
+      "lastUpdated": "2020-3-13 4:23:35 PM"
     },
     {
       "title": "redis配置",
       "frontmatter": {},
       "regularPath": "/zh/guide/redis-sentry.html",
       "relativePath": "zh/guide/redis-sentry.md",
-      "key": "v-7f22b535",
-      "path": "/zh/guide/redis-sentry.html"
-    },
-    {
-      "title": "redis configuration",
-      "frontmatter": {},
-      "regularPath": "/guide/redis-sentry.html",
-      "relativePath": "guide/redis-sentry.md",
-      "key": "v-19c9cad2",
-      "path": "/guide/redis-sentry.html"
+      "key": "v-5ef88155",
+      "path": "/zh/guide/redis-sentry.html",
+      "lastUpdated": "2020-3-13 4:23:35 PM"
     },
     {
       "title": "登录和首页",
@@ -496,7 +459,7 @@ export const siteData = {
       },
       "regularPath": "/zh/guide/userManual/login.html",
       "relativePath": "zh/guide/userManual/login.md",
-      "key": "v-22bc26b0",
+      "key": "v-3a7998c8",
       "path": "/zh/guide/userManual/login.html",
       "headers": [
         {
@@ -509,7 +472,8 @@ export const siteData = {
           "title": "首页",
           "slug": "首页"
         }
-      ]
+      ],
+      "lastUpdated": "2020-3-13 4:23:35 PM"
     },
     {
       "title": "介绍",
@@ -519,7 +483,7 @@ export const siteData = {
       },
       "regularPath": "/zh/guide/userManual/introduction.html",
       "relativePath": "zh/guide/userManual/introduction.md",
-      "key": "v-fa2ce728",
+      "key": "v-7151808c",
       "path": "/zh/guide/userManual/introduction.html",
       "headers": [
         {
@@ -532,7 +496,39 @@ export const siteData = {
           "title": "术语",
           "slug": "术语"
         }
-      ]
+      ],
+      "lastUpdated": "2020-3-13 4:23:35 PM"
+    },
+    {
+      "title": "Introduction",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-685691d3",
+      "path": "/guide/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Background",
+          "slug": "background"
+        },
+        {
+          "level": 2,
+          "title": "Product target",
+          "slug": "product-target"
+        },
+        {
+          "level": 2,
+          "title": "Product range definition",
+          "slug": "product-range-definition"
+        },
+        {
+          "level": 2,
+          "title": "Product value",
+          "slug": "product-value"
+        }
+      ],
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
       "title": "发布说明",
@@ -541,7 +537,7 @@ export const siteData = {
       },
       "regularPath": "/zh/miscellaneous/release-notes.html",
       "relativePath": "zh/miscellaneous/release-notes.md",
-      "key": "v-5723b28f",
+      "key": "v-46eab6af",
       "path": "/zh/miscellaneous/release-notes.html",
       "headers": [
         {
@@ -604,14 +600,36 @@ export const siteData = {
           "title": "问题修复和优化",
           "slug": "问题修复和优化-4"
         }
-      ]
+      ],
+      "lastUpdated": "2020-3-13 4:23:35 PM"
+    },
+    {
+      "title": "部署",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/deploy.html",
+      "relativePath": "zh/guide/deploy.md",
+      "key": "v-9412f956",
+      "path": "/zh/guide/deploy.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "平台基础功能数据库",
+          "slug": "平台基础功能数据库"
+        },
+        {
+          "level": 2,
+          "title": "程序",
+          "slug": "程序"
+        }
+      ],
+      "lastUpdated": "2020-3-13 4:23:35 PM"
     },
     {
       "title": "Configure and run",
       "frontmatter": {},
       "regularPath": "/guide/run.html",
       "relativePath": "guide/run.md",
-      "key": "v-d5b6a6a4",
+      "key": "v-51b4d8ce",
       "path": "/guide/run.html",
       "headers": [
         {
@@ -664,14 +682,15 @@ export const siteData = {
           "title": "Open unified application platform",
           "slug": "open-unified-application-platform"
         }
-      ]
+      ],
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
       "title": "配置和运行",
       "frontmatter": {},
       "regularPath": "/zh/guide/run.html",
       "relativePath": "zh/guide/run.md",
-      "key": "v-13948a13",
+      "key": "v-531b1e33",
       "path": "/zh/guide/run.html",
       "headers": [
         {
@@ -724,7 +743,8 @@ export const siteData = {
           "title": "打开统一应用平台",
           "slug": "打开统一应用平台"
         }
-      ]
+      ],
+      "lastUpdated": "2020-3-13 4:23:35 PM"
     }
   ],
   "themeConfig": {
