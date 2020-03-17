@@ -14,37 +14,38 @@ FTP服务器安装包下的子目录“tomcat配置”包含了Tomcat需要的�
 ``` java
 server.port=8080
 
-#**********************1、数据库*********************
+#**********************1、数据库************************
 # MYSQL 数据库
 # spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 # spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
-# spring.datasource.url=jdbc:mysql://192.168.15.35:3306/uap_dev?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=UTF-8
-# spring.datasource.username=admin
-# spring.datasource.password=Admin@123
+# spring.datasource.url=jdbc:mysql://`数据库地址`:`端口号`/`库名`?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=UTF-8
+# spring.datasource.username=`用户名`
+# spring.datasource.password=`密码`
 
-#oracle数据库
+# oracle数据库
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.Oracle10gDialect
 spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
-spring.datasource.url=jdbc:oracle:thin:@192.168.15.35:1521:ora11a
-spring.datasource.username=uap_hzw
-spring.datasource.password=1234
+spring.datasource.url=jdbc:oracle:thin:@`数据库地址`:`端口号`:`库名`
+spring.datasource.username=`用户名`
+spring.datasource.password=`密码`
 
 #是否显示SQL
 spring.jpa.properties.hibernate.show_sql= false
+
 #是否启用数据初始化
 spring.flyway.enabled=false
 
 # mongodb配置，如果不用mongodb，此配置可注释掉，目前消息中心和系统监控需要用到mongodb
-spring.data.mongodb.uri=mongodb://admin:admin%40123@172.16.45.195:20000/uap_dev
+spring.data.mongodb.uri=mongodb://`用户名`:`密码`@`数据库地址`:`端口号`/`库名`
 
-#**********************数据库切换*********************
+#**********************数据库切换************************
 #消息中心，系统监控yes:mongodb,no:mysql/oracle
 uap.nosql.enabled=no
 
-#**********************1、数据库*********************
+#********************************************************
 
 
-#**********************2、redis*********************
+#**********************2、redis**************************
 #redis配置
 spring.redis.host=127.0.0.1
 #端口号
@@ -53,7 +54,7 @@ spring.redis.port=6379
 spring.redis.password=123456
 #使用的数据库编号
 spring.redis.database=1
-#**********************2、redis*********************
+#**********************************************************
 
 #**********************3、UAP平台配置项*********************
 # 是否清理日志和登陆历史标志
@@ -76,40 +77,40 @@ uap.tokenExpiration=3600000
 uap.tokenRefreshExpiration=36000000
 #licnese文件路径(绝对路径,例:E:/licenseTools/)
 uap.licFilePath=
-#**********************3、UAP平台配置项*********************
+#**********************************************************
 
-#**********************4、前端配置项*********************
+#**********************4、前端配置项************************
 #前端配置文件路径
 uap.uiconfig.file=C:/download/apache-tomcat-9.0.13/uapconf/uiconfig.json
-#**********************4、前端配置项*********************
+#**********************************************************
 
-#**********************5、平台接入*********************
+#**********************5、平台接入**************************
 #平台地址
 uap.client.uapUrl=http://127.0.0.1:8080/uap
 
-#**********************5、平台接入*********************
+#**********************************************************
 
-#**********************6、工作流配置项*********************
+#**********************6、工作流配置项**********************
 
-#**********************6、工作流配置项*********************
-
-#**********************7、消息中心配置项*********************
+#**********************************************************
 
 #**********************7、消息中心配置项*********************
+
+#***********************************************************
 
 #**********************8、定时任务配置项*********************
 #调度中心地址
 uap.scheduleUrl=http://127.0.0.1:8080/uap-schedule
 #job日志保存时间(天)
 uap.job.log.save.days=30
-#**********************8、定时任务配置项*********************
+#**********************************************************
 
 #**********************9、系统监控配置项*********************
 # 采样时间间隔(秒,取值范围1-59)
 uap.system.sampleInterval=10
 # 本机IP
-uap.system.ip-address=192.168.15.57
-#**********************9、系统监控配置项*********************
+uap.system.ip-address=`ip地址`
+#**********************************************************
 ```
 
 ### 各个模块有一些特定的配置项，在部署每个模块时要提前配置好该模块的配置
@@ -135,9 +136,10 @@ uap.system.ip-address=192.168.15.57
         * 简体中文（zh-CN）
         * 英语（en）
         * 法语（fr）
-::: warning
-系统提供的uiconfig.json模板文件已经配置好UAP应用相关的参数，需要根据当前部署环境修改UAP应用的rest_url和menu_url，不需要修改UAP应用的app_code。对于业务应用，可以根据UAP应用示例添加并配置。
-:::
+
+	::: warning
+	系统提供的uiconfig.json模板文件已经配置好UAP应用相关的参数，需要根据当前部署环境修改UAP应用的rest_url和menu_url，不需要修改UAP应用的app_code。对于业务应用，可以根据UAP应用示例添加并配置。
+	:::
 
 #### uniconfig.json文件格式如下：
 
@@ -148,24 +150,24 @@ uap.system.ip-address=192.168.15.57
 	"deploy_nodes": [
 		{
 			"app_code": "uap",
-			"rest_url": "http://192.168.15.145:8080/uap/", 
-			"menu_url": "http://192.168.15.145:8080/uap-ui/"
+			"rest_url": "http://127.0.0.1:8080/uap/", 
+			"menu_url": "http://127.0.0.1:8080/uap-ui/"
 		}, {
 			"app_code": "uap-bpm",
-			"rest_url": "http://192.168.15.135:8080/uap-bpm/", 
-			"menu_url": "http://192.168.15.135:8080/uap-ui/"
+			"rest_url": "http://127.0.0.1:8080/uap-bpm/", 
+			"menu_url": "http://127.0.0.1:8080/uap-ui/"
 		}, {
 			"app_code": "uap-schedule",
-			"rest_url": "http://192.168.15.145:8080/uap-schedule/", 
-			"menu_url": "http://192.168.15.145:8080/uap-ui/"
+			"rest_url": "http://127.0.0.1:8080/uap-schedule/", 
+			"menu_url": "http://127.0.0.1:8080/uap-ui/"
 		}, {
 			"app_code": "uap-message",
-			"rest_url": "http://192.168.15.145:8080/uap-msg/", 
-			"menu_url": "http://192.168.15.145:8080/uap-ui/"
+			"rest_url": "http://127.0.0.1:8080/uap-msg/", 
+			"menu_url": "http://127.0.0.1:8080/uap-ui/"
 		}, {
 			"app_code": "uap-monitor",
-			"rest_url": "http://192.168.15.57:8080/uap-monitor/", 
-			"menu_url": "http://192.168.15.57:8080/uap-ui/"
+			"rest_url": "http://127.0.0.1:8080/uap-monitor/", 
+			"menu_url": "http://127.0.0.1:8080/uap-ui/"
 		}
 	],
 	"languages": [
@@ -204,28 +206,27 @@ var Constant = {
 		deploy_nodes: [
 			{
 				app_code: "uap",
-				// rest_url: "http://172.26.21.21:8081/uap/",
-				rest_url: "http://192.168.15.155:8091/uap/",
+				rest_url: "http://127.0.0.1:8080/uap/",
 				menu_url: "http://"+location.hostname+":"+location.port+"/uap-ui/"
 			},
 			{
 				app_code: "uap-schedule",
-				rest_url: "http://192.168.15.108:9001/uap-schedule/",
+				rest_url: "http://127.0.0.1:8080/uap-schedule/",
 				menu_url: "http://"+location.hostname+":"+location.port+"/uap-ui/"
 			},
 			{
 				app_code: "uap-bpm",
-				rest_url: "http://192.168.15.108:9001/uap-bpm/",
+				rest_url: "http://127.0.0.1:8080/uap-bpm/",
 				menu_url: "http://"+location.hostname+":"+location.port+"/uap-ui/"
 			},
 			{
 				app_code: "uap-message",
-				rest_url: "http://172.26.21.21:8083/uap-msg/",
+				rest_url: "http://127.0.0.1:8080/uap-msg/",
 				menu_url: "http://"+location.hostname+":"+location.port+"/uap-ui/"
 			},
 			{
 				app_code: "uap-monitor",
-				rest_url: "http://192.168.15.108:9001/uap-monitor/",
+				rest_url: "http://127.0.0.1:8080/uap-monitor/",
 				menu_url: "http://"+location.hostname+":"+location.port+"/uap-ui/"
 			}
 		]
@@ -254,8 +255,7 @@ var Constant = {
 前端国际化主要是国际化前端界面元素，新的国际化文件需要放置在uap-ui包解压目录下:
 ${tomcat_home}/webapps/uap-ui/WEB-INF/classes/static/js/i18next/
 
-新的国际化文件需要按照如下规则命名：
-    translation-${language_code}.json
+新的国际化文件需要按照如下规则命名：translation-${language_code}.json
 
 其中language_code为你需要添加的语言，要和3.2里面语言code保持一致。新的国际化文件可以基于默认的translation-en.json翻译产生。
 

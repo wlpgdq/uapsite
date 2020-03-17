@@ -14,49 +14,49 @@ The common configuration items in this configuration file are as follows:
 ```java
 server.port = 8080
 
-# ********************** 1, Database *********************
-# MYSQL database
+# ********************** 1.Database *********************
+# mysql database
 # spring.datasource.driver-class-name = com.mysql.cj.jdbc.Driver
 # spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5InnoDBDialect
-# spring.datasource.url = jdbc:mysql://192.168.15.35:3306/uap_dev? serverTimezone=UTC & useSSL=false & useUnicode=true & characterEncoding=UTF-8
-# spring.datasource.username = admin
-# spring.datasource.password=Admin@123
+# spring.datasource.url = jdbc:mysql://`database address`:`port`/`library name`? serverTimezone=UTC & useSSL=false & useUnicode=true & characterEncoding=UTF-8
+# spring.datasource.username = `username`
+# spring.datasource.password = `password`
 
-#oracledatabase
+# oracledatabase
 spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.Oracle10gDialect
 spring.datasource.driver-class-name = oracle.jdbc.driver.OracleDriver
-spring.datasource.url = jdbc:oracle:thin:@192.168.15.35:1521:ora11a
-spring.datasource.username = uap_hzw
-spring.datasource.password = 1234
+spring.datasource.url = jdbc:oracle:thin:@`database address`:`port`:`library name`
+spring.datasource.username = `username`
+spring.datasource.password = `password`
 
-#Whether to display SQL
+# whether to display sql
 spring.jpa.properties.hibernate.show_sql = false
-# Whether to enable data initialization
+# whether to enable data initialization
 spring.flyway.enabled = false
 
 # mongodb configuration. If mongodb is not used, this configuration can be commented out. Currently, mongodb is required for message center and system monitoring.
-spring.data.mongodb.uri = mongodb: // admin: admin%40123@172.16.45.195: 20000 / uap_dev
+spring.data.mongodb.uri = mongodb://`username`:`password`@`database address`:`port`/`library name`
 
 # ********************** Database switch *********************
-#Message center, system monitoring yes: mongodb, no: mysql / oracle
+# message center, system monitoring yes: mongodb, no: mysql / oracle
 uap.nosql.enabled = no
 
-# ********************** 1, Database *********************
+# ********************** 1.Database  end*********************
 
 
-# ********************** 2, redis *********************
-#redisConfiguration
-spring.redis.host = 127.0.0.1
-#The port number
+# ********************** 2.redis *********************
+# redisConfiguration
+spring.redis.host = `redis address`
+# the port number
 spring.redis.port = 6379
-#password
-spring.redis.password = 123456
-#Used database number
+# password
+spring.redis.password = `password`
+# used database number
 spring.redis.database = 1
-# ********************** 2, redis *********************
+# ********************** 2.redis end *********************
 
-# ********************** 3, UAP platform configuration items *********************
-# Whether to clear logs and login history flags
+# ********************** 3.UAP platform configuration items *********************
+# whether to clear logs and login history flags
 uap.clearLogFlag = false
 # Interface call log retention months
 uap.logStoreMonth = 1
@@ -76,46 +76,46 @@ uap.tokenExpiration = 3600000
 uap.tokenRefreshExpiration = 36000000
 #licnese file path (absolute path, example: E: / licenseTools /)
 uap.licFilePath =
-# ********************** 3, UAP platform configuration items *********************
+# ********************** 3.UAP platform configuration items end *********************
 
 # ********************** 4.Front-end configuration items *********************
 #Front end configuration file path
 uap.uiconfig.file = C: /download/apache-tomcat-9.0.13/uapconf/uiconfig.json
-# ********************** 4.Front-end configuration items *********************
+# ********************** 4.Front-end configuration items end *********************
 
 # ********************** 5. Platform access *********************
 #Platform address
-uap.client.uapUrl = http: //127.0.0.1: 8080 / uap
+uap.client.uapUrl = http://127.0.0.1:8080/uap
 
-# ********************** 5. Platform access *********************
-
-# ********************** 6. Workflow configuration items *********************
+# ********************** 5. Platform access end*********************
 
 # ********************** 6. Workflow configuration items *********************
 
-# ********************** 7, message center configuration items *********************
+# ********************** 6. Workflow configuration items end*********************
 
 # ********************** 7, message center configuration items *********************
+
+# ********************** 7, message center configuration items end*********************
 
 # ********************** 8. Scheduled task configuration items *********************
 # Dispatch center address
-uap.scheduleUrl = http: //127.0.0.1: 8080 / uap-schedule
+uap.scheduleUrl = http: //127.0.0.1:8080/uap-schedule
 #job log save time (days)
 uap.job.log.save.days = 30
-# ********************** 8. Scheduled task configuration items *********************
+# ********************** 8. Scheduled task configuration items end*********************
 
 # ********************** 9, system monitoring configuration items *********************
 # Sampling interval (seconds, value range 1-59)
 uap.system.sampleInterval = 10
 # Native IP
-uap.system.ip-address = 192.168.15.57
-# ********************** 9, system monitoring configuration items *********************
+uap.system.ip-address = `ip address`
+# ********************** 9, system monitoring configuration items end *********************
 ```
 
 ### Each module has some specific configuration items, and the configuration of the module must be configured in advance when deploying each module
   
 * UAP platform package
-    * uap.licFilePath: path of licensee file (eg E: / licenseTools /)
+    * uap.licFilePath: path of licensee file (eg:E:/licenseTools/)
 * UAP-BPM workflow package
 * UAP-SCHEDULE scheduled task package
     * uap.scheduleUrl: address of dispatch center
@@ -130,7 +130,7 @@ uap.system.ip-address = 192.168.15.57
     * app_name: system display name, this configuration will be displayed on the browser's tab page title bar, login page and system page title bar, pay attention to the current language
     * app_foot: copyright information, pay attention to internationalization
     * app_code: unique identifier for multiple applications, which must be the same as the application code configured through UAP
-    * rest_url / menu_url: Multi-application background address / foreground address.
+    * rest_url/menu_url: Multi-application background address/foreground address.
     * languages: language configuration supported by the system-language code configuration is as follows:
         * Simplified Chinese (zh-CN)
         * English (en)
@@ -148,24 +148,24 @@ The uiconfig.json template file provided by the system has been configured with 
     "deploy_nodes": [
         {
             "app_code": "uap",
-            "rest_url": "http://192.168.15.145:8080/uap/",
-            "menu_url": "http://192.168.15.145:8080/uap-ui/"
+            "rest_url": "http://127.0.0.1:8080/uap/",
+            "menu_url": "http://127.0.0.1:8080/uap-ui/"
         }, {
             "app_code": "uap-bpm",
-            "rest_url": "http://192.168.15.135:8080/uap-bpm/",
-            "menu_url": "http://192.168.15.135:8080/uap-ui/"
+            "rest_url": "http://127.0.0.1:8080/uap-bpm/",
+            "menu_url": "http://127.0.0.1:8080/uap-ui/"
         }, {
             "app_code": "uap-schedule",
-            "rest_url": "http://192.168.15.145:8080/uap-schedule/",
-            "menu_url": "http://192.168.15.145:8080/uap-ui/"
+            "rest_url": "http://127.0.0.1:8080/uap-schedule/",
+            "menu_url": "http://127.0.0.1:8080/uap-ui/"
         }, {
             "app_code": "uap-message",
-            "rest_url": "http://192.168.15.145:8080/uap-msg/",
-            "menu_url": "http://192.168.15.145:8080/uap-ui/"
+            "rest_url": "http://127.0.0.1:8080/uap-msg/",
+            "menu_url": "http://127.0.0.1:8080/uap-ui/"
         }, {
             "app_code": "uap-monitor",
-            "rest_url": "http://192.168.15.57:8080/uap-monitor/",
-            "menu_url": "http://192.168.15.57:8080/uap-ui/"
+            "rest_url": "http://127.0.0.1:8080/uap-monitor/",
+            "menu_url": "http://127.0.0.1:8080/uap-ui/"
         }
         ],
         "languages": [
@@ -177,7 +177,7 @@ The uiconfig.json template file provided by the system has been configured with 
 }
 ```
 
-If you need more flexible configuration on the code, you can modify the following code file, $ {tomcat_home} /webapps/uap-ui/WEB-INF/classes/static/ui/constant.js
+If you need more flexible configuration on the code, you can modify the following code file, $ {tomcat_home}/webapps/uap-ui/WEB-INF/classes/static/ui/constant.js
 
 Set isUserJsFile to true, the uiconfig content in the configuration file, and the configuration method is the same as the previous configuration file.
 
@@ -198,28 +198,28 @@ var Constant = {
     deploy_nodes: [
         {
             app_code: "uap",
-            rest_url: "http://192.168.15.155:8091/uap/",
-            menu_url: "http: //" + location.hostname + ":" + location.port + "/ uap-ui /"
+            rest_url: "http://127.0.0.1:8080/uap/",
+            menu_url: "http://" + location.hostname + ":" + location.port + "/uap-ui/"
         },
         {
             app_code: "uap-schedule",
-            rest_url: "http://192.168.15.108:9001/uap-schedule/",
-            menu_url: "http: //" + location.hostname + ":" + location.port + "/ uap-ui /"
+            rest_url: "http://127.0.0.1:8080/uap-schedule/",
+            menu_url: "http://" + location.hostname + ":" + location.port + "/uap-ui/"
         },
         {
             app_code: "uap-bpm",
-            rest_url: "http://192.168.15.108:9001/uap-bpm/",
-            menu_url: "http: //" + location.hostname + ":" + location.port + "/ uap-ui /"
+            rest_url: "http://127.0.0.1:8080/uap-bpm/",
+            menu_url: "http://" + location.hostname + ":" + location.port + "/uap-ui/"
         },
         {
             app_code: "uap-message",
-            rest_url: "http://172.26.21.21:8083/uap-msg/",
-            menu_url: "http: //" + location.hostname + ":" + location.port + "/ uap-ui /"
+            rest_url: "http://127.0.0.1:8080/uap-msg/",
+            menu_url: "http://" + location.hostname + ":" + location.port + "/uap-ui/"
         },
         {
             app_code: "uap-monitor",
-            rest_url: "http://192.168.15.108:9001/uap-monitor/",
-            menu_url: "http: //" + location.hostname + ":" + location.port + "/ uap-ui /"
+            rest_url: "http://127.0.0.1:8080/uap-monitor/",
+            menu_url: "http://" + location.hostname + ":" + location.port + "/uap-ui/"
         }
     ]
 }
@@ -249,14 +249,14 @@ Front-end internationalization is mainly internationalized front-end interface e
 $ {tomcat_home}/webapps/uap-ui/WEB-INF/classes/static/js/i18next/
 
 The new internationalization file needs to be named according to the following rules:
-    translation-$ {language_code} .json
+    translation-${language_code} .json
 
 The language_code is the language you need to add, which must be consistent with the language code in 3.2. New internationalization files can be generated based on the default translation-en.json translation.
 
 * Menu internationalization
 The unified application platform provides a menu internationalization database script template, which is located in the following path of the release package:
-    * doc / database script / language pack / version / uap_code_local_template.sql
-    * doc / database script / language pack / version / uap_menu_local_template.sql
+    * doc/database script/language pack/version/uap_code_local_template.sql
+    * doc/database script/language pack/version/uap_menu_local_template.sql
 
 The template is in English by default, please translate the text content as needed.
 For each record in uap_code_local_template.sql, you need to modify the values ​​in the red box fields below to represent the primary key, internationalization information, and internationalization code of this record, respectively.
@@ -303,8 +303,8 @@ For Linux systems, execute startup.sh, start Tomcat, and close Tomcat. You can f
 The sub-directory "license configuration" under the FTP server installation package contains the configuration files required by the license.
 Copy different files to the corresponding path configured by uap.licFilePath in uap.properties according to different systems. When uap.licFilePath is not configured, the following default path is obtained:
 
-* window: uap_local.dll is placed in AppData \ Local \ Hexing \
-* linux: uap_local.so put in / etc / Hexing path
+* window: uap_local.dll is placed in AppData\Local\Hexing\
+* linux: uap_local.so put in /etc/Hexing path
 
 Run the system, the system prints:
 
@@ -319,8 +319,8 @@ java -classpath $ {your_path} /uap-licTools.jar license.Tools $ {hardware_code}
 ```
 The license tool generates the corresponding readme file according to the current system and copies the readme file to the path configured by uap.licFilePath. The default path when not configured is as follows:
 
-* window: put in AppData \ Local \ Hexing \
-* linux: put in / etc / Hexing path
+* window: put in AppData \Local\Hexing\
+* linux: put in /etc/Hexing path
 
 Run the system again and the execution was successful.
 

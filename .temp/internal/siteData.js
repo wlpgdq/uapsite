@@ -35,8 +35,39 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-4413c380",
+      "key": "v-52f08e60",
       "path": "/",
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
+    },
+    {
+      "title": "Introduction",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-5989d1f3",
+      "path": "/guide/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Background",
+          "slug": "background"
+        },
+        {
+          "level": 2,
+          "title": "Product target",
+          "slug": "product-target"
+        },
+        {
+          "level": 2,
+          "title": "Product range definition",
+          "slug": "product-range-definition"
+        },
+        {
+          "level": 2,
+          "title": "Product value",
+          "slug": "product-value"
+        }
+      ],
       "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
@@ -44,7 +75,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/guide/deploy.html",
       "relativePath": "guide/deploy.md",
-      "key": "v-2e00af06",
+      "key": "v-230bca34",
       "path": "/guide/deploy.html",
       "headers": [
         {
@@ -61,20 +92,11 @@ export const siteData = {
       "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
-      "title": "redis configuration",
-      "frontmatter": {},
-      "regularPath": "/guide/redis-sentry.html",
-      "relativePath": "guide/redis-sentry.md",
-      "key": "v-5f19a21c",
-      "path": "/guide/redis-sentry.html",
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
-    },
-    {
       "title": "Preparation for deployment",
       "frontmatter": {},
       "regularPath": "/guide/prepare.html",
       "relativePath": "guide/prepare.md",
-      "key": "v-de38b564",
+      "key": "v-18b1992e",
       "path": "/guide/prepare.html",
       "headers": [
         {
@@ -131,39 +153,15 @@ export const siteData = {
       "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
-      "title": "Login and Home",
-      "frontmatter": {
-        "title": "Login and Home",
-        "metaTitle": "Login and Home"
-      },
-      "regularPath": "/guide/userManual/login.html",
-      "relativePath": "guide/userManual/login.md",
-      "key": "v-fbf75a2a",
-      "path": "/guide/userManual/login.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Log In",
-          "slug": "log-in"
-        },
-        {
-          "level": 2,
-          "title": "Home",
-          "slug": "home"
-        }
-      ],
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
-    },
-    {
       "title": "Introduction",
       "frontmatter": {
         "title": "Introduction",
         "metaTitle": "Introduction"
       },
-      "regularPath": "/guide/userManual/introduction.html",
-      "relativePath": "guide/userManual/introduction.md",
-      "key": "v-2b64abca",
-      "path": "/guide/userManual/introduction.html",
+      "regularPath": "/guide/userManual/01-introduction.html",
+      "relativePath": "guide/userManual/01-introduction.md",
+      "key": "v-8f8403de",
+      "path": "/guide/userManual/01-introduction.html",
       "headers": [
         {
           "level": 2,
@@ -175,8 +173,253 @@ export const siteData = {
           "title": "The Term",
           "slug": "the-term"
         }
-      ],
+      ]
+    },
+    {
+      "title": "redis configuration",
+      "frontmatter": {},
+      "regularPath": "/guide/redis-sentry.html",
+      "relativePath": "guide/redis-sentry.md",
+      "key": "v-19c9cad2",
+      "path": "/guide/redis-sentry.html",
       "lastUpdated": "3/13/2020, 4:23:35 PM"
+    },
+    {
+      "title": "Login and Home",
+      "frontmatter": {
+        "title": "Login and Home",
+        "metaTitle": "Login and Home"
+      },
+      "regularPath": "/guide/userManual/02-login.html",
+      "relativePath": "guide/userManual/02-login.md",
+      "key": "v-32491efb",
+      "path": "/guide/userManual/02-login.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Log In",
+          "slug": "log-in"
+        },
+        {
+          "level": 2,
+          "title": "Home",
+          "slug": "home"
+        }
+      ]
+    },
+    {
+      "title": "System Settings",
+      "frontmatter": {
+        "title": "System Settings",
+        "metaTitle": "System settings",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/05-system-settings.html",
+      "relativePath": "guide/userManual/05-system-settings.md",
+      "key": "v-b16928ca",
+      "path": "/guide/userManual/05-system-settings.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "System coding",
+          "slug": "system-coding"
+        },
+        {
+          "level": 3,
+          "title": "Add encoding",
+          "slug": "add-encoding"
+        },
+        {
+          "level": 3,
+          "title": "Edit encoding",
+          "slug": "edit-encoding"
+        },
+        {
+          "level": 3,
+          "title": "Delete encoding",
+          "slug": "delete-encoding"
+        },
+        {
+          "level": 2,
+          "title": "API Interface Log",
+          "slug": "api-interface-log"
+        },
+        {
+          "level": 3,
+          "title": "View detailed log information",
+          "slug": "view-detailed-log-information"
+        },
+        {
+          "level": 2,
+          "title": "Login log",
+          "slug": "login-log"
+        },
+        {
+          "level": 2,
+          "title": "Calendar management",
+          "slug": "calendar-management"
+        },
+        {
+          "level": 2,
+          "title": "Illegal login log",
+          "slug": "illegal-login-log"
+        },
+        {
+          "level": 2,
+          "title": "Menu log",
+          "slug": "menu-log"
+        }
+      ]
+    },
+    {
+      "title": "My Mission",
+      "frontmatter": {
+        "title": "My Mission",
+        "metaTitle": "My mission",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/07-my-task.html",
+      "relativePath": "guide/userManual/07-my-task.md",
+      "key": "v-a8ad830a",
+      "path": "/guide/userManual/07-my-task.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "My task",
+          "slug": "my-task-2"
+        },
+        {
+          "level": 2,
+          "title": "History Mission",
+          "slug": "history-mission"
+        },
+        {
+          "level": 2,
+          "title": "My process instance",
+          "slug": "my-process-instance"
+        }
+      ]
+    },
+    {
+      "title": "Rights Management",
+      "frontmatter": {
+        "title": "Rights Management",
+        "metaTitle": "Rights Management",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/04-authority.html",
+      "relativePath": "guide/userManual/04-authority.md",
+      "key": "v-6a19c9fb",
+      "path": "/guide/userManual/04-authority.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Roles",
+          "slug": "roles"
+        },
+        {
+          "level": 3,
+          "title": "Add character",
+          "slug": "add-character"
+        },
+        {
+          "level": 3,
+          "title": "Delete role",
+          "slug": "delete-role"
+        },
+        {
+          "level": 3,
+          "title": "Edit role",
+          "slug": "edit-role"
+        },
+        {
+          "level": 3,
+          "title": "Start and stop roles",
+          "slug": "start-and-stop-roles"
+        },
+        {
+          "level": 3,
+          "title": "Role Assignment Menu",
+          "slug": "role-assignment-menu"
+        },
+        {
+          "level": 3,
+          "title": "Configuration (assigning roles to users)",
+          "slug": "configuration-assigning-roles-to-users"
+        }
+      ]
+    },
+    {
+      "title": "Timed Task",
+      "frontmatter": {
+        "title": "Timed Task",
+        "metaTitle": "Timed Task",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/09-timed-task.html",
+      "relativePath": "guide/userManual/09-timed-task.md",
+      "key": "v-6d5d6f5f",
+      "path": "/guide/userManual/09-timed-task.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Scheduled task configuration",
+          "slug": "scheduled-task-configuration"
+        },
+        {
+          "level": 2,
+          "title": "Execution history",
+          "slug": "execution-history"
+        }
+      ]
+    },
+    {
+      "title": "Message Center",
+      "frontmatter": {
+        "title": "Message Center",
+        "metaTitle": "Message Center",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/10-message.html",
+      "relativePath": "guide/userManual/10-message.md",
+      "key": "v-292f24ca",
+      "path": "/guide/userManual/10-message.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "User messages",
+          "slug": "user-messages"
+        },
+        {
+          "level": 2,
+          "title": "All messages",
+          "slug": "all-messages"
+        },
+        {
+          "level": 2,
+          "title": "Configure the color of the message type",
+          "slug": "configure-the-color-of-the-message-type"
+        }
+      ]
+    },
+    {
+      "title": "Monitoring",
+      "frontmatter": {
+        "title": "Monitoring",
+        "metaTitle": "Monitoring",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/11-monitor.html",
+      "relativePath": "guide/userManual/11-monitor.md",
+      "key": "v-34a6681b",
+      "path": "/guide/userManual/11-monitor.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Monitoring data",
+          "slug": "monitoring-data"
+        }
+      ]
     },
     {
       "title": "Release Notes",
@@ -185,7 +428,7 @@ export const siteData = {
       },
       "regularPath": "/miscellaneous/release-notes.html",
       "relativePath": "miscellaneous/release-notes.md",
-      "key": "v-db287be4",
+      "key": "v-def1b424",
       "path": "/miscellaneous/release-notes.html",
       "headers": [
         {
@@ -280,7 +523,7 @@ export const siteData = {
       },
       "regularPath": "/zh/",
       "relativePath": "zh/README.md",
-      "key": "v-fb41d53a",
+      "key": "v-2a8ced83",
       "path": "/zh/",
       "lastUpdated": "2020-3-13 4:23:35 PM"
     },
@@ -291,30 +534,8 @@ export const siteData = {
       },
       "regularPath": "/zh/faq/",
       "relativePath": "zh/faq/README.md",
-      "key": "v-f8650914",
+      "key": "v-159d98d4",
       "path": "/zh/faq/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Why can’t palette.styl and index.styl merge into one API?",
-          "slug": "why-can-t-palette-styl-and-index-styl-merge-into-one-api"
-        },
-        {
-          "level": 2,
-          "title": "What’s the differences between the clientDynamicModules and enhanceAppFiles?",
-          "slug": "what-s-the-differences-between-the-clientdynamicmodules-and-enhanceappfiles"
-        },
-        {
-          "level": 2,
-          "title": "When do I need to use enhanceAppFiles?",
-          "slug": "when-do-i-need-to-use-enhanceappfiles"
-        },
-        {
-          "level": 2,
-          "title": "When do I need to use clientDynamicModules?",
-          "slug": "when-do-i-need-to-use-clientdynamicmodules"
-        }
-      ],
       "lastUpdated": "2020-3-13 4:23:35 PM"
     },
     {
@@ -322,7 +543,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/zh/guide/",
       "relativePath": "zh/guide/README.md",
-      "key": "v-0c63e776",
+      "key": "v-36ee8f96",
       "path": "/zh/guide/",
       "headers": [
         {
@@ -349,44 +570,32 @@ export const siteData = {
       "lastUpdated": "2020-3-13 4:23:35 PM"
     },
     {
-      "title": "FAQ",
-      "frontmatter": {
-        "sidebar": "auto"
-      },
-      "regularPath": "/faq/",
-      "relativePath": "faq/README.md",
-      "key": "v-500d679f",
-      "path": "/faq/",
+      "title": "部署",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/deploy.html",
+      "relativePath": "zh/guide/deploy.md",
+      "key": "v-0830f196",
+      "path": "/zh/guide/deploy.html",
       "headers": [
         {
           "level": 2,
-          "title": "Why can’t palette.styl and index.styl merge into one API?",
-          "slug": "why-can-t-palette-styl-and-index-styl-merge-into-one-api"
+          "title": "平台基础功能数据库",
+          "slug": "平台基础功能数据库"
         },
         {
           "level": 2,
-          "title": "What’s the differences between the clientDynamicModules and enhanceAppFiles?",
-          "slug": "what-s-the-differences-between-the-clientdynamicmodules-and-enhanceappfiles"
-        },
-        {
-          "level": 2,
-          "title": "When do I need to use enhanceAppFiles?",
-          "slug": "when-do-i-need-to-use-enhanceappfiles"
-        },
-        {
-          "level": 2,
-          "title": "When do I need to use clientDynamicModules?",
-          "slug": "when-do-i-need-to-use-clientdynamicmodules"
+          "title": "程序",
+          "slug": "程序"
         }
       ],
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
+      "lastUpdated": "2020-3-13 4:23:35 PM"
     },
     {
       "title": "部署前的准备工作",
       "frontmatter": {},
       "regularPath": "/zh/guide/prepare.html",
       "relativePath": "zh/guide/prepare.md",
-      "key": "v-df02e68a",
+      "key": "v-1e3e189b",
       "path": "/zh/guide/prepare.html",
       "headers": [
         {
@@ -447,9 +656,20 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/zh/guide/redis-sentry.html",
       "relativePath": "zh/guide/redis-sentry.md",
-      "key": "v-5ef88155",
+      "key": "v-7f22b535",
       "path": "/zh/guide/redis-sentry.html",
       "lastUpdated": "2020-3-13 4:23:35 PM"
+    },
+    {
+      "title": "FAQ",
+      "frontmatter": {
+        "sidebar": "auto"
+      },
+      "regularPath": "/faq/",
+      "relativePath": "faq/README.md",
+      "key": "v-b7b49082",
+      "path": "/faq/",
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
       "title": "登录和首页",
@@ -457,10 +677,10 @@ export const siteData = {
         "title": "登录和首页",
         "metaTitle": "登录和首页"
       },
-      "regularPath": "/zh/guide/userManual/login.html",
-      "relativePath": "zh/guide/userManual/login.md",
-      "key": "v-3a7998c8",
-      "path": "/zh/guide/userManual/login.html",
+      "regularPath": "/zh/guide/userManual/02-login.html",
+      "relativePath": "zh/guide/userManual/02-login.md",
+      "key": "v-61641438",
+      "path": "/zh/guide/userManual/02-login.html",
       "headers": [
         {
           "level": 2,
@@ -472,63 +692,394 @@ export const siteData = {
           "title": "首页",
           "slug": "首页"
         }
-      ],
-      "lastUpdated": "2020-3-13 4:23:35 PM"
+      ]
     },
     {
-      "title": "介绍",
+      "title": "组织管理",
       "frontmatter": {
-        "title": "介绍",
-        "metaTitle": "介绍"
+        "title": "组织管理",
+        "metaTitle": "组织管理",
+        "sidebarDepth": 3
       },
-      "regularPath": "/zh/guide/userManual/introduction.html",
-      "relativePath": "zh/guide/userManual/introduction.md",
-      "key": "v-7151808c",
-      "path": "/zh/guide/userManual/introduction.html",
+      "regularPath": "/zh/guide/userManual/03-organization.html",
+      "relativePath": "zh/guide/userManual/03-organization.md",
+      "key": "v-42e39130",
+      "path": "/zh/guide/userManual/03-organization.html",
       "headers": [
         {
           "level": 2,
-          "title": "平台介绍",
-          "slug": "平台介绍"
+          "title": "用户",
+          "slug": "用户"
+        },
+        {
+          "level": 3,
+          "title": "用户操作列表介绍",
+          "slug": "用户操作列表介绍"
+        },
+        {
+          "level": 3,
+          "title": "新增用户",
+          "slug": "新增用户"
+        },
+        {
+          "level": 3,
+          "title": "编辑用户",
+          "slug": "编辑用户"
+        },
+        {
+          "level": 3,
+          "title": "配置（给用户配置角色）",
+          "slug": "配置（给用户配置角色）"
+        },
+        {
+          "level": 3,
+          "title": "配置管理单元",
+          "slug": "配置管理单元"
+        },
+        {
+          "level": 3,
+          "title": "重置密码",
+          "slug": "重置密码"
+        },
+        {
+          "level": 3,
+          "title": "密码修改记录",
+          "slug": "密码修改记录"
+        },
+        {
+          "level": 3,
+          "title": "启停用户",
+          "slug": "启停用户"
         },
         {
           "level": 2,
-          "title": "术语",
-          "slug": "术语"
+          "title": "组织",
+          "slug": "组织"
+        },
+        {
+          "level": 3,
+          "title": "新增组织",
+          "slug": "新增组织"
+        },
+        {
+          "level": 3,
+          "title": "编辑组织",
+          "slug": "编辑组织"
+        },
+        {
+          "level": 3,
+          "title": "组织排序",
+          "slug": "组织排序"
+        },
+        {
+          "level": 3,
+          "title": "启停组织",
+          "slug": "启停组织"
+        },
+        {
+          "level": 2,
+          "title": "管理单位配置",
+          "slug": "管理单位配置"
+        },
+        {
+          "level": 3,
+          "title": "新增用户分配组织",
+          "slug": "新增用户分配组织"
+        },
+        {
+          "level": 3,
+          "title": "删除用户已分配组织",
+          "slug": "删除用户已分配组织"
         }
-      ],
-      "lastUpdated": "2020-3-13 4:23:35 PM"
+      ]
     },
     {
-      "title": "Introduction",
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-685691d3",
-      "path": "/guide/",
+      "title": "权限管理",
+      "frontmatter": {
+        "title": "权限管理",
+        "metaTitle": "权限管理",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/04-authority.html",
+      "relativePath": "zh/guide/userManual/04-authority.md",
+      "key": "v-864441a8",
+      "path": "/zh/guide/userManual/04-authority.html",
       "headers": [
         {
           "level": 2,
-          "title": "Background",
-          "slug": "background"
+          "title": "角色",
+          "slug": "角色"
         },
         {
-          "level": 2,
-          "title": "Product target",
-          "slug": "product-target"
+          "level": 3,
+          "title": "新增角色",
+          "slug": "新增角色"
         },
         {
-          "level": 2,
-          "title": "Product range definition",
-          "slug": "product-range-definition"
+          "level": 3,
+          "title": "删除角色",
+          "slug": "删除角色"
         },
         {
-          "level": 2,
-          "title": "Product value",
-          "slug": "product-value"
+          "level": 3,
+          "title": "编辑角色",
+          "slug": "编辑角色"
+        },
+        {
+          "level": 3,
+          "title": "启停角色",
+          "slug": "启停角色"
+        },
+        {
+          "level": 3,
+          "title": "角色分配菜单",
+          "slug": "角色分配菜单"
+        },
+        {
+          "level": 3,
+          "title": "配置（将角色分配给用户）",
+          "slug": "配置（将角色分配给用户）"
         }
-      ],
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
+      ]
+    },
+    {
+      "title": "系统设置",
+      "frontmatter": {
+        "title": "系统设置",
+        "metaTitle": "系统设置",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/05-system-settings.html",
+      "relativePath": "zh/guide/userManual/05-system-settings.md",
+      "key": "v-4e4ef7ae",
+      "path": "/zh/guide/userManual/05-system-settings.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "系统编码",
+          "slug": "系统编码"
+        },
+        {
+          "level": 3,
+          "title": "新增编码",
+          "slug": "新增编码"
+        },
+        {
+          "level": 3,
+          "title": "编辑编码",
+          "slug": "编辑编码"
+        },
+        {
+          "level": 3,
+          "title": "删除编码",
+          "slug": "删除编码"
+        },
+        {
+          "level": 2,
+          "title": "API接口日志",
+          "slug": "api接口日志"
+        },
+        {
+          "level": 3,
+          "title": "查看详细的日志信息",
+          "slug": "查看详细的日志信息"
+        },
+        {
+          "level": 2,
+          "title": "登录日志",
+          "slug": "登录日志"
+        },
+        {
+          "level": 2,
+          "title": "日历管理",
+          "slug": "日历管理"
+        },
+        {
+          "level": 2,
+          "title": "非法登录日志",
+          "slug": "非法登录日志"
+        },
+        {
+          "level": 2,
+          "title": "菜单日志",
+          "slug": "菜单日志"
+        }
+      ]
+    },
+    {
+      "title": "我的任务",
+      "frontmatter": {
+        "title": "我的任务",
+        "metaTitle": "我的任务",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/07-my-task.html",
+      "relativePath": "zh/guide/userManual/07-my-task.md",
+      "key": "v-806afdc0",
+      "path": "/zh/guide/userManual/07-my-task.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "我的任务",
+          "slug": "我的任务-2"
+        },
+        {
+          "level": 2,
+          "title": "历史任务",
+          "slug": "历史任务"
+        },
+        {
+          "level": 2,
+          "title": "我的流程实例",
+          "slug": "我的流程实例"
+        }
+      ]
+    },
+    {
+      "title": "工作流",
+      "frontmatter": {
+        "title": "工作流",
+        "metaTitle": "工作流",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/08-workflow.html",
+      "relativePath": "zh/guide/userManual/08-workflow.md",
+      "key": "v-dd509f70",
+      "path": "/zh/guide/userManual/08-workflow.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "流程设计",
+          "slug": "流程设计"
+        },
+        {
+          "level": 3,
+          "title": "流程分组",
+          "slug": "流程分组"
+        },
+        {
+          "level": 3,
+          "title": "流程",
+          "slug": "流程"
+        },
+        {
+          "level": 2,
+          "title": "部署流程",
+          "slug": "部署流程"
+        },
+        {
+          "level": 3,
+          "title": "流程表单配置",
+          "slug": "流程表单配置"
+        },
+        {
+          "level": 3,
+          "title": "部署信息查看",
+          "slug": "部署信息查看"
+        },
+        {
+          "level": 2,
+          "title": "流程实例",
+          "slug": "流程实例"
+        },
+        {
+          "level": 2,
+          "title": "流程任务",
+          "slug": "流程任务"
+        },
+        {
+          "level": 2,
+          "title": "页面配置",
+          "slug": "页面配置"
+        },
+        {
+          "level": 3,
+          "title": "字段组合",
+          "slug": "字段组合"
+        },
+        {
+          "level": 3,
+          "title": "字段",
+          "slug": "字段"
+        },
+        {
+          "level": 2,
+          "title": "动态字段管理",
+          "slug": "动态字段管理"
+        }
+      ]
+    },
+    {
+      "title": "定时任务",
+      "frontmatter": {
+        "title": "定时任务",
+        "metaTitle": "定时任务",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/09-timed-task.html",
+      "relativePath": "zh/guide/userManual/09-timed-task.md",
+      "key": "v-5d91d7e8",
+      "path": "/zh/guide/userManual/09-timed-task.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "定时任务配置",
+          "slug": "定时任务配置"
+        },
+        {
+          "level": 2,
+          "title": "执行历史",
+          "slug": "执行历史"
+        }
+      ]
+    },
+    {
+      "title": "消息中心",
+      "frontmatter": {
+        "title": "消息中心",
+        "metaTitle": "消息中心",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/10-message.html",
+      "relativePath": "zh/guide/userManual/10-message.md",
+      "key": "v-191dc86e",
+      "path": "/zh/guide/userManual/10-message.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "用户消息",
+          "slug": "用户消息"
+        },
+        {
+          "level": 2,
+          "title": "所有消息",
+          "slug": "所有消息"
+        },
+        {
+          "level": 2,
+          "title": "配置消息类型的颜色",
+          "slug": "配置消息类型的颜色"
+        }
+      ]
+    },
+    {
+      "title": "监控",
+      "frontmatter": {
+        "title": "监控",
+        "metaTitle": "监控",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/11-monitor.html",
+      "relativePath": "zh/guide/userManual/11-monitor.md",
+      "key": "v-e454e474",
+      "path": "/zh/guide/userManual/11-monitor.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "监控数据",
+          "slug": "监控数据"
+        }
+      ]
     },
     {
       "title": "发布说明",
@@ -537,7 +1088,7 @@ export const siteData = {
       },
       "regularPath": "/zh/miscellaneous/release-notes.html",
       "relativePath": "zh/miscellaneous/release-notes.md",
-      "key": "v-46eab6af",
+      "key": "v-5723b28f",
       "path": "/zh/miscellaneous/release-notes.html",
       "headers": [
         {
@@ -604,32 +1155,34 @@ export const siteData = {
       "lastUpdated": "2020-3-13 4:23:35 PM"
     },
     {
-      "title": "部署",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/deploy.html",
-      "relativePath": "zh/guide/deploy.md",
-      "key": "v-9412f956",
-      "path": "/zh/guide/deploy.html",
+      "title": "介绍",
+      "frontmatter": {
+        "title": "介绍",
+        "metaTitle": "介绍"
+      },
+      "regularPath": "/zh/guide/userManual/01-introduction.html",
+      "relativePath": "zh/guide/userManual/01-introduction.md",
+      "key": "v-41b97f88",
+      "path": "/zh/guide/userManual/01-introduction.html",
       "headers": [
         {
           "level": 2,
-          "title": "平台基础功能数据库",
-          "slug": "平台基础功能数据库"
+          "title": "平台介绍",
+          "slug": "平台介绍"
         },
         {
           "level": 2,
-          "title": "程序",
-          "slug": "程序"
+          "title": "术语",
+          "slug": "术语"
         }
-      ],
-      "lastUpdated": "2020-3-13 4:23:35 PM"
+      ]
     },
     {
       "title": "Configure and run",
       "frontmatter": {},
       "regularPath": "/guide/run.html",
       "relativePath": "guide/run.md",
-      "key": "v-51b4d8ce",
+      "key": "v-d5b6a6a4",
       "path": "/guide/run.html",
       "headers": [
         {
@@ -686,11 +1239,328 @@ export const siteData = {
       "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
+      "title": "Application Settings",
+      "frontmatter": {
+        "title": "Application Settings",
+        "metaTitle": "Application settings",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/06-application-settings.html",
+      "relativePath": "guide/userManual/06-application-settings.md",
+      "key": "v-747de1cf",
+      "path": "/guide/userManual/06-application-settings.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Application",
+          "slug": "application"
+        },
+        {
+          "level": 3,
+          "title": "New application",
+          "slug": "new-application"
+        },
+        {
+          "level": 3,
+          "title": "Edit application",
+          "slug": "edit-application"
+        },
+        {
+          "level": 3,
+          "title": "Delete application",
+          "slug": "delete-application"
+        },
+        {
+          "level": 3,
+          "title": "Sync application (not available on this button platform)",
+          "slug": "sync-application-not-available-on-this-button-platform"
+        },
+        {
+          "level": 3,
+          "title": "Start and stop applications",
+          "slug": "start-and-stop-applications"
+        },
+        {
+          "level": 2,
+          "title": "Menu",
+          "slug": "menu"
+        },
+        {
+          "level": 3,
+          "title": "New menu",
+          "slug": "new-menu"
+        },
+        {
+          "level": 3,
+          "title": "Edit menu",
+          "slug": "edit-menu"
+        },
+        {
+          "level": 3,
+          "title": "Delete menu",
+          "slug": "delete-menu"
+        },
+        {
+          "level": 2,
+          "title": "Menu customization",
+          "slug": "menu-customization"
+        },
+        {
+          "level": 3,
+          "title": "New menu customization",
+          "slug": "new-menu-customization"
+        },
+        {
+          "level": 3,
+          "title": "Delete menu customization",
+          "slug": "delete-menu-customization"
+        },
+        {
+          "level": 2,
+          "title": "API interface",
+          "slug": "api-interface"
+        },
+        {
+          "level": 3,
+          "title": "New interface",
+          "slug": "new-interface"
+        },
+        {
+          "level": 3,
+          "title": "Delete interface",
+          "slug": "delete-interface"
+        },
+        {
+          "level": 3,
+          "title": "Editing excuses",
+          "slug": "editing-excuses"
+        },
+        {
+          "level": 3,
+          "title": "View configuration menu",
+          "slug": "view-configuration-menu"
+        },
+        {
+          "level": 3,
+          "title": "Start-stop interface",
+          "slug": "start-stop-interface"
+        },
+        {
+          "level": 2,
+          "title": "Multitenancy",
+          "slug": "multitenancy"
+        },
+        {
+          "level": 3,
+          "title": "Add tenant",
+          "slug": "add-tenant"
+        },
+        {
+          "level": 3,
+          "title": "Delete tenant",
+          "slug": "delete-tenant"
+        },
+        {
+          "level": 3,
+          "title": "Edit tenant",
+          "slug": "edit-tenant"
+        },
+        {
+          "level": 3,
+          "title": "Flush the cache",
+          "slug": "flush-the-cache"
+        },
+        {
+          "level": 3,
+          "title": "Personalized tenant configuration",
+          "slug": "personalized-tenant-configuration"
+        },
+        {
+          "level": 2,
+          "title": "Tenant Information",
+          "slug": "tenant-information"
+        }
+      ]
+    },
+    {
+      "title": "Organization Management",
+      "frontmatter": {
+        "title": "Organization Management",
+        "metaTitle": "Organization Management",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/03-organization.html",
+      "relativePath": "guide/userManual/03-organization.md",
+      "key": "v-3ec659a3",
+      "path": "/guide/userManual/03-organization.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Users",
+          "slug": "users"
+        },
+        {
+          "level": 3,
+          "title": "User operation list introduction",
+          "slug": "user-operation-list-introduction"
+        },
+        {
+          "level": 3,
+          "title": "New users",
+          "slug": "new-users"
+        },
+        {
+          "level": 3,
+          "title": "Edit user",
+          "slug": "edit-user"
+        },
+        {
+          "level": 3,
+          "title": "Configure (configure roles for users)",
+          "slug": "configure-configure-roles-for-users"
+        },
+        {
+          "level": 3,
+          "title": "Configuration snap-in",
+          "slug": "configuration-snap-in"
+        },
+        {
+          "level": 3,
+          "title": "Reset Password",
+          "slug": "reset-password"
+        },
+        {
+          "level": 3,
+          "title": "Password modification records",
+          "slug": "password-modification-records"
+        },
+        {
+          "level": 3,
+          "title": "Start and stop users",
+          "slug": "start-and-stop-users"
+        },
+        {
+          "level": 2,
+          "title": "Organization",
+          "slug": "organization"
+        },
+        {
+          "level": 3,
+          "title": "Add organization",
+          "slug": "add-organization"
+        },
+        {
+          "level": 3,
+          "title": "Edit organization",
+          "slug": "edit-organization"
+        },
+        {
+          "level": 3,
+          "title": "Organization sort",
+          "slug": "organization-sort"
+        },
+        {
+          "level": 3,
+          "title": "Start-stop organization",
+          "slug": "start-stop-organization"
+        },
+        {
+          "level": 2,
+          "title": "Management unit configuration",
+          "slug": "management-unit-configuration"
+        },
+        {
+          "level": 3,
+          "title": "Add User Assignment Organization",
+          "slug": "add-user-assignment-organization"
+        },
+        {
+          "level": 3,
+          "title": "Delete user assigned organization",
+          "slug": "delete-user-assigned-organization"
+        }
+      ]
+    },
+    {
+      "title": "Workflow",
+      "frontmatter": {
+        "title": "Workflow",
+        "metaTitle": "Workflow",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/08-workflow.html",
+      "relativePath": "guide/userManual/08-workflow.md",
+      "key": "v-34ff1115",
+      "path": "/guide/userManual/08-workflow.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Process Design",
+          "slug": "process-design"
+        },
+        {
+          "level": 3,
+          "title": "Process grouping",
+          "slug": "process-grouping"
+        },
+        {
+          "level": 3,
+          "title": "Process",
+          "slug": "process"
+        },
+        {
+          "level": 2,
+          "title": "Deployment process",
+          "slug": "deployment-process"
+        },
+        {
+          "level": 3,
+          "title": "Process form configuration",
+          "slug": "process-form-configuration"
+        },
+        {
+          "level": 3,
+          "title": "View deployment information",
+          "slug": "view-deployment-information"
+        },
+        {
+          "level": 2,
+          "title": "Process instance",
+          "slug": "process-instance"
+        },
+        {
+          "level": 2,
+          "title": "Process task",
+          "slug": "process-task"
+        },
+        {
+          "level": 2,
+          "title": "Page configuration",
+          "slug": "page-configuration"
+        },
+        {
+          "level": 3,
+          "title": "Field Combination",
+          "slug": "field-combination"
+        },
+        {
+          "level": 3,
+          "title": "Field",
+          "slug": "field"
+        },
+        {
+          "level": 2,
+          "title": "Dynamic field management",
+          "slug": "dynamic-field-management"
+        }
+      ]
+    },
+    {
       "title": "配置和运行",
       "frontmatter": {},
       "regularPath": "/zh/guide/run.html",
       "relativePath": "zh/guide/run.md",
-      "key": "v-531b1e33",
+      "key": "v-13948a13",
       "path": "/zh/guide/run.html",
       "headers": [
         {
@@ -745,11 +1615,154 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2020-3-13 4:23:35 PM"
+    },
+    {
+      "title": "应用设置",
+      "frontmatter": {
+        "title": "应用设置",
+        "metaTitle": "应用设置",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/06-application-settings.html",
+      "relativePath": "zh/guide/userManual/06-application-settings.md",
+      "key": "v-50e399a8",
+      "path": "/zh/guide/userManual/06-application-settings.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "应用",
+          "slug": "应用"
+        },
+        {
+          "level": 3,
+          "title": "新增应用",
+          "slug": "新增应用"
+        },
+        {
+          "level": 3,
+          "title": "编辑应用",
+          "slug": "编辑应用"
+        },
+        {
+          "level": 3,
+          "title": "删除应用",
+          "slug": "删除应用"
+        },
+        {
+          "level": 3,
+          "title": "同步应用（这个按钮平台中没有）",
+          "slug": "同步应用（这个按钮平台中没有）"
+        },
+        {
+          "level": 3,
+          "title": "启停应用",
+          "slug": "启停应用"
+        },
+        {
+          "level": 2,
+          "title": "菜单",
+          "slug": "菜单"
+        },
+        {
+          "level": 3,
+          "title": "新增菜单",
+          "slug": "新增菜单"
+        },
+        {
+          "level": 3,
+          "title": "编辑菜单",
+          "slug": "编辑菜单"
+        },
+        {
+          "level": 3,
+          "title": "删除菜单",
+          "slug": "删除菜单"
+        },
+        {
+          "level": 2,
+          "title": "菜单定制",
+          "slug": "菜单定制"
+        },
+        {
+          "level": 3,
+          "title": "新增菜单定制",
+          "slug": "新增菜单定制"
+        },
+        {
+          "level": 3,
+          "title": "删除菜单定制",
+          "slug": "删除菜单定制"
+        },
+        {
+          "level": 2,
+          "title": "API接口",
+          "slug": "api接口"
+        },
+        {
+          "level": 3,
+          "title": "新增接口",
+          "slug": "新增接口"
+        },
+        {
+          "level": 3,
+          "title": "删除接口",
+          "slug": "删除接口"
+        },
+        {
+          "level": 3,
+          "title": "编辑借口",
+          "slug": "编辑借口"
+        },
+        {
+          "level": 3,
+          "title": "查看配置菜单",
+          "slug": "查看配置菜单"
+        },
+        {
+          "level": 3,
+          "title": "启停接口",
+          "slug": "启停接口"
+        },
+        {
+          "level": 2,
+          "title": "多租户",
+          "slug": "多租户"
+        },
+        {
+          "level": 3,
+          "title": "新增租户",
+          "slug": "新增租户"
+        },
+        {
+          "level": 3,
+          "title": "删除租户",
+          "slug": "删除租户"
+        },
+        {
+          "level": 3,
+          "title": "编辑租户",
+          "slug": "编辑租户"
+        },
+        {
+          "level": 3,
+          "title": "刷新缓存",
+          "slug": "刷新缓存"
+        },
+        {
+          "level": 3,
+          "title": "个性化配置租户",
+          "slug": "个性化配置租户"
+        },
+        {
+          "level": 2,
+          "title": "租户信息",
+          "slug": "租户信息"
+        }
+      ]
     }
   ],
   "themeConfig": {
     "logo": "/logo-head.png",
-    "repo": "wlpgdq/uapsite",
     "editLinks": true,
     "smoothScroll": true,
     "locales": {
@@ -806,8 +1819,17 @@ export const siteData = {
               "title": "User Manuals",
               "collapsable": false,
               "children": [
-                "userManual/introduction",
-                "userManual/login"
+                "userManual/01-introduction",
+                "userManual/02-login",
+                "userManual/03-organization",
+                "userManual/04-authority",
+                "userManual/05-system-settings",
+                "userManual/06-application-settings",
+                "userManual/07-my-task",
+                "userManual/08-workflow",
+                "userManual/09-timed-task",
+                "userManual/10-message",
+                "userManual/11-monitor"
               ]
             }
           ]
@@ -866,8 +1888,17 @@ export const siteData = {
               "title": "用户手册",
               "collapsable": false,
               "children": [
-                "userManual/introduction",
-                "userManual/login"
+                "userManual/01-introduction",
+                "userManual/02-login",
+                "userManual/03-organization",
+                "userManual/04-authority",
+                "userManual/05-system-settings",
+                "userManual/06-application-settings",
+                "userManual/07-my-task",
+                "userManual/08-workflow",
+                "userManual/09-timed-task",
+                "userManual/10-message",
+                "userManual/11-monitor"
               ]
             }
           ]
