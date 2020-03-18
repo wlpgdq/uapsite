@@ -7,24 +7,24 @@ metaTitle: 登录和首页
 
 通过浏览器打开统一应用平台登录界面，如下图所示：
 
-<img :src="$withBase('/userManual/login1.png')" alt="doc directory">
+<img :src="$withBase('/userManual/login1.png')" alt="image">
 
 选择语言，输入正确登录名和密码，点击登录按钮进入主页。
 * 6次登录失败以后账户锁掉，必须联系管理员重置密码；
 * 用户第一次登录系统需要修改密码，密码等级和有效期根据租户配置进行限制。
 * 如果登录报错，并且用户设置密码提示(修改密码界面配置)就会显示如下:
 
-<img :src="$withBase('/userManual/login2.png')" alt="doc directory">
+<img :src="$withBase('/userManual/login2.png')" alt="image">
 
 ## 首页
 
 首页如下图所示：
 
-<img :src="$withBase('/userManual/homepage1.png')" alt="doc directory">
+<img :src="$withBase('/userManual/homepage1.png')" alt="image">
 
 用户主页分成三个部分：左侧的菜单树，顶部的工具栏以及右下方的功能区。
 
-<img :src="$withBase('/userManual/homepage2.png')" alt="doc directory">
+<img :src="$withBase('/userManual/homepage2.png')" alt="image">
 
 * 菜单树
 
@@ -43,11 +43,11 @@ metaTitle: 登录和首页
 
         * 编辑个人信息
 
-            <img :src="$withBase('/userManual/editUserMessage.png')" alt="doc directory">
+            <img :src="$withBase('/userManual/editUserMessage.png')" alt="image">
 
         * 修改密码
 
-            <img :src="$withBase('/userManual/editUserPassword.png')" alt="doc directory">
+            <img :src="$withBase('/userManual/editUserPassword.png')" alt="image">
         
 * 功能区
 

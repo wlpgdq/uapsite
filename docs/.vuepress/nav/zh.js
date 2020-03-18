@@ -4,6 +4,10 @@ module.exports = [
     link: '/zh/guide/'
   },
   {
+    text: '开发',
+    link: '/zh/development/'
+  },
+  {
     text: '了解更多',
     ariaLabel: '了解更多',
     items:[
