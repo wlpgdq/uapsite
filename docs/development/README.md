@@ -556,5 +556,5 @@ How to control button operation permissions
     ```
 
     ::: warning
-    Judgment in the code `usermenus [i] .code ==" ADD "`, the code is the code previously configured in the menu, the code must be the same as the code configured in the menu, that is, the code for adding permissions is known as "ADD"
+    Judgment in the code `usermenus [i] .code ==" ADD "`, the code is the code previously configured in the menu, the code must be consistent with the code configured in the menu, that is, the code for adding permissions is known as "ADD"
     :::

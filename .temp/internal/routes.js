@@ -45,11 +45,11 @@ export const routes = [
     redirect: "/guide/"
   },
   {
-    name: "v-5f19a21c",
-    path: "/guide/redis-sentry.html",
+    name: "v-2e00af06",
+    path: "/guide/deploy.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5f19a21c").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2e00af06").then(next)
     },
   },
   {
@@ -58,6 +58,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-de38b564").then(next)
+    },
+  },
+  {
+    name: "v-5f19a21c",
+    path: "/guide/redis-sentry.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5f19a21c").then(next)
     },
   },
   {
@@ -109,19 +117,19 @@ export const routes = [
     },
   },
   {
-    name: "v-2e00af06",
-    path: "/guide/deploy.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2e00af06").then(next)
-    },
-  },
-  {
     name: "v-2565ec8a",
     path: "/guide/userManual/10-message.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-2565ec8a").then(next)
+    },
+  },
+  {
+    name: "v-368b043b",
+    path: "/guide/userManual/11-monitor.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-368b043b").then(next)
     },
   },
   {
@@ -201,14 +209,6 @@ export const routes = [
     },
   },
   {
-    name: "v-2b07ebf8",
-    path: "/zh/guide/userManual/02-login.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2b07ebf8").then(next)
-    },
-  },
-  {
     name: "v-30f69388",
     path: "/zh/guide/userManual/03-organization.html",
     component: GlobalLayout,
@@ -281,14 +281,6 @@ export const routes = [
     },
   },
   {
-    name: "v-368b043b",
-    path: "/guide/userManual/11-monitor.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-368b043b").then(next)
-    },
-  },
-  {
     name: "v-51b4d8ce",
     path: "/guide/run.html",
     component: GlobalLayout,
@@ -305,19 +297,19 @@ export const routes = [
     },
   },
   {
-    name: "v-502d2535",
-    path: "/guide/userManual/08-workflow.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-502d2535").then(next)
-    },
-  },
-  {
     name: "v-9c8cd422",
     path: "/guide/userManual/06-application-settings.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-9c8cd422").then(next)
+    },
+  },
+  {
+    name: "v-502d2535",
+    path: "/guide/userManual/08-workflow.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-502d2535").then(next)
     },
   },
   {
@@ -337,16 +329,12 @@ export const routes = [
     },
   },
   {
-    name: "v-65237f56",
-    path: "/development/",
+    name: "v-2b07ebf8",
+    path: "/zh/guide/userManual/02-login.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-65237f56").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2b07ebf8").then(next)
     },
-  },
-  {
-    path: "/development/index.html",
-    redirect: "/development/"
   },
   {
     name: "v-53b644d6",
@@ -359,6 +347,18 @@ export const routes = [
   {
     path: "/zh/development/index.html",
     redirect: "/zh/development/"
+  },
+  {
+    name: "v-65237f56",
+    path: "/development/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-65237f56").then(next)
+    },
+  },
+  {
+    path: "/development/index.html",
+    redirect: "/development/"
   },
   {
     path: '*',

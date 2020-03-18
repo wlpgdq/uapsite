@@ -82,12 +82,24 @@ export const siteData = {
       "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
-      "title": "redis configuration",
+      "title": "Deploy",
       "frontmatter": {},
-      "regularPath": "/guide/redis-sentry.html",
-      "relativePath": "guide/redis-sentry.md",
-      "key": "v-5f19a21c",
-      "path": "/guide/redis-sentry.html",
+      "regularPath": "/guide/deploy.html",
+      "relativePath": "guide/deploy.md",
+      "key": "v-2e00af06",
+      "path": "/guide/deploy.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Platform Basic Function Database",
+          "slug": "platform-basic-function-database"
+        },
+        {
+          "level": 2,
+          "title": "Program",
+          "slug": "program"
+        }
+      ],
       "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
@@ -149,6 +161,15 @@ export const siteData = {
           "slug": "unified-application-platform-installation-package"
         }
       ],
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
+    },
+    {
+      "title": "redis configuration",
+      "frontmatter": {},
+      "regularPath": "/guide/redis-sentry.html",
+      "relativePath": "guide/redis-sentry.md",
+      "key": "v-5f19a21c",
+      "path": "/guide/redis-sentry.html",
       "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
@@ -370,27 +391,6 @@ export const siteData = {
       "lastUpdated": "3/17/2020, 3:15:21 PM"
     },
     {
-      "title": "Deploy",
-      "frontmatter": {},
-      "regularPath": "/guide/deploy.html",
-      "relativePath": "guide/deploy.md",
-      "key": "v-2e00af06",
-      "path": "/guide/deploy.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Platform Basic Function Database",
-          "slug": "platform-basic-function-database"
-        },
-        {
-          "level": 2,
-          "title": "Program",
-          "slug": "program"
-        }
-      ],
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
-    },
-    {
       "title": "Message Center",
       "frontmatter": {
         "title": "Message Center",
@@ -416,6 +416,26 @@ export const siteData = {
           "level": 2,
           "title": "Configure the color of the message type",
           "slug": "configure-the-color-of-the-message-type"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
+      "title": "Monitoring",
+      "frontmatter": {
+        "title": "Monitoring",
+        "metaTitle": "Monitoring",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/11-monitor.html",
+      "relativePath": "guide/userManual/11-monitor.md",
+      "key": "v-368b043b",
+      "path": "/guide/userManual/11-monitor.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Monitoring data",
+          "slug": "monitoring-data"
         }
       ],
       "lastUpdated": "3/17/2020, 3:15:21 PM"
@@ -679,30 +699,6 @@ export const siteData = {
           "level": 2,
           "title": "术语",
           "slug": "术语"
-        }
-      ],
-      "lastUpdated": "2020-3-17 3:15:21 PM"
-    },
-    {
-      "title": "登录和首页",
-      "frontmatter": {
-        "title": "登录和首页",
-        "metaTitle": "登录和首页"
-      },
-      "regularPath": "/zh/guide/userManual/02-login.html",
-      "relativePath": "zh/guide/userManual/02-login.md",
-      "key": "v-2b07ebf8",
-      "path": "/zh/guide/userManual/02-login.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "登录",
-          "slug": "登录"
-        },
-        {
-          "level": 2,
-          "title": "首页",
-          "slug": "首页"
         }
       ],
       "lastUpdated": "2020-3-17 3:15:21 PM"
@@ -1176,26 +1172,6 @@ export const siteData = {
       "lastUpdated": "2020-3-13 4:23:35 PM"
     },
     {
-      "title": "Monitoring",
-      "frontmatter": {
-        "title": "Monitoring",
-        "metaTitle": "Monitoring",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/guide/userManual/11-monitor.html",
-      "relativePath": "guide/userManual/11-monitor.md",
-      "key": "v-368b043b",
-      "path": "/guide/userManual/11-monitor.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Monitoring data",
-          "slug": "monitoring-data"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
       "title": "Configure and run",
       "frontmatter": {},
       "regularPath": "/guide/run.html",
@@ -1357,81 +1333,6 @@ export const siteData = {
       "lastUpdated": "3/17/2020, 3:15:21 PM"
     },
     {
-      "title": "Workflow",
-      "frontmatter": {
-        "title": "Workflow",
-        "metaTitle": "Workflow",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/guide/userManual/08-workflow.html",
-      "relativePath": "guide/userManual/08-workflow.md",
-      "key": "v-502d2535",
-      "path": "/guide/userManual/08-workflow.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Process Design",
-          "slug": "process-design"
-        },
-        {
-          "level": 3,
-          "title": "Process grouping",
-          "slug": "process-grouping"
-        },
-        {
-          "level": 3,
-          "title": "Process",
-          "slug": "process"
-        },
-        {
-          "level": 2,
-          "title": "Deployment process",
-          "slug": "deployment-process"
-        },
-        {
-          "level": 3,
-          "title": "Process form configuration",
-          "slug": "process-form-configuration"
-        },
-        {
-          "level": 3,
-          "title": "View deployment information",
-          "slug": "view-deployment-information"
-        },
-        {
-          "level": 2,
-          "title": "Process instance",
-          "slug": "process-instance"
-        },
-        {
-          "level": 2,
-          "title": "Process task",
-          "slug": "process-task"
-        },
-        {
-          "level": 2,
-          "title": "Page configuration",
-          "slug": "page-configuration"
-        },
-        {
-          "level": 3,
-          "title": "Field Combination",
-          "slug": "field-combination"
-        },
-        {
-          "level": 3,
-          "title": "Field",
-          "slug": "field"
-        },
-        {
-          "level": 2,
-          "title": "Dynamic field management",
-          "slug": "dynamic-field-management"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
       "title": "Application Settings",
       "frontmatter": {
         "title": "Application Settings",
@@ -1572,6 +1473,81 @@ export const siteData = {
           "level": 2,
           "title": "Tenant Information",
           "slug": "tenant-information"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
+      "title": "Workflow",
+      "frontmatter": {
+        "title": "Workflow",
+        "metaTitle": "Workflow",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/08-workflow.html",
+      "relativePath": "guide/userManual/08-workflow.md",
+      "key": "v-502d2535",
+      "path": "/guide/userManual/08-workflow.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Process Design",
+          "slug": "process-design"
+        },
+        {
+          "level": 3,
+          "title": "Process grouping",
+          "slug": "process-grouping"
+        },
+        {
+          "level": 3,
+          "title": "Process",
+          "slug": "process"
+        },
+        {
+          "level": 2,
+          "title": "Deployment process",
+          "slug": "deployment-process"
+        },
+        {
+          "level": 3,
+          "title": "Process form configuration",
+          "slug": "process-form-configuration"
+        },
+        {
+          "level": 3,
+          "title": "View deployment information",
+          "slug": "view-deployment-information"
+        },
+        {
+          "level": 2,
+          "title": "Process instance",
+          "slug": "process-instance"
+        },
+        {
+          "level": 2,
+          "title": "Process task",
+          "slug": "process-task"
+        },
+        {
+          "level": 2,
+          "title": "Page configuration",
+          "slug": "page-configuration"
+        },
+        {
+          "level": 3,
+          "title": "Field Combination",
+          "slug": "field-combination"
+        },
+        {
+          "level": 3,
+          "title": "Field",
+          "slug": "field"
+        },
+        {
+          "level": 2,
+          "title": "Dynamic field management",
+          "slug": "dynamic-field-management"
         }
       ],
       "lastUpdated": "3/17/2020, 3:15:21 PM"
@@ -1783,141 +1759,28 @@ export const siteData = {
       "lastUpdated": "2020-3-17 3:15:21 PM"
     },
     {
-      "title": "Development Manual",
+      "title": "登录和首页",
       "frontmatter": {
-        "sidebar": "auto"
+        "title": "登录和首页",
+        "metaTitle": "登录和首页"
       },
-      "regularPath": "/development/",
-      "relativePath": "development/README.md",
-      "key": "v-65237f56",
-      "path": "/development/",
+      "regularPath": "/zh/guide/userManual/02-login.html",
+      "relativePath": "zh/guide/userManual/02-login.md",
+      "key": "v-2b07ebf8",
+      "path": "/zh/guide/userManual/02-login.html",
       "headers": [
         {
           "level": 2,
-          "title": "Front-end development",
-          "slug": "front-end-development"
-        },
-        {
-          "level": 3,
-          "title": "Front-end engineering",
-          "slug": "front-end-engineering"
-        },
-        {
-          "level": 3,
-          "title": "General Services",
-          "slug": "general-services"
-        },
-        {
-          "level": 3,
-          "title": "Front-end integration",
-          "slug": "front-end-integration"
-        },
-        {
-          "level": 3,
-          "title": "Globalization",
-          "slug": "globalization"
+          "title": "登录",
+          "slug": "登录"
         },
         {
           "level": 2,
-          "title": "Backend development",
-          "slug": "backend-development"
-        },
-        {
-          "level": 3,
-          "title": "Back-end engineering",
-          "slug": "back-end-engineering"
-        },
-        {
-          "level": 3,
-          "title": "Interface Specification",
-          "slug": "interface-specification"
-        },
-        {
-          "level": 3,
-          "title": "Globalization",
-          "slug": "globalization-2"
-        },
-        {
-          "level": 2,
-          "title": "Workflow",
-          "slug": "workflow"
-        },
-        {
-          "level": 3,
-          "title": "Design Flow",
-          "slug": "design-flow"
-        },
-        {
-          "level": 3,
-          "title": "Deployment process",
-          "slug": "deployment-process"
-        },
-        {
-          "level": 3,
-          "title": "Application Development",
-          "slug": "application-development"
-        },
-        {
-          "level": 2,
-          "title": "Scheduled tasks",
-          "slug": "scheduled-tasks"
-        },
-        {
-          "level": 3,
-          "title": "Timing task development steps",
-          "slug": "timing-task-development-steps"
-        },
-        {
-          "level": 3,
-          "title": "Writing the rest interface",
-          "slug": "writing-the-rest-interface"
-        },
-        {
-          "level": 3,
-          "title": "Scheduling the execution process",
-          "slug": "scheduling-the-execution-process"
-        },
-        {
-          "level": 3,
-          "title": "Business side write back business log",
-          "slug": "business-side-write-back-business-log"
-        },
-        {
-          "level": 3,
-          "title": "Check interface",
-          "slug": "check-interface"
-        },
-        {
-          "level": 3,
-          "title": "Configure execution plan",
-          "slug": "configure-execution-plan"
-        },
-        {
-          "level": 3,
-          "title": "Execution log view",
-          "slug": "execution-log-view"
-        },
-        {
-          "level": 2,
-          "title": "Message Center",
-          "slug": "message-center"
-        },
-        {
-          "level": 3,
-          "title": "Message topic",
-          "slug": "message-topic"
-        },
-        {
-          "level": 3,
-          "title": "Message sending",
-          "slug": "message-sending"
-        },
-        {
-          "level": 2,
-          "title": "Rights Management Development",
-          "slug": "rights-management-development"
+          "title": "首页",
+          "slug": "首页"
         }
-      ]
+      ],
+      "lastUpdated": "2020-3-18 3:03:06 PM"
     },
     {
       "title": "开发手册",
@@ -2054,7 +1917,146 @@ export const siteData = {
           "title": "权限管理开发",
           "slug": "权限管理开发"
         }
-      ]
+      ],
+      "lastUpdated": "2020-3-18 3:03:06 PM"
+    },
+    {
+      "title": "Development Manual",
+      "frontmatter": {
+        "sidebar": "auto"
+      },
+      "regularPath": "/development/",
+      "relativePath": "development/README.md",
+      "key": "v-65237f56",
+      "path": "/development/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Front-end development",
+          "slug": "front-end-development"
+        },
+        {
+          "level": 3,
+          "title": "Front-end engineering",
+          "slug": "front-end-engineering"
+        },
+        {
+          "level": 3,
+          "title": "General Services",
+          "slug": "general-services"
+        },
+        {
+          "level": 3,
+          "title": "Front-end integration",
+          "slug": "front-end-integration"
+        },
+        {
+          "level": 3,
+          "title": "Globalization",
+          "slug": "globalization"
+        },
+        {
+          "level": 2,
+          "title": "Backend development",
+          "slug": "backend-development"
+        },
+        {
+          "level": 3,
+          "title": "Back-end engineering",
+          "slug": "back-end-engineering"
+        },
+        {
+          "level": 3,
+          "title": "Interface Specification",
+          "slug": "interface-specification"
+        },
+        {
+          "level": 3,
+          "title": "Globalization",
+          "slug": "globalization-2"
+        },
+        {
+          "level": 2,
+          "title": "Workflow",
+          "slug": "workflow"
+        },
+        {
+          "level": 3,
+          "title": "Design Flow",
+          "slug": "design-flow"
+        },
+        {
+          "level": 3,
+          "title": "Deployment process",
+          "slug": "deployment-process"
+        },
+        {
+          "level": 3,
+          "title": "Application Development",
+          "slug": "application-development"
+        },
+        {
+          "level": 2,
+          "title": "Scheduled tasks",
+          "slug": "scheduled-tasks"
+        },
+        {
+          "level": 3,
+          "title": "Timing task development steps",
+          "slug": "timing-task-development-steps"
+        },
+        {
+          "level": 3,
+          "title": "Writing the rest interface",
+          "slug": "writing-the-rest-interface"
+        },
+        {
+          "level": 3,
+          "title": "Scheduling the execution process",
+          "slug": "scheduling-the-execution-process"
+        },
+        {
+          "level": 3,
+          "title": "Business side write back business log",
+          "slug": "business-side-write-back-business-log"
+        },
+        {
+          "level": 3,
+          "title": "Check interface",
+          "slug": "check-interface"
+        },
+        {
+          "level": 3,
+          "title": "Configure execution plan",
+          "slug": "configure-execution-plan"
+        },
+        {
+          "level": 3,
+          "title": "Execution log view",
+          "slug": "execution-log-view"
+        },
+        {
+          "level": 2,
+          "title": "Message Center",
+          "slug": "message-center"
+        },
+        {
+          "level": 3,
+          "title": "Message topic",
+          "slug": "message-topic"
+        },
+        {
+          "level": 3,
+          "title": "Message sending",
+          "slug": "message-sending"
+        },
+        {
+          "level": 2,
+          "title": "Rights Management Development",
+          "slug": "rights-management-development"
+        }
+      ],
+      "lastUpdated": "3/18/2020, 3:03:06 PM"
     }
   ],
   "themeConfig": {

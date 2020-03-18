@@ -549,5 +549,5 @@ job执行后会在job日志表(uap_job_log)中填写日志信息，可到表中�
     ```
 
     ::: warning
-    代码中的判断`usermenus[i].code == "ADD"`，code就是之前在菜单中配置的code, 代码中要与菜单中配置的code一直，即知道新增权限的code为“ADD”
+    代码中的判断`usermenus[i].code == "ADD"`，code就是之前在菜单中配置的code, 代码中要与菜单中配置的code一致，即知道新增权限的code为“ADD”
     :::
