@@ -507,54 +507,14 @@ How to control button operation permissions
 
     <img :src = "$withBase('/develop/rightsManagement.png')" alt = "image">
 
-2. Back-end interface
+2. Adjust the uap backend interface
 
-    The interface is: `/user/function/code`, used to obtain the permissions and coding resources required by the page
+    The interface is: `/user/function/code`, the menu custom id passed into the corresponding interface is used to obtain the permissions and coding resources required by the page
 
 3. Front-end development
 
-    The public method http.js has the encapsulated method `getCodeAndMenus`, which is introduced into http.js and uses this method as follows:
+    Calling the interface will return an array of functions of the permissions field of the current interface, as shown below: For example, the user interface returns
 
-    ```javascript
-    // Get the permissions and coding resources required by the page
-    HTTP.getCodeAndMenus (This, function (res) {
-        // other
-        
-        // Processing after obtaining permissions
-        This.userAuthentication (res.data.functions);
+    <img :src = "$withBase('/develop/functions.png')" alt = "image">
 
-        // other
-    }
-
-    / **
-     * According to the configuration user menu permissions
-        * @param {Object} usermenus
-        * /
-    userAuthentication: function (usermenus) {
-        if (usermenus.length> 0) {
-            for (var i = 0; i <usermenus.length; i ++) {
-                // If add permission, give user add permission, otherwise add button is disabled
-                if (usermenus [i] .code == "ADD") {
-                    this.addDisabled = false;
-                }
-                if (usermenus [i] .code == "EDIT") {
-                    this.editDisabled = false;
-                }
-                if (usermenus [i] .code == "USERROLE") {
-                    this.roleChooseDisabled = false;
-                }
-                if (usermenus [i] .code == "STATE") {
-                    this.stateDisabled = false;
-                }
-                if (usermenus [i] .code == "USER_MANAGE_UNIT") {
-                    this.manageUnitDisabled = false;
-                }
-            }
-        }
-    }
-    
-    ```
-
-    ::: warning
-    Judgment in the code `usermenus [i] .code ==" ADD "`, the code is the code previously configured in the menu, the code must be consistent with the code configured in the menu, that is, the code for adding permissions is known as "ADD"
-    :::
+    If the code is ADD, it means that there is a new permission, otherwise there is no new permission. The corresponding interface can be hidden, grayed out, and error reported.

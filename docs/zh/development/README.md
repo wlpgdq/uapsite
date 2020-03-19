@@ -500,54 +500,14 @@ job执行后会在job日志表(uap_job_log)中填写日志信息，可到表中�
 
     <img :src="$withBase('/develop/rightsManagement.png')" alt="image">
 
-2. 后端接口
+2. 调uap后端接口
 
-    接口为：`/user/function/code`，用于获取页面所需的权限和编码资源
+    接口为：`/user/function/code`，传入对应界面的菜单定制id用于获取页面所需的权限和编码资源
 
 3. 前端开发
 
-    在公用方法http.js中有封装好的方法`getCodeAndMenus`，引入http.js，使用该方法，如下：
+   调接口会返回当前界面的权限字段functions数组，如下图：例如用户界面返回
 
-    ``` javascript
-    // 获取页面所需的权限和编码资源
-    HTTP.getCodeAndMenus(This, function(res) {
-        // 其它
-        
-        // 获取权限后的处理
-        This.userAuthentication(res.data.functions);
+   <img :src="$withBase('/develop/functions.png')" alt="image">
 
-        // 其它
-    }
-
-    /**
-     * 根据配置用户菜单权限
-        * @param {Object} usermenus
-        */
-    userAuthentication: function(usermenus) {
-        if(usermenus.length > 0) {
-            for(var i = 0; i < usermenus.length; i++) {
-                // 如果有add权限，赋予用户add权限，否则add按钮置为不可用状态
-                if(usermenus[i].code == "ADD") {
-                    this.addDisabled = false;
-                }
-                if(usermenus[i].code == "EDIT") {
-                    this.editDisabled = false;
-                }
-                if(usermenus[i].code == "USERROLE") {
-                    this.roleChooseDisabled = false;
-                }
-                if(usermenus[i].code == "STATE") {
-                    this.stateDisabled = false;
-                }
-                if(usermenus[i].code == "USER_MANAGE_UNIT") {
-                    this.manageUnitDisabled = false;
-                }
-            }
-        }
-    }
-            
-    ```
-
-    ::: warning
-    代码中的判断`usermenus[i].code == "ADD"`，code就是之前在菜单中配置的code, 代码中要与菜单中配置的code一致，即知道新增权限的code为“ADD”
-    :::
+   有code为ADD说明有新增权限,反之没有新增权限，对应界面可以做隐藏，置灰，报错等处理
