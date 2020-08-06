@@ -5,7 +5,241 @@ export const siteData = {
   "title": "",
   "description": "",
   "base": "/uapsite/",
+  "headTags": [
+    [
+      "link",
+      {
+        "rel": "icon",
+        "href": "/uapsite/logo.png"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "manifest",
+        "href": "/uapsite/manifest.json"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "theme-color",
+        "content": "#3eaf7c"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "apple-mobile-web-app-capable",
+        "content": "yes"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "apple-mobile-web-app-status-bar-style",
+        "content": "black"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "apple-touch-icon",
+        "href": "/uapsite/icons/hxlogo.ico"
+      }
+    ],
+    [
+      "link",
+      {
+        "rel": "mask-icon",
+        "href": "/uapsite/icons/hxlogo.ico",
+        "color": "#3eaf7c"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "msapplication-TileImage",
+        "content": "/icons/hxlogo.ico"
+      }
+    ],
+    [
+      "meta",
+      {
+        "name": "msapplication-TileColor",
+        "content": "#000000"
+      }
+    ]
+  ],
   "pages": [
+    {
+      "title": "Development Manual",
+      "frontmatter": {
+        "sidebar": "auto"
+      },
+      "regularPath": "/development/",
+      "relativePath": "development/README.md",
+      "key": "v-4c1596e0",
+      "path": "/development/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Front-end development",
+          "slug": "front-end-development"
+        },
+        {
+          "level": 3,
+          "title": "Front-end engineering",
+          "slug": "front-end-engineering"
+        },
+        {
+          "level": 3,
+          "title": "General Services",
+          "slug": "general-services"
+        },
+        {
+          "level": 3,
+          "title": "Front-end integration",
+          "slug": "front-end-integration"
+        },
+        {
+          "level": 3,
+          "title": "Globalization",
+          "slug": "globalization"
+        },
+        {
+          "level": 2,
+          "title": "Backend development",
+          "slug": "backend-development"
+        },
+        {
+          "level": 3,
+          "title": "Back-end engineering",
+          "slug": "back-end-engineering"
+        },
+        {
+          "level": 3,
+          "title": "Interface Specification",
+          "slug": "interface-specification"
+        },
+        {
+          "level": 3,
+          "title": "Globalization",
+          "slug": "globalization-2"
+        },
+        {
+          "level": 2,
+          "title": "Workflow",
+          "slug": "workflow"
+        },
+        {
+          "level": 3,
+          "title": "Design Flow",
+          "slug": "design-flow"
+        },
+        {
+          "level": 3,
+          "title": "Deployment process",
+          "slug": "deployment-process"
+        },
+        {
+          "level": 3,
+          "title": "Application Development",
+          "slug": "application-development"
+        },
+        {
+          "level": 2,
+          "title": "Scheduled tasks",
+          "slug": "scheduled-tasks"
+        },
+        {
+          "level": 3,
+          "title": "Timing task development steps",
+          "slug": "timing-task-development-steps"
+        },
+        {
+          "level": 3,
+          "title": "Writing the rest interface",
+          "slug": "writing-the-rest-interface"
+        },
+        {
+          "level": 3,
+          "title": "Scheduling the execution process",
+          "slug": "scheduling-the-execution-process"
+        },
+        {
+          "level": 3,
+          "title": "Business side write back business log",
+          "slug": "business-side-write-back-business-log"
+        },
+        {
+          "level": 3,
+          "title": "Check interface",
+          "slug": "check-interface"
+        },
+        {
+          "level": 3,
+          "title": "Configure execution plan",
+          "slug": "configure-execution-plan"
+        },
+        {
+          "level": 3,
+          "title": "Execution log view",
+          "slug": "execution-log-view"
+        },
+        {
+          "level": 2,
+          "title": "Message Center",
+          "slug": "message-center"
+        },
+        {
+          "level": 3,
+          "title": "Message topic",
+          "slug": "message-topic"
+        },
+        {
+          "level": 3,
+          "title": "Message sending",
+          "slug": "message-sending"
+        },
+        {
+          "level": 2,
+          "title": "Rights Management Development",
+          "slug": "rights-management-development"
+        },
+        {
+          "level": 3,
+          "title": "Data permission",
+          "slug": "data-permission"
+        },
+        {
+          "level": 3,
+          "title": "Enable data permission function",
+          "slug": "enable-data-permission-function"
+        },
+        {
+          "level": 3,
+          "title": "Configure data permission content",
+          "slug": "configure-data-permission-content"
+        },
+        {
+          "level": 3,
+          "title": "Increase the number of data permissions",
+          "slug": "increase-the-number-of-data-permissions"
+        },
+        {
+          "level": 3,
+          "title": "Assign data permissions to roles",
+          "slug": "assign-data-permissions-to-roles"
+        },
+        {
+          "level": 3,
+          "title": "Sync permissions",
+          "slug": "sync-permissions"
+        }
+      ],
+      "lastUpdated": "3/19/2020, 9:16:12 AM"
+    },
     {
       "title": "Home",
       "frontmatter": {
@@ -35,8 +269,94 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-52f08e60",
+      "key": "v-e12b590a",
       "path": "/",
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
+    },
+    {
+      "title": "FAQ",
+      "frontmatter": {
+        "title": "FAQ",
+        "meteTitle": "FAQ",
+        "sidebarDepth": "auto"
+      },
+      "regularPath": "/faq/",
+      "relativePath": "faq/README.md",
+      "key": "v-b77b9c4c",
+      "path": "/faq/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Q：What is HX UAP？",
+          "slug": "q：what-is-hx-uap？"
+        },
+        {
+          "level": 2,
+          "title": "Q：What software or files should be prepared for HX UAP deployment？",
+          "slug": "q：what-software-or-files-should-be-prepared-for-hx-uap-deployment？"
+        },
+        {
+          "level": 2,
+          "title": "Q：Where should the war package be placed？",
+          "slug": "q：where-should-the-war-package-be-placed？"
+        },
+        {
+          "level": 2,
+          "title": "Q：Why does the configuration still not take effect after modifying the configuration file in Tomcat？",
+          "slug": "q：why-does-the-configuration-still-not-take-effect-after-modifying-the-configuration-file-in-tomcat？"
+        },
+        {
+          "level": 2,
+          "title": "Q：Why does Tomcat always report errors when starting？",
+          "slug": "q：why-does-tomcat-always-report-errors-when-starting？"
+        },
+        {
+          "level": 2,
+          "title": "Q: Why does Tomcat fail to start or exit automatically？",
+          "slug": "q-why-does-tomcat-fail-to-start-or-exit-automatically？"
+        },
+        {
+          "level": 2,
+          "title": "Q：What is the difference between an administrator user and a normal user?",
+          "slug": "q：what-is-the-difference-between-an-administrator-user-and-a-normal-user"
+        },
+        {
+          "level": 2,
+          "title": "Q：How to determine whether the account is an administrator role?",
+          "slug": "q：how-to-determine-whether-the-account-is-an-administrator-role"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
+      "title": "Introduction",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-b75472e4",
+      "path": "/guide/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Background",
+          "slug": "background"
+        },
+        {
+          "level": 2,
+          "title": "Product target",
+          "slug": "product-target"
+        },
+        {
+          "level": 2,
+          "title": "Product range definition",
+          "slug": "product-range-definition"
+        },
+        {
+          "level": 2,
+          "title": "Product value",
+          "slug": "product-value"
+        }
+      ],
       "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
@@ -44,7 +364,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/guide/deploy.html",
       "relativePath": "guide/deploy.md",
-      "key": "v-230bca34",
+      "key": "v-fe06712a",
       "path": "/guide/deploy.html",
       "headers": [
         {
@@ -61,22 +381,11 @@ export const siteData = {
       "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
-      "title": "FAQ",
-      "frontmatter": {
-        "sidebar": "auto"
-      },
-      "regularPath": "/faq/",
-      "relativePath": "faq/README.md",
-      "key": "v-b7b49082",
-      "path": "/faq/",
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
       "title": "Preparation for deployment",
       "frontmatter": {},
       "regularPath": "/guide/prepare.html",
       "relativePath": "guide/prepare.md",
-      "key": "v-18b1992e",
+      "key": "v-153b3873",
       "path": "/guide/prepare.html",
       "headers": [
         {
@@ -137,1070 +446,16 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/guide/redis-sentry.html",
       "relativePath": "guide/redis-sentry.md",
-      "key": "v-19c9cad2",
+      "key": "v-28865052",
       "path": "/guide/redis-sentry.html",
       "lastUpdated": "3/13/2020, 4:23:35 PM"
-    },
-    {
-      "title": "Introduction",
-      "frontmatter": {
-        "title": "Introduction",
-        "metaTitle": "Introduction"
-      },
-      "regularPath": "/guide/userManual/01-introduction.html",
-      "relativePath": "guide/userManual/01-introduction.md",
-      "key": "v-8f8403de",
-      "path": "/guide/userManual/01-introduction.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Platform Introduction",
-          "slug": "platform-introduction"
-        },
-        {
-          "level": 2,
-          "title": "The Term",
-          "slug": "the-term"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
-      "title": "Login and Home",
-      "frontmatter": {
-        "title": "Login and Home",
-        "metaTitle": "Login and Home"
-      },
-      "regularPath": "/guide/userManual/02-login.html",
-      "relativePath": "guide/userManual/02-login.md",
-      "key": "v-32491efb",
-      "path": "/guide/userManual/02-login.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Log In",
-          "slug": "log-in"
-        },
-        {
-          "level": 2,
-          "title": "Home",
-          "slug": "home"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
-      "title": "Rights Management",
-      "frontmatter": {
-        "title": "Rights Management",
-        "metaTitle": "Rights Management",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/guide/userManual/04-authority.html",
-      "relativePath": "guide/userManual/04-authority.md",
-      "key": "v-6a19c9fb",
-      "path": "/guide/userManual/04-authority.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Roles",
-          "slug": "roles"
-        },
-        {
-          "level": 3,
-          "title": "Add character",
-          "slug": "add-character"
-        },
-        {
-          "level": 3,
-          "title": "Delete role",
-          "slug": "delete-role"
-        },
-        {
-          "level": 3,
-          "title": "Edit role",
-          "slug": "edit-role"
-        },
-        {
-          "level": 3,
-          "title": "Start and stop roles",
-          "slug": "start-and-stop-roles"
-        },
-        {
-          "level": 3,
-          "title": "Role Assignment Menu",
-          "slug": "role-assignment-menu"
-        },
-        {
-          "level": 3,
-          "title": "Configuration (assigning roles to users)",
-          "slug": "configuration-assigning-roles-to-users"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
-      "title": "Introduction",
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-5989d1f3",
-      "path": "/guide/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Background",
-          "slug": "background"
-        },
-        {
-          "level": 2,
-          "title": "Product target",
-          "slug": "product-target"
-        },
-        {
-          "level": 2,
-          "title": "Product range definition",
-          "slug": "product-range-definition"
-        },
-        {
-          "level": 2,
-          "title": "Product value",
-          "slug": "product-value"
-        }
-      ],
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
-    },
-    {
-      "title": "System Settings",
-      "frontmatter": {
-        "title": "System Settings",
-        "metaTitle": "System settings",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/guide/userManual/05-system-settings.html",
-      "relativePath": "guide/userManual/05-system-settings.md",
-      "key": "v-b16928ca",
-      "path": "/guide/userManual/05-system-settings.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "System coding",
-          "slug": "system-coding"
-        },
-        {
-          "level": 3,
-          "title": "Add encoding",
-          "slug": "add-encoding"
-        },
-        {
-          "level": 3,
-          "title": "Edit encoding",
-          "slug": "edit-encoding"
-        },
-        {
-          "level": 3,
-          "title": "Delete encoding",
-          "slug": "delete-encoding"
-        },
-        {
-          "level": 2,
-          "title": "API Interface Log",
-          "slug": "api-interface-log"
-        },
-        {
-          "level": 3,
-          "title": "View detailed log information",
-          "slug": "view-detailed-log-information"
-        },
-        {
-          "level": 2,
-          "title": "Login log",
-          "slug": "login-log"
-        },
-        {
-          "level": 2,
-          "title": "Calendar management",
-          "slug": "calendar-management"
-        },
-        {
-          "level": 2,
-          "title": "Illegal login log",
-          "slug": "illegal-login-log"
-        },
-        {
-          "level": 2,
-          "title": "Menu log",
-          "slug": "menu-log"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
-      "title": "Timed Task",
-      "frontmatter": {
-        "title": "Timed Task",
-        "metaTitle": "Timed Task",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/guide/userManual/09-timed-task.html",
-      "relativePath": "guide/userManual/09-timed-task.md",
-      "key": "v-6d5d6f5f",
-      "path": "/guide/userManual/09-timed-task.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Scheduled task configuration",
-          "slug": "scheduled-task-configuration"
-        },
-        {
-          "level": 2,
-          "title": "Execution history",
-          "slug": "execution-history"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
-      "title": "Monitoring",
-      "frontmatter": {
-        "title": "Monitoring",
-        "metaTitle": "Monitoring",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/guide/userManual/11-monitor.html",
-      "relativePath": "guide/userManual/11-monitor.md",
-      "key": "v-34a6681b",
-      "path": "/guide/userManual/11-monitor.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Monitoring data",
-          "slug": "monitoring-data"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
-      "title": "Message Center",
-      "frontmatter": {
-        "title": "Message Center",
-        "metaTitle": "Message Center",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/guide/userManual/10-message.html",
-      "relativePath": "guide/userManual/10-message.md",
-      "key": "v-292f24ca",
-      "path": "/guide/userManual/10-message.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "User messages",
-          "slug": "user-messages"
-        },
-        {
-          "level": 2,
-          "title": "All messages",
-          "slug": "all-messages"
-        },
-        {
-          "level": 2,
-          "title": "Configure the color of the message type",
-          "slug": "configure-the-color-of-the-message-type"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
-      "title": "Release Notes",
-      "frontmatter": {
-        "sidebar": "auto"
-      },
-      "regularPath": "/miscellaneous/release-notes.html",
-      "relativePath": "miscellaneous/release-notes.md",
-      "key": "v-def1b424",
-      "path": "/miscellaneous/release-notes.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Version: UAP 2.0.0.0",
-          "slug": "version-uap-2-0-0-0"
-        },
-        {
-          "level": 3,
-          "title": "New Function",
-          "slug": "new-function"
-        },
-        {
-          "level": 3,
-          "title": "Bug fixes and optimizations",
-          "slug": "bug-fixes-and-optimizations"
-        },
-        {
-          "level": 2,
-          "title": "Version: UAP 1.3.0.0",
-          "slug": "version-uap-1-3-0-0"
-        },
-        {
-          "level": 3,
-          "title": "New Function",
-          "slug": "new-function-2"
-        },
-        {
-          "level": 3,
-          "title": "Bug fixes and optimizations",
-          "slug": "bug-fixes-and-optimizations-2"
-        },
-        {
-          "level": 2,
-          "title": "Version: UAP 1.2.0.3",
-          "slug": "version-uap-1-2-0-3"
-        },
-        {
-          "level": 3,
-          "title": "New Function",
-          "slug": "new-function-3"
-        },
-        {
-          "level": 3,
-          "title": "Bug fixes and optimizations",
-          "slug": "bug-fixes-and-optimizations-3"
-        },
-        {
-          "level": 2,
-          "title": "Version: UAP 1.1.0.2",
-          "slug": "version-uap-1-1-0-2"
-        },
-        {
-          "level": 3,
-          "title": "New Function",
-          "slug": "new-function-4"
-        },
-        {
-          "level": 3,
-          "title": "Bug fixes and optimizations",
-          "slug": "bug-fixes-and-optimizations-4"
-        }
-      ],
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "/logo.png",
-        "actionText": "快速了解 →",
-        "actionLink": "/zh/guide/",
-        "features": [
-          {
-            "title": "平台化",
-            "details": "形成以HX UAP为基础的开发模式，各个业务系统只需要针对实际业务场景进行功能开发，无需关注底层平台问题。"
-          },
-          {
-            "title": "模块化",
-            "details": "HX UAP本身内部也具备模块化特征，在部署和使用过程中，只需要根据实际需求进行不同模型的部署，各个功能模型形成独自的服务，基于HX UAP开发的业务系统也具备类似能力。"
-          },
-          {
-            "title": "兼容性",
-            "details": "HX UAP平台兼容现有业务系统的底层功能，前端满足总体界面风格以及操作模式，同时也提供了旧有系统的操作模式以及习惯。平台也提供了各种适配用于旧有系统改造。"
-          },
-          {
-            "title": "易用性",
-            "details": "满足系统软件的界面设计统一风格，操作模式上参考了各个现场用户习惯，使得最终用户快速上手。"
-          }
-        ],
-        "footer": "Copyright © 2020-uap"
-      },
-      "regularPath": "/zh/",
-      "relativePath": "zh/README.md",
-      "key": "v-2a8ced83",
-      "path": "/zh/",
-      "lastUpdated": "2020-3-13 4:23:35 PM"
-    },
-    {
-      "title": "FAQ",
-      "frontmatter": {
-        "sidebar": "auto"
-      },
-      "regularPath": "/zh/faq/",
-      "relativePath": "zh/faq/README.md",
-      "key": "v-159d98d4",
-      "path": "/zh/faq/",
-      "lastUpdated": "2020-3-17 3:15:21 PM"
-    },
-    {
-      "title": "介绍",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/",
-      "relativePath": "zh/guide/README.md",
-      "key": "v-36ee8f96",
-      "path": "/zh/guide/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "背景",
-          "slug": "背景"
-        },
-        {
-          "level": 2,
-          "title": "产品目标",
-          "slug": "产品目标"
-        },
-        {
-          "level": 2,
-          "title": "产品范围定义",
-          "slug": "产品范围定义"
-        },
-        {
-          "level": 2,
-          "title": "产品价值",
-          "slug": "产品价值"
-        }
-      ],
-      "lastUpdated": "2020-3-13 4:23:35 PM"
-    },
-    {
-      "title": "部署",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/deploy.html",
-      "relativePath": "zh/guide/deploy.md",
-      "key": "v-0830f196",
-      "path": "/zh/guide/deploy.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "平台基础功能数据库",
-          "slug": "平台基础功能数据库"
-        },
-        {
-          "level": 2,
-          "title": "程序",
-          "slug": "程序"
-        }
-      ],
-      "lastUpdated": "2020-3-17 3:15:21 PM"
-    },
-    {
-      "title": "部署前的准备工作",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/prepare.html",
-      "relativePath": "zh/guide/prepare.md",
-      "key": "v-1e3e189b",
-      "path": "/zh/guide/prepare.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "操作系统",
-          "slug": "操作系统"
-        },
-        {
-          "level": 3,
-          "title": "统一应用平台支持Windows服务器或者Linux服务器，推荐使用Linux服务器。",
-          "slug": "统一应用平台支持windows服务器或者linux服务器，推荐使用linux服务器。"
-        },
-        {
-          "level": 3,
-          "title": "安装操作系统",
-          "slug": "安装操作系统"
-        },
-        {
-          "level": 2,
-          "title": "环境准备",
-          "slug": "环境准备"
-        },
-        {
-          "level": 3,
-          "title": "统一应用平台需要用到以下相关工具或者运行环境",
-          "slug": "统一应用平台需要用到以下相关工具或者运行环境"
-        },
-        {
-          "level": 3,
-          "title": "安装数据库",
-          "slug": "安装数据库"
-        },
-        {
-          "level": 3,
-          "title": "安装JDK",
-          "slug": "安装jdk"
-        },
-        {
-          "level": 3,
-          "title": "安装Tomcat",
-          "slug": "安装tomcat"
-        },
-        {
-          "level": 3,
-          "title": "安装浏览器",
-          "slug": "安装浏览器"
-        },
-        {
-          "level": 3,
-          "title": "统一应用平台安装包",
-          "slug": "统一应用平台安装包"
-        }
-      ],
-      "lastUpdated": "2020-3-13 4:23:35 PM"
-    },
-    {
-      "title": "介绍",
-      "frontmatter": {
-        "title": "介绍",
-        "metaTitle": "介绍"
-      },
-      "regularPath": "/zh/guide/userManual/01-introduction.html",
-      "relativePath": "zh/guide/userManual/01-introduction.md",
-      "key": "v-41b97f88",
-      "path": "/zh/guide/userManual/01-introduction.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "平台介绍",
-          "slug": "平台介绍"
-        },
-        {
-          "level": 2,
-          "title": "术语",
-          "slug": "术语"
-        }
-      ],
-      "lastUpdated": "2020-3-17 3:15:21 PM"
-    },
-    {
-      "title": "登录和首页",
-      "frontmatter": {
-        "title": "登录和首页",
-        "metaTitle": "登录和首页"
-      },
-      "regularPath": "/zh/guide/userManual/02-login.html",
-      "relativePath": "zh/guide/userManual/02-login.md",
-      "key": "v-61641438",
-      "path": "/zh/guide/userManual/02-login.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "登录",
-          "slug": "登录"
-        },
-        {
-          "level": 2,
-          "title": "首页",
-          "slug": "首页"
-        }
-      ],
-      "lastUpdated": "2020-3-18 3:03:06 PM"
-    },
-    {
-      "title": "组织管理",
-      "frontmatter": {
-        "title": "组织管理",
-        "metaTitle": "组织管理",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/zh/guide/userManual/03-organization.html",
-      "relativePath": "zh/guide/userManual/03-organization.md",
-      "key": "v-42e39130",
-      "path": "/zh/guide/userManual/03-organization.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "用户",
-          "slug": "用户"
-        },
-        {
-          "level": 3,
-          "title": "用户操作列表介绍",
-          "slug": "用户操作列表介绍"
-        },
-        {
-          "level": 3,
-          "title": "新增用户",
-          "slug": "新增用户"
-        },
-        {
-          "level": 3,
-          "title": "编辑用户",
-          "slug": "编辑用户"
-        },
-        {
-          "level": 3,
-          "title": "配置（给用户配置角色）",
-          "slug": "配置（给用户配置角色）"
-        },
-        {
-          "level": 3,
-          "title": "配置管理单元",
-          "slug": "配置管理单元"
-        },
-        {
-          "level": 3,
-          "title": "重置密码",
-          "slug": "重置密码"
-        },
-        {
-          "level": 3,
-          "title": "密码修改记录",
-          "slug": "密码修改记录"
-        },
-        {
-          "level": 3,
-          "title": "启停用户",
-          "slug": "启停用户"
-        },
-        {
-          "level": 2,
-          "title": "组织",
-          "slug": "组织"
-        },
-        {
-          "level": 3,
-          "title": "新增组织",
-          "slug": "新增组织"
-        },
-        {
-          "level": 3,
-          "title": "编辑组织",
-          "slug": "编辑组织"
-        },
-        {
-          "level": 3,
-          "title": "组织排序",
-          "slug": "组织排序"
-        },
-        {
-          "level": 3,
-          "title": "启停组织",
-          "slug": "启停组织"
-        },
-        {
-          "level": 2,
-          "title": "管理单位配置",
-          "slug": "管理单位配置"
-        },
-        {
-          "level": 3,
-          "title": "新增用户分配组织",
-          "slug": "新增用户分配组织"
-        },
-        {
-          "level": 3,
-          "title": "删除用户已分配组织",
-          "slug": "删除用户已分配组织"
-        }
-      ],
-      "lastUpdated": "2020-3-17 3:15:21 PM"
-    },
-    {
-      "title": "系统设置",
-      "frontmatter": {
-        "title": "系统设置",
-        "metaTitle": "系统设置",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/zh/guide/userManual/05-system-settings.html",
-      "relativePath": "zh/guide/userManual/05-system-settings.md",
-      "key": "v-4e4ef7ae",
-      "path": "/zh/guide/userManual/05-system-settings.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "系统编码",
-          "slug": "系统编码"
-        },
-        {
-          "level": 3,
-          "title": "新增编码",
-          "slug": "新增编码"
-        },
-        {
-          "level": 3,
-          "title": "编辑编码",
-          "slug": "编辑编码"
-        },
-        {
-          "level": 3,
-          "title": "删除编码",
-          "slug": "删除编码"
-        },
-        {
-          "level": 2,
-          "title": "API接口日志",
-          "slug": "api接口日志"
-        },
-        {
-          "level": 3,
-          "title": "查看详细的日志信息",
-          "slug": "查看详细的日志信息"
-        },
-        {
-          "level": 2,
-          "title": "登录日志",
-          "slug": "登录日志"
-        },
-        {
-          "level": 2,
-          "title": "日历管理",
-          "slug": "日历管理"
-        },
-        {
-          "level": 2,
-          "title": "非法登录日志",
-          "slug": "非法登录日志"
-        },
-        {
-          "level": 2,
-          "title": "菜单日志",
-          "slug": "菜单日志"
-        }
-      ],
-      "lastUpdated": "2020-3-17 3:15:21 PM"
-    },
-    {
-      "title": "权限管理",
-      "frontmatter": {
-        "title": "权限管理",
-        "metaTitle": "权限管理",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/zh/guide/userManual/04-authority.html",
-      "relativePath": "zh/guide/userManual/04-authority.md",
-      "key": "v-864441a8",
-      "path": "/zh/guide/userManual/04-authority.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "角色",
-          "slug": "角色"
-        },
-        {
-          "level": 3,
-          "title": "新增角色",
-          "slug": "新增角色"
-        },
-        {
-          "level": 3,
-          "title": "删除角色",
-          "slug": "删除角色"
-        },
-        {
-          "level": 3,
-          "title": "编辑角色",
-          "slug": "编辑角色"
-        },
-        {
-          "level": 3,
-          "title": "启停角色",
-          "slug": "启停角色"
-        },
-        {
-          "level": 3,
-          "title": "角色分配菜单",
-          "slug": "角色分配菜单"
-        },
-        {
-          "level": 3,
-          "title": "配置（将角色分配给用户）",
-          "slug": "配置（将角色分配给用户）"
-        }
-      ],
-      "lastUpdated": "2020-3-17 3:15:21 PM"
-    },
-    {
-      "title": "我的任务",
-      "frontmatter": {
-        "title": "我的任务",
-        "metaTitle": "我的任务",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/zh/guide/userManual/07-my-task.html",
-      "relativePath": "zh/guide/userManual/07-my-task.md",
-      "key": "v-806afdc0",
-      "path": "/zh/guide/userManual/07-my-task.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "我的任务",
-          "slug": "我的任务-2"
-        },
-        {
-          "level": 2,
-          "title": "历史任务",
-          "slug": "历史任务"
-        },
-        {
-          "level": 2,
-          "title": "我的流程实例",
-          "slug": "我的流程实例"
-        }
-      ],
-      "lastUpdated": "2020-3-17 3:15:21 PM"
-    },
-    {
-      "title": "定时任务",
-      "frontmatter": {
-        "title": "定时任务",
-        "metaTitle": "定时任务",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/zh/guide/userManual/09-timed-task.html",
-      "relativePath": "zh/guide/userManual/09-timed-task.md",
-      "key": "v-5d91d7e8",
-      "path": "/zh/guide/userManual/09-timed-task.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "定时任务配置",
-          "slug": "定时任务配置"
-        },
-        {
-          "level": 2,
-          "title": "执行历史",
-          "slug": "执行历史"
-        }
-      ],
-      "lastUpdated": "2020-3-17 3:15:21 PM"
-    },
-    {
-      "title": "工作流",
-      "frontmatter": {
-        "title": "工作流",
-        "metaTitle": "工作流",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/zh/guide/userManual/08-workflow.html",
-      "relativePath": "zh/guide/userManual/08-workflow.md",
-      "key": "v-dd509f70",
-      "path": "/zh/guide/userManual/08-workflow.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "流程设计",
-          "slug": "流程设计"
-        },
-        {
-          "level": 3,
-          "title": "流程分组",
-          "slug": "流程分组"
-        },
-        {
-          "level": 3,
-          "title": "流程",
-          "slug": "流程"
-        },
-        {
-          "level": 2,
-          "title": "部署流程",
-          "slug": "部署流程"
-        },
-        {
-          "level": 3,
-          "title": "流程表单配置",
-          "slug": "流程表单配置"
-        },
-        {
-          "level": 3,
-          "title": "部署信息查看",
-          "slug": "部署信息查看"
-        },
-        {
-          "level": 2,
-          "title": "流程实例",
-          "slug": "流程实例"
-        },
-        {
-          "level": 2,
-          "title": "流程任务",
-          "slug": "流程任务"
-        },
-        {
-          "level": 2,
-          "title": "页面配置",
-          "slug": "页面配置"
-        },
-        {
-          "level": 3,
-          "title": "字段组合",
-          "slug": "字段组合"
-        },
-        {
-          "level": 3,
-          "title": "字段",
-          "slug": "字段"
-        },
-        {
-          "level": 2,
-          "title": "动态字段管理",
-          "slug": "动态字段管理"
-        }
-      ],
-      "lastUpdated": "2020-3-17 3:15:21 PM"
-    },
-    {
-      "title": "监控",
-      "frontmatter": {
-        "title": "监控",
-        "metaTitle": "监控",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/zh/guide/userManual/11-monitor.html",
-      "relativePath": "zh/guide/userManual/11-monitor.md",
-      "key": "v-e454e474",
-      "path": "/zh/guide/userManual/11-monitor.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "监控数据",
-          "slug": "监控数据"
-        }
-      ],
-      "lastUpdated": "2020-3-17 3:15:21 PM"
-    },
-    {
-      "title": "消息中心",
-      "frontmatter": {
-        "title": "消息中心",
-        "metaTitle": "消息中心",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/zh/guide/userManual/10-message.html",
-      "relativePath": "zh/guide/userManual/10-message.md",
-      "key": "v-191dc86e",
-      "path": "/zh/guide/userManual/10-message.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "用户消息",
-          "slug": "用户消息"
-        },
-        {
-          "level": 2,
-          "title": "所有消息",
-          "slug": "所有消息"
-        },
-        {
-          "level": 2,
-          "title": "配置消息类型的颜色",
-          "slug": "配置消息类型的颜色"
-        }
-      ],
-      "lastUpdated": "2020-3-17 3:15:21 PM"
-    },
-    {
-      "title": "发布说明",
-      "frontmatter": {
-        "sidebar": "auto"
-      },
-      "regularPath": "/zh/miscellaneous/release-notes.html",
-      "relativePath": "zh/miscellaneous/release-notes.md",
-      "key": "v-5723b28f",
-      "path": "/zh/miscellaneous/release-notes.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "版本：UAP 2.0.0.0",
-          "slug": "版本：uap-2-0-0-0"
-        },
-        {
-          "level": 3,
-          "title": "新功能",
-          "slug": "新功能"
-        },
-        {
-          "level": 3,
-          "title": "问题修复和优化",
-          "slug": "问题修复和优化"
-        },
-        {
-          "level": 2,
-          "title": "版本：UAP 1.3.0.0",
-          "slug": "版本：uap-1-3-0-0"
-        },
-        {
-          "level": 3,
-          "title": "新功能",
-          "slug": "新功能-2"
-        },
-        {
-          "level": 3,
-          "title": "问题修复和优化",
-          "slug": "问题修复和优化-2"
-        },
-        {
-          "level": 2,
-          "title": "版本：UAP 1.2.0.3",
-          "slug": "版本：uap-1-2-0-3"
-        },
-        {
-          "level": 3,
-          "title": "新功能",
-          "slug": "新功能-3"
-        },
-        {
-          "level": 3,
-          "title": "问题修复和优化",
-          "slug": "问题修复和优化-3"
-        },
-        {
-          "level": 2,
-          "title": "版本：UAP 1.1.0.2",
-          "slug": "版本：uap-1-1-0-2"
-        },
-        {
-          "level": 3,
-          "title": "新功能",
-          "slug": "新功能-4"
-        },
-        {
-          "level": 3,
-          "title": "问题修复和优化",
-          "slug": "问题修复和优化-4"
-        }
-      ],
-      "lastUpdated": "2020-3-13 4:23:35 PM"
-    },
-    {
-      "title": "redis配置",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/redis-sentry.html",
-      "relativePath": "zh/guide/redis-sentry.md",
-      "key": "v-7f22b535",
-      "path": "/zh/guide/redis-sentry.html",
-      "lastUpdated": "2020-3-13 4:23:35 PM"
-    },
-    {
-      "title": "My Mission",
-      "frontmatter": {
-        "title": "My Mission",
-        "metaTitle": "My mission",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/guide/userManual/07-my-task.html",
-      "relativePath": "guide/userManual/07-my-task.md",
-      "key": "v-a8ad830a",
-      "path": "/guide/userManual/07-my-task.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "My task",
-          "slug": "my-task-2"
-        },
-        {
-          "level": 2,
-          "title": "History Mission",
-          "slug": "history-mission"
-        },
-        {
-          "level": 2,
-          "title": "My process instance",
-          "slug": "my-process-instance"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
     },
     {
       "title": "Configure and run",
       "frontmatter": {},
       "regularPath": "/guide/run.html",
       "relativePath": "guide/run.md",
-      "key": "v-d5b6a6a4",
+      "key": "v-8f9f3e1a",
       "path": "/guide/run.html",
       "headers": [
         {
@@ -1257,6 +512,54 @@ export const siteData = {
       "lastUpdated": "3/17/2020, 3:15:21 PM"
     },
     {
+      "title": "Introduction",
+      "frontmatter": {
+        "title": "Introduction",
+        "metaTitle": "Introduction"
+      },
+      "regularPath": "/guide/userManual/01-introduction.html",
+      "relativePath": "guide/userManual/01-introduction.md",
+      "key": "v-6649fcd4",
+      "path": "/guide/userManual/01-introduction.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Platform Introduction",
+          "slug": "platform-introduction"
+        },
+        {
+          "level": 2,
+          "title": "The Term",
+          "slug": "the-term"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
+      "title": "Login and Home",
+      "frontmatter": {
+        "title": "Login and Home",
+        "metaTitle": "Login and Home"
+      },
+      "regularPath": "/guide/userManual/02-login.html",
+      "relativePath": "guide/userManual/02-login.md",
+      "key": "v-04aa7f40",
+      "path": "/guide/userManual/02-login.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Log In",
+          "slug": "log-in"
+        },
+        {
+          "level": 2,
+          "title": "Home",
+          "slug": "home"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
       "title": "Organization Management",
       "frontmatter": {
         "title": "Organization Management",
@@ -1265,7 +568,7 @@ export const siteData = {
       },
       "regularPath": "/guide/userManual/03-organization.html",
       "relativePath": "guide/userManual/03-organization.md",
-      "key": "v-3ec659a3",
+      "key": "v-53635d28",
       "path": "/guide/userManual/03-organization.html",
       "headers": [
         {
@@ -1357,6 +660,151 @@ export const siteData = {
       "lastUpdated": "3/17/2020, 3:15:21 PM"
     },
     {
+      "title": "Rights Management",
+      "frontmatter": {
+        "title": "Rights Management",
+        "metaTitle": "Rights Management",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/04-authority.html",
+      "relativePath": "guide/userManual/04-authority.md",
+      "key": "v-28e5d580",
+      "path": "/guide/userManual/04-authority.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Roles",
+          "slug": "roles"
+        },
+        {
+          "level": 3,
+          "title": "Add character",
+          "slug": "add-character"
+        },
+        {
+          "level": 3,
+          "title": "Delete role",
+          "slug": "delete-role"
+        },
+        {
+          "level": 3,
+          "title": "Edit role",
+          "slug": "edit-role"
+        },
+        {
+          "level": 3,
+          "title": "Start and stop roles",
+          "slug": "start-and-stop-roles"
+        },
+        {
+          "level": 3,
+          "title": "Role Assignment Menu",
+          "slug": "role-assignment-menu"
+        },
+        {
+          "level": 3,
+          "title": "Configuration (assigning roles to users)",
+          "slug": "configuration-assigning-roles-to-users"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
+      "title": "System Settings",
+      "frontmatter": {
+        "title": "System Settings",
+        "metaTitle": "System settings",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/05-system-settings.html",
+      "relativePath": "guide/userManual/05-system-settings.md",
+      "key": "v-4076f760",
+      "path": "/guide/userManual/05-system-settings.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "System coding",
+          "slug": "system-coding"
+        },
+        {
+          "level": 3,
+          "title": "Add encoding",
+          "slug": "add-encoding"
+        },
+        {
+          "level": 3,
+          "title": "Edit encoding",
+          "slug": "edit-encoding"
+        },
+        {
+          "level": 3,
+          "title": "Delete encoding",
+          "slug": "delete-encoding"
+        },
+        {
+          "level": 2,
+          "title": "API Interface Log",
+          "slug": "api-interface-log"
+        },
+        {
+          "level": 3,
+          "title": "View detailed log information",
+          "slug": "view-detailed-log-information"
+        },
+        {
+          "level": 2,
+          "title": "Login log",
+          "slug": "login-log"
+        },
+        {
+          "level": 2,
+          "title": "Calendar management",
+          "slug": "calendar-management"
+        },
+        {
+          "level": 2,
+          "title": "Illegal login log",
+          "slug": "illegal-login-log"
+        },
+        {
+          "level": 2,
+          "title": "Menu log",
+          "slug": "menu-log"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
+      "title": "My Mission",
+      "frontmatter": {
+        "title": "My Mission",
+        "metaTitle": "My mission",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/07-my-task.html",
+      "relativePath": "guide/userManual/07-my-task.md",
+      "key": "v-9bb21780",
+      "path": "/guide/userManual/07-my-task.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "My task",
+          "slug": "my-task-2"
+        },
+        {
+          "level": 2,
+          "title": "History Mission",
+          "slug": "history-mission"
+        },
+        {
+          "level": 2,
+          "title": "My process instance",
+          "slug": "my-process-instance"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
       "title": "Application Settings",
       "frontmatter": {
         "title": "Application Settings",
@@ -1365,7 +813,7 @@ export const siteData = {
       },
       "regularPath": "/guide/userManual/06-application-settings.html",
       "relativePath": "guide/userManual/06-application-settings.md",
-      "key": "v-747de1cf",
+      "key": "v-d6158958",
       "path": "/guide/userManual/06-application-settings.html",
       "headers": [
         {
@@ -1510,7 +958,7 @@ export const siteData = {
       },
       "regularPath": "/guide/userManual/08-workflow.html",
       "relativePath": "guide/userManual/08-workflow.md",
-      "key": "v-34ff1115",
+      "key": "v-da332ccc",
       "path": "/guide/userManual/08-workflow.html",
       "headers": [
         {
@@ -1577,11 +1025,528 @@ export const siteData = {
       "lastUpdated": "3/17/2020, 3:15:21 PM"
     },
     {
+      "title": "Timed Task",
+      "frontmatter": {
+        "title": "Timed Task",
+        "metaTitle": "Timed Task",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/09-timed-task.html",
+      "relativePath": "guide/userManual/09-timed-task.md",
+      "key": "v-5f2afd64",
+      "path": "/guide/userManual/09-timed-task.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Scheduled task configuration",
+          "slug": "scheduled-task-configuration"
+        },
+        {
+          "level": 2,
+          "title": "Execution history",
+          "slug": "execution-history"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
+      "title": "Message Center",
+      "frontmatter": {
+        "title": "Message Center",
+        "metaTitle": "Message Center",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/10-message.html",
+      "relativePath": "guide/userManual/10-message.md",
+      "key": "v-1c33b940",
+      "path": "/guide/userManual/10-message.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "User messages",
+          "slug": "user-messages"
+        },
+        {
+          "level": 2,
+          "title": "All messages",
+          "slug": "all-messages"
+        },
+        {
+          "level": 2,
+          "title": "Configure the color of the message type",
+          "slug": "configure-the-color-of-the-message-type"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
+      "title": "Monitoring",
+      "frontmatter": {
+        "title": "Monitoring",
+        "metaTitle": "Monitoring",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/11-monitor.html",
+      "relativePath": "guide/userManual/11-monitor.md",
+      "key": "v-3b241de0",
+      "path": "/guide/userManual/11-monitor.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Monitoring data",
+          "slug": "monitoring-data"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "/logo.png",
+        "actionText": "快速了解 →",
+        "actionLink": "/zh/guide/",
+        "features": [
+          {
+            "title": "平台化",
+            "details": "形成以HX UAP为基础的开发模式，各个业务系统只需要针对实际业务场景进行功能开发，无需关注底层平台问题。"
+          },
+          {
+            "title": "模块化",
+            "details": "HX UAP本身内部也具备模块化特征，在部署和使用过程中，只需要根据实际需求进行不同模型的部署，各个功能模型形成独自的服务，基于HX UAP开发的业务系统也具备类似能力。"
+          },
+          {
+            "title": "兼容性",
+            "details": "HX UAP平台兼容现有业务系统的底层功能，前端满足总体界面风格以及操作模式，同时也提供了旧有系统的操作模式以及习惯。平台也提供了各种适配用于旧有系统改造。"
+          },
+          {
+            "title": "易用性",
+            "details": "满足系统软件的界面设计统一风格，操作模式上参考了各个现场用户习惯，使得最终用户快速上手。"
+          }
+        ],
+        "footer": "Copyright © 2020-uap"
+      },
+      "regularPath": "/zh/",
+      "relativePath": "zh/README.md",
+      "key": "v-2827325e",
+      "path": "/zh/",
+      "lastUpdated": "2020/3/13 下午4:23:35"
+    },
+    {
+      "title": "Release Notes",
+      "frontmatter": {
+        "sidebar": "auto"
+      },
+      "regularPath": "/miscellaneous/release-notes.html",
+      "relativePath": "miscellaneous/release-notes.md",
+      "key": "v-d1f6489a",
+      "path": "/miscellaneous/release-notes.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Version: UAP 2.0.0.0",
+          "slug": "version-uap-2-0-0-0"
+        },
+        {
+          "level": 3,
+          "title": "New Function",
+          "slug": "new-function"
+        },
+        {
+          "level": 3,
+          "title": "Bug fixes and optimizations",
+          "slug": "bug-fixes-and-optimizations"
+        },
+        {
+          "level": 2,
+          "title": "Version: UAP 1.3.0.0",
+          "slug": "version-uap-1-3-0-0"
+        },
+        {
+          "level": 3,
+          "title": "New Function",
+          "slug": "new-function-2"
+        },
+        {
+          "level": 3,
+          "title": "Bug fixes and optimizations",
+          "slug": "bug-fixes-and-optimizations-2"
+        },
+        {
+          "level": 2,
+          "title": "Version: UAP 1.2.0.3",
+          "slug": "version-uap-1-2-0-3"
+        },
+        {
+          "level": 3,
+          "title": "New Function",
+          "slug": "new-function-3"
+        },
+        {
+          "level": 3,
+          "title": "Bug fixes and optimizations",
+          "slug": "bug-fixes-and-optimizations-3"
+        },
+        {
+          "level": 2,
+          "title": "Version: UAP 1.1.0.2",
+          "slug": "version-uap-1-1-0-2"
+        },
+        {
+          "level": 3,
+          "title": "New Function",
+          "slug": "new-function-4"
+        },
+        {
+          "level": 3,
+          "title": "Bug fixes and optimizations",
+          "slug": "bug-fixes-and-optimizations-4"
+        }
+      ],
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
+    },
+    {
+      "title": "FAQ",
+      "frontmatter": {
+        "title": "FAQ",
+        "meteTitle": "FAQ",
+        "sidebarDepth": "auto"
+      },
+      "regularPath": "/zh/faq/",
+      "relativePath": "zh/faq/README.md",
+      "key": "v-865b251e",
+      "path": "/zh/faq/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Q：什么是HX UAP？",
+          "slug": "q：什么是hx-uap？"
+        },
+        {
+          "level": 2,
+          "title": "Q：HX UAP部署需要准备什么软件或文件？",
+          "slug": "q：hx-uap部署需要准备什么软件或文件？"
+        },
+        {
+          "level": 2,
+          "title": "Q：war包应该放在哪里？",
+          "slug": "q：war包应该放在哪里？"
+        },
+        {
+          "level": 2,
+          "title": "Q：为什么修改Tomcat中的配置文件后，配置仍不生效？",
+          "slug": "q：为什么修改tomcat中的配置文件后，配置仍不生效？"
+        },
+        {
+          "level": 2,
+          "title": "Q：为什么Tomcat启动时总是报错？",
+          "slug": "q：为什么tomcat启动时总是报错？"
+        },
+        {
+          "level": 2,
+          "title": "Q：为什么Tomcat启动不起来或者自动退出？",
+          "slug": "q：为什么tomcat启动不起来或者自动退出？"
+        },
+        {
+          "level": 2,
+          "title": "Q：管理员用户与普通用户的区别是什么？",
+          "slug": "q：管理员用户与普通用户的区别是什么？"
+        },
+        {
+          "level": 2,
+          "title": "Q：如何判断账户是否为管理员角色？",
+          "slug": "q：如何判断账户是否为管理员角色？"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "开发手册",
+      "frontmatter": {
+        "sidebar": "auto"
+      },
+      "regularPath": "/zh/development/",
+      "relativePath": "zh/development/README.md",
+      "key": "v-0545e0d1",
+      "path": "/zh/development/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前端开发",
+          "slug": "前端开发"
+        },
+        {
+          "level": 3,
+          "title": "前端工程",
+          "slug": "前端工程"
+        },
+        {
+          "level": 3,
+          "title": "通用服务",
+          "slug": "通用服务"
+        },
+        {
+          "level": 3,
+          "title": "前端集成",
+          "slug": "前端集成"
+        },
+        {
+          "level": 3,
+          "title": "国际化",
+          "slug": "国际化"
+        },
+        {
+          "level": 2,
+          "title": "后端开发",
+          "slug": "后端开发"
+        },
+        {
+          "level": 3,
+          "title": "后端工程",
+          "slug": "后端工程"
+        },
+        {
+          "level": 3,
+          "title": "接口规范",
+          "slug": "接口规范"
+        },
+        {
+          "level": 3,
+          "title": "国际化",
+          "slug": "国际化-2"
+        },
+        {
+          "level": 2,
+          "title": "工作流",
+          "slug": "工作流"
+        },
+        {
+          "level": 3,
+          "title": "设计流程",
+          "slug": "设计流程"
+        },
+        {
+          "level": 3,
+          "title": "部署流程",
+          "slug": "部署流程"
+        },
+        {
+          "level": 3,
+          "title": "应用开发",
+          "slug": "应用开发"
+        },
+        {
+          "level": 2,
+          "title": "定时任务",
+          "slug": "定时任务"
+        },
+        {
+          "level": 3,
+          "title": "定时任务开发步骤",
+          "slug": "定时任务开发步骤"
+        },
+        {
+          "level": 3,
+          "title": "编写rest接口",
+          "slug": "编写rest接口"
+        },
+        {
+          "level": 3,
+          "title": "调度执行过程",
+          "slug": "调度执行过程"
+        },
+        {
+          "level": 3,
+          "title": "业务侧反写业务日志",
+          "slug": "业务侧反写业务日志"
+        },
+        {
+          "level": 3,
+          "title": "检查接口",
+          "slug": "检查接口"
+        },
+        {
+          "level": 3,
+          "title": "配置执行计划",
+          "slug": "配置执行计划"
+        },
+        {
+          "level": 3,
+          "title": "执行日志查看",
+          "slug": "执行日志查看"
+        },
+        {
+          "level": 2,
+          "title": "消息中心",
+          "slug": "消息中心"
+        },
+        {
+          "level": 3,
+          "title": "消息topic",
+          "slug": "消息topic"
+        },
+        {
+          "level": 3,
+          "title": "消息发送",
+          "slug": "消息发送"
+        },
+        {
+          "level": 2,
+          "title": "权限管理开发",
+          "slug": "权限管理开发"
+        },
+        {
+          "level": 3,
+          "title": "数据权限",
+          "slug": "数据权限"
+        },
+        {
+          "level": 3,
+          "title": "开启数据权限功能",
+          "slug": "开启数据权限功能"
+        },
+        {
+          "level": 3,
+          "title": "配置数据权限内容",
+          "slug": "配置数据权限内容"
+        },
+        {
+          "level": 3,
+          "title": "增加数据权限位数",
+          "slug": "增加数据权限位数"
+        },
+        {
+          "level": 3,
+          "title": "为角色分配数据权限",
+          "slug": "为角色分配数据权限"
+        },
+        {
+          "level": 3,
+          "title": "同步权限",
+          "slug": "同步权限"
+        }
+      ],
+      "lastUpdated": "2020/3/19 上午9:16:12"
+    },
+    {
+      "title": "介绍",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/",
+      "relativePath": "zh/guide/README.md",
+      "key": "v-755963f1",
+      "path": "/zh/guide/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "背景",
+          "slug": "背景"
+        },
+        {
+          "level": 2,
+          "title": "产品目标",
+          "slug": "产品目标"
+        },
+        {
+          "level": 2,
+          "title": "产品范围定义",
+          "slug": "产品范围定义"
+        },
+        {
+          "level": 2,
+          "title": "产品价值",
+          "slug": "产品价值"
+        }
+      ],
+      "lastUpdated": "2020/3/13 下午4:23:35"
+    },
+    {
+      "title": "部署",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/deploy.html",
+      "relativePath": "zh/guide/deploy.md",
+      "key": "v-5055fbfa",
+      "path": "/zh/guide/deploy.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "平台基础功能数据库",
+          "slug": "平台基础功能数据库"
+        },
+        {
+          "level": 2,
+          "title": "程序",
+          "slug": "程序"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "部署前的准备工作",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/prepare.html",
+      "relativePath": "zh/guide/prepare.md",
+      "key": "v-10e27020",
+      "path": "/zh/guide/prepare.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "操作系统",
+          "slug": "操作系统"
+        },
+        {
+          "level": 3,
+          "title": "统一应用平台支持Windows服务器或者Linux服务器，推荐使用Linux服务器。",
+          "slug": "统一应用平台支持windows服务器或者linux服务器，推荐使用linux服务器。"
+        },
+        {
+          "level": 3,
+          "title": "安装操作系统",
+          "slug": "安装操作系统"
+        },
+        {
+          "level": 2,
+          "title": "环境准备",
+          "slug": "环境准备"
+        },
+        {
+          "level": 3,
+          "title": "统一应用平台需要用到以下相关工具或者运行环境",
+          "slug": "统一应用平台需要用到以下相关工具或者运行环境"
+        },
+        {
+          "level": 3,
+          "title": "安装数据库",
+          "slug": "安装数据库"
+        },
+        {
+          "level": 3,
+          "title": "安装JDK",
+          "slug": "安装jdk"
+        },
+        {
+          "level": 3,
+          "title": "安装Tomcat",
+          "slug": "安装tomcat"
+        },
+        {
+          "level": 3,
+          "title": "安装浏览器",
+          "slug": "安装浏览器"
+        },
+        {
+          "level": 3,
+          "title": "统一应用平台安装包",
+          "slug": "统一应用平台安装包"
+        }
+      ],
+      "lastUpdated": "2020/3/13 下午4:23:35"
+    },
+    {
       "title": "配置和运行",
       "frontmatter": {},
       "regularPath": "/zh/guide/run.html",
       "relativePath": "zh/guide/run.md",
-      "key": "v-13948a13",
+      "key": "v-b3d192d0",
       "path": "/zh/guide/run.html",
       "headers": [
         {
@@ -1635,7 +1600,279 @@ export const siteData = {
           "slug": "打开统一应用平台"
         }
       ],
-      "lastUpdated": "2020-3-17 3:15:21 PM"
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "redis配置",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/redis-sentry.html",
+      "relativePath": "zh/guide/redis-sentry.md",
+      "key": "v-ef51ab0c",
+      "path": "/zh/guide/redis-sentry.html",
+      "lastUpdated": "2020/3/13 下午4:23:35"
+    },
+    {
+      "title": "登录和首页",
+      "frontmatter": {
+        "title": "登录和首页",
+        "metaTitle": "登录和首页"
+      },
+      "regularPath": "/zh/guide/userManual/02-login.html",
+      "relativePath": "zh/guide/userManual/02-login.md",
+      "key": "v-2d354e69",
+      "path": "/zh/guide/userManual/02-login.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "登录",
+          "slug": "登录"
+        },
+        {
+          "level": 2,
+          "title": "首页",
+          "slug": "首页"
+        }
+      ],
+      "lastUpdated": "2020/3/18 下午3:03:06"
+    },
+    {
+      "title": "介绍",
+      "frontmatter": {
+        "title": "介绍",
+        "metaTitle": "介绍"
+      },
+      "regularPath": "/zh/guide/userManual/01-introduction.html",
+      "relativePath": "zh/guide/userManual/01-introduction.md",
+      "key": "v-4a35e966",
+      "path": "/zh/guide/userManual/01-introduction.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "平台介绍",
+          "slug": "平台介绍"
+        },
+        {
+          "level": 2,
+          "title": "术语",
+          "slug": "术语"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "组织管理",
+      "frontmatter": {
+        "title": "组织管理",
+        "metaTitle": "组织管理",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/03-organization.html",
+      "relativePath": "zh/guide/userManual/03-organization.md",
+      "key": "v-77b9c32d",
+      "path": "/zh/guide/userManual/03-organization.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "用户",
+          "slug": "用户"
+        },
+        {
+          "level": 3,
+          "title": "用户操作列表介绍",
+          "slug": "用户操作列表介绍"
+        },
+        {
+          "level": 3,
+          "title": "新增用户",
+          "slug": "新增用户"
+        },
+        {
+          "level": 3,
+          "title": "编辑用户",
+          "slug": "编辑用户"
+        },
+        {
+          "level": 3,
+          "title": "配置（给用户配置角色）",
+          "slug": "配置（给用户配置角色）"
+        },
+        {
+          "level": 3,
+          "title": "配置管理单元",
+          "slug": "配置管理单元"
+        },
+        {
+          "level": 3,
+          "title": "重置密码",
+          "slug": "重置密码"
+        },
+        {
+          "level": 3,
+          "title": "密码修改记录",
+          "slug": "密码修改记录"
+        },
+        {
+          "level": 3,
+          "title": "启停用户",
+          "slug": "启停用户"
+        },
+        {
+          "level": 2,
+          "title": "组织",
+          "slug": "组织"
+        },
+        {
+          "level": 3,
+          "title": "新增组织",
+          "slug": "新增组织"
+        },
+        {
+          "level": 3,
+          "title": "编辑组织",
+          "slug": "编辑组织"
+        },
+        {
+          "level": 3,
+          "title": "组织排序",
+          "slug": "组织排序"
+        },
+        {
+          "level": 3,
+          "title": "启停组织",
+          "slug": "启停组织"
+        },
+        {
+          "level": 2,
+          "title": "管理单位配置",
+          "slug": "管理单位配置"
+        },
+        {
+          "level": 3,
+          "title": "新增用户分配组织",
+          "slug": "新增用户分配组织"
+        },
+        {
+          "level": 3,
+          "title": "删除用户已分配组织",
+          "slug": "删除用户已分配组织"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "权限管理",
+      "frontmatter": {
+        "title": "权限管理",
+        "metaTitle": "权限管理",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/04-authority.html",
+      "relativePath": "zh/guide/userManual/04-authority.md",
+      "key": "v-5d0a3a9e",
+      "path": "/zh/guide/userManual/04-authority.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "角色",
+          "slug": "角色"
+        },
+        {
+          "level": 3,
+          "title": "新增角色",
+          "slug": "新增角色"
+        },
+        {
+          "level": 3,
+          "title": "删除角色",
+          "slug": "删除角色"
+        },
+        {
+          "level": 3,
+          "title": "编辑角色",
+          "slug": "编辑角色"
+        },
+        {
+          "level": 3,
+          "title": "启停角色",
+          "slug": "启停角色"
+        },
+        {
+          "level": 3,
+          "title": "角色分配菜单",
+          "slug": "角色分配菜单"
+        },
+        {
+          "level": 3,
+          "title": "配置（将角色分配给用户）",
+          "slug": "配置（将角色分配给用户）"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "系统设置",
+      "frontmatter": {
+        "title": "系统设置",
+        "metaTitle": "系统设置",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/05-system-settings.html",
+      "relativePath": "zh/guide/userManual/05-system-settings.md",
+      "key": "v-5adc489a",
+      "path": "/zh/guide/userManual/05-system-settings.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "系统编码",
+          "slug": "系统编码"
+        },
+        {
+          "level": 3,
+          "title": "新增编码",
+          "slug": "新增编码"
+        },
+        {
+          "level": 3,
+          "title": "编辑编码",
+          "slug": "编辑编码"
+        },
+        {
+          "level": 3,
+          "title": "删除编码",
+          "slug": "删除编码"
+        },
+        {
+          "level": 2,
+          "title": "API接口日志",
+          "slug": "api接口日志"
+        },
+        {
+          "level": 3,
+          "title": "查看详细的日志信息",
+          "slug": "查看详细的日志信息"
+        },
+        {
+          "level": 2,
+          "title": "登录日志",
+          "slug": "登录日志"
+        },
+        {
+          "level": 2,
+          "title": "日历管理",
+          "slug": "日历管理"
+        },
+        {
+          "level": 2,
+          "title": "非法登录日志",
+          "slug": "非法登录日志"
+        },
+        {
+          "level": 2,
+          "title": "菜单日志",
+          "slug": "菜单日志"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
     },
     {
       "title": "应用设置",
@@ -1646,7 +1883,7 @@ export const siteData = {
       },
       "regularPath": "/zh/guide/userManual/06-application-settings.html",
       "relativePath": "zh/guide/userManual/06-application-settings.md",
-      "key": "v-50e399a8",
+      "key": "v-fb5e0926",
       "path": "/zh/guide/userManual/06-application-settings.html",
       "headers": [
         {
@@ -1780,283 +2017,260 @@ export const siteData = {
           "slug": "租户信息"
         }
       ],
-      "lastUpdated": "2020-3-17 3:15:21 PM"
+      "lastUpdated": "2020/3/17 下午3:15:21"
     },
     {
-      "title": "开发手册",
+      "title": "我的任务",
       "frontmatter": {
-        "sidebar": "auto"
+        "title": "我的任务",
+        "metaTitle": "我的任务",
+        "sidebarDepth": 3
       },
-      "regularPath": "/zh/development/",
-      "relativePath": "zh/development/README.md",
-      "key": "v-68348614",
-      "path": "/zh/development/",
+      "regularPath": "/zh/guide/userManual/07-my-task.html",
+      "relativePath": "zh/guide/userManual/07-my-task.md",
+      "key": "v-9ccfe1b6",
+      "path": "/zh/guide/userManual/07-my-task.html",
       "headers": [
         {
           "level": 2,
-          "title": "前端开发",
-          "slug": "前端开发"
-        },
-        {
-          "level": 3,
-          "title": "前端工程",
-          "slug": "前端工程"
-        },
-        {
-          "level": 3,
-          "title": "通用服务",
-          "slug": "通用服务"
-        },
-        {
-          "level": 3,
-          "title": "前端集成",
-          "slug": "前端集成"
-        },
-        {
-          "level": 3,
-          "title": "国际化",
-          "slug": "国际化"
+          "title": "我的任务",
+          "slug": "我的任务-2"
         },
         {
           "level": 2,
-          "title": "后端开发",
-          "slug": "后端开发"
-        },
-        {
-          "level": 3,
-          "title": "后端工程",
-          "slug": "后端工程"
-        },
-        {
-          "level": 3,
-          "title": "接口规范",
-          "slug": "接口规范"
-        },
-        {
-          "level": 3,
-          "title": "国际化",
-          "slug": "国际化-2"
+          "title": "历史任务",
+          "slug": "历史任务"
         },
         {
           "level": 2,
-          "title": "工作流",
-          "slug": "工作流"
+          "title": "我的流程实例",
+          "slug": "我的流程实例"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "工作流",
+      "frontmatter": {
+        "title": "工作流",
+        "metaTitle": "工作流",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/08-workflow.html",
+      "relativePath": "zh/guide/userManual/08-workflow.md",
+      "key": "v-45f9d10d",
+      "path": "/zh/guide/userManual/08-workflow.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "流程设计",
+          "slug": "流程设计"
         },
         {
           "level": 3,
-          "title": "设计流程",
-          "slug": "设计流程"
+          "title": "流程分组",
+          "slug": "流程分组"
         },
         {
           "level": 3,
+          "title": "流程",
+          "slug": "流程"
+        },
+        {
+          "level": 2,
           "title": "部署流程",
           "slug": "部署流程"
         },
         {
           "level": 3,
-          "title": "应用开发",
-          "slug": "应用开发"
+          "title": "流程表单配置",
+          "slug": "流程表单配置"
+        },
+        {
+          "level": 3,
+          "title": "部署信息查看",
+          "slug": "部署信息查看"
         },
         {
           "level": 2,
-          "title": "定时任务",
-          "slug": "定时任务"
-        },
-        {
-          "level": 3,
-          "title": "定时任务开发步骤",
-          "slug": "定时任务开发步骤"
-        },
-        {
-          "level": 3,
-          "title": "编写rest接口",
-          "slug": "编写rest接口"
-        },
-        {
-          "level": 3,
-          "title": "调度执行过程",
-          "slug": "调度执行过程"
-        },
-        {
-          "level": 3,
-          "title": "业务侧反写业务日志",
-          "slug": "业务侧反写业务日志"
-        },
-        {
-          "level": 3,
-          "title": "检查接口",
-          "slug": "检查接口"
-        },
-        {
-          "level": 3,
-          "title": "配置执行计划",
-          "slug": "配置执行计划"
-        },
-        {
-          "level": 3,
-          "title": "执行日志查看",
-          "slug": "执行日志查看"
+          "title": "流程实例",
+          "slug": "流程实例"
         },
         {
           "level": 2,
-          "title": "消息中心",
-          "slug": "消息中心"
-        },
-        {
-          "level": 3,
-          "title": "消息topic",
-          "slug": "消息topic"
-        },
-        {
-          "level": 3,
-          "title": "消息发送",
-          "slug": "消息发送"
+          "title": "流程任务",
+          "slug": "流程任务"
         },
         {
           "level": 2,
-          "title": "权限管理开发",
-          "slug": "权限管理开发"
+          "title": "页面配置",
+          "slug": "页面配置"
+        },
+        {
+          "level": 3,
+          "title": "字段组合",
+          "slug": "字段组合"
+        },
+        {
+          "level": 3,
+          "title": "字段",
+          "slug": "字段"
+        },
+        {
+          "level": 2,
+          "title": "动态字段管理",
+          "slug": "动态字段管理"
         }
       ],
-      "lastUpdated": "2020-3-18 5:01:17 PM"
+      "lastUpdated": "2020/3/17 下午3:15:21"
     },
     {
-      "title": "Development Manual",
+      "title": "定时任务",
       "frontmatter": {
-        "sidebar": "auto"
+        "title": "定时任务",
+        "metaTitle": "定时任务",
+        "sidebarDepth": 3
       },
-      "regularPath": "/development/",
-      "relativePath": "development/README.md",
-      "key": "v-1c225075",
-      "path": "/development/",
+      "regularPath": "/zh/guide/userManual/09-timed-task.html",
+      "relativePath": "zh/guide/userManual/09-timed-task.md",
+      "key": "v-8207e3a6",
+      "path": "/zh/guide/userManual/09-timed-task.html",
       "headers": [
         {
           "level": 2,
-          "title": "Front-end development",
-          "slug": "front-end-development"
-        },
-        {
-          "level": 3,
-          "title": "Front-end engineering",
-          "slug": "front-end-engineering"
-        },
-        {
-          "level": 3,
-          "title": "General Services",
-          "slug": "general-services"
-        },
-        {
-          "level": 3,
-          "title": "Front-end integration",
-          "slug": "front-end-integration"
-        },
-        {
-          "level": 3,
-          "title": "Globalization",
-          "slug": "globalization"
+          "title": "定时任务配置",
+          "slug": "定时任务配置"
         },
         {
           "level": 2,
-          "title": "Backend development",
-          "slug": "backend-development"
-        },
-        {
-          "level": 3,
-          "title": "Back-end engineering",
-          "slug": "back-end-engineering"
-        },
-        {
-          "level": 3,
-          "title": "Interface Specification",
-          "slug": "interface-specification"
-        },
-        {
-          "level": 3,
-          "title": "Globalization",
-          "slug": "globalization-2"
-        },
-        {
-          "level": 2,
-          "title": "Workflow",
-          "slug": "workflow"
-        },
-        {
-          "level": 3,
-          "title": "Design Flow",
-          "slug": "design-flow"
-        },
-        {
-          "level": 3,
-          "title": "Deployment process",
-          "slug": "deployment-process"
-        },
-        {
-          "level": 3,
-          "title": "Application Development",
-          "slug": "application-development"
-        },
-        {
-          "level": 2,
-          "title": "Scheduled tasks",
-          "slug": "scheduled-tasks"
-        },
-        {
-          "level": 3,
-          "title": "Timing task development steps",
-          "slug": "timing-task-development-steps"
-        },
-        {
-          "level": 3,
-          "title": "Writing the rest interface",
-          "slug": "writing-the-rest-interface"
-        },
-        {
-          "level": 3,
-          "title": "Scheduling the execution process",
-          "slug": "scheduling-the-execution-process"
-        },
-        {
-          "level": 3,
-          "title": "Business side write back business log",
-          "slug": "business-side-write-back-business-log"
-        },
-        {
-          "level": 3,
-          "title": "Check interface",
-          "slug": "check-interface"
-        },
-        {
-          "level": 3,
-          "title": "Configure execution plan",
-          "slug": "configure-execution-plan"
-        },
-        {
-          "level": 3,
-          "title": "Execution log view",
-          "slug": "execution-log-view"
-        },
-        {
-          "level": 2,
-          "title": "Message Center",
-          "slug": "message-center"
-        },
-        {
-          "level": 3,
-          "title": "Message topic",
-          "slug": "message-topic"
-        },
-        {
-          "level": 3,
-          "title": "Message sending",
-          "slug": "message-sending"
-        },
-        {
-          "level": 2,
-          "title": "Rights Management Development",
-          "slug": "rights-management-development"
+          "title": "执行历史",
+          "slug": "执行历史"
         }
       ],
-      "lastUpdated": "3/18/2020, 5:01:17 PM"
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "消息中心",
+      "frontmatter": {
+        "title": "消息中心",
+        "metaTitle": "消息中心",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/10-message.html",
+      "relativePath": "zh/guide/userManual/10-message.md",
+      "key": "v-0aeb5673",
+      "path": "/zh/guide/userManual/10-message.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "用户消息",
+          "slug": "用户消息"
+        },
+        {
+          "level": 2,
+          "title": "所有消息",
+          "slug": "所有消息"
+        },
+        {
+          "level": 2,
+          "title": "配置消息类型的颜色",
+          "slug": "配置消息类型的颜色"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "监控",
+      "frontmatter": {
+        "title": "监控",
+        "metaTitle": "监控",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/11-monitor.html",
+      "relativePath": "zh/guide/userManual/11-monitor.md",
+      "key": "v-7fa31bcb",
+      "path": "/zh/guide/userManual/11-monitor.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "监控数据",
+          "slug": "监控数据"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "发布说明",
+      "frontmatter": {
+        "sidebar": "auto"
+      },
+      "regularPath": "/zh/miscellaneous/release-notes.html",
+      "relativePath": "zh/miscellaneous/release-notes.md",
+      "key": "v-48f14094",
+      "path": "/zh/miscellaneous/release-notes.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "版本：UAP 2.0.0.0",
+          "slug": "版本：uap-2-0-0-0"
+        },
+        {
+          "level": 3,
+          "title": "新功能",
+          "slug": "新功能"
+        },
+        {
+          "level": 3,
+          "title": "问题修复和优化",
+          "slug": "问题修复和优化"
+        },
+        {
+          "level": 2,
+          "title": "版本：UAP 1.3.0.0",
+          "slug": "版本：uap-1-3-0-0"
+        },
+        {
+          "level": 3,
+          "title": "新功能",
+          "slug": "新功能-2"
+        },
+        {
+          "level": 3,
+          "title": "问题修复和优化",
+          "slug": "问题修复和优化-2"
+        },
+        {
+          "level": 2,
+          "title": "版本：UAP 1.2.0.3",
+          "slug": "版本：uap-1-2-0-3"
+        },
+        {
+          "level": 3,
+          "title": "新功能",
+          "slug": "新功能-3"
+        },
+        {
+          "level": 3,
+          "title": "问题修复和优化",
+          "slug": "问题修复和优化-3"
+        },
+        {
+          "level": 2,
+          "title": "版本：UAP 1.1.0.2",
+          "slug": "版本：uap-1-1-0-2"
+        },
+        {
+          "level": 3,
+          "title": "新功能",
+          "slug": "新功能-4"
+        },
+        {
+          "level": 3,
+          "title": "问题修复和优化",
+          "slug": "问题修复和优化-4"
+        }
+      ],
+      "lastUpdated": "2020/3/13 下午4:23:35"
     }
   ],
   "themeConfig": {

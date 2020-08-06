@@ -518,3 +518,55 @@ How to control button operation permissions
     <img :src = "$withBase('/develop/functions.png')" alt = "image">
 
     If the code is ADD, it means that there is a new permission, otherwise there is no new permission. The corresponding interface can be hidden, grayed out, and error reported.
+
+
+### Data permission
+
+The data permission function is an enhancement of the role permission function of UAP, which can divide the data authority more carefully based on the original role permission.
+The default data permission is 64 bits, and each represents different data content. You can dynamically assign data permission content for each role in the role tab to achieve different data permissions for different roles.
+
+### Enable data permission function
+
+1. Log in to the UAP platform, click the `application settings` option in the left menu bar, and select `mulit tenant management`
+2. Under the list of tenants, click the **settings** button
+3. Enable `data privilege enable`
+  According to the above steps, the data permission function of the tenant can be opened
+
+### Configure data permission content
+
+1. Click on the **Data Privilege** tab
+
+<img :src="$withBase('/develop/dataPermissionMenu.jpg')" alt = "数据权限菜单">
+<!-- ![数据权限菜单](D:\Typora\笔记\imgs\数据权限菜单2.jpg) -->
+
+2. Click the edit button on the right side of each record
+
+<img :src="$withBase('/develop/dataPermissionEditor.jpg')" alt = "数据权限编辑">
+<!-- ![数据权限编辑](D:\Typora\笔记\imgs\数据权限编辑.jpg) -->
+
+3. Edit each bit of data
+
+### Increase the number of data permissions
+
+The data permission defaults to **64-bit** data. If the data type is large in actual operation, the amount of data can be expanded according to some stepsClick on the `Extended Digits` button in the picture above and select the number of digits you want to expand to
+
+<img :src="$withBase('/develop/dataPlus.jpg')" alt = "数据权限位数扩充">
+<!-- ![数据权限位数扩充](D:\Typora\笔记\imgs\数据权限位数扩充.jpg) -->
+
+### Assign data permissions to roles
+
+Data permissions can enhance the permissions of roles. Different data permissions can be assigned to each role. Users can obtain data permissions through the assigned roles.
+
+<img :src="$withBase('/develop/RolePermission.jpg')" alt = "Role分配权限">
+<!-- ![Role分配权限](D:\Typora\笔记\imgs\Role分配权限.jpg) -->
+
+<img :src="$withBase('/develop/RolePermissionEditor.jpg')" alt = "Role数据权限编辑">
+<!-- ![Role数据权限编辑](D:\Typora\笔记\imgs\Role数据权限编辑.jpg) -->
+
+You can check the data permission content corresponding to the corresponding role to configure the permission for the role. After the **Advanced option** is checked, you can view the numerical mode. The value 1 means **checked**, and 0 means **unchecked**
+
+### Sync permissions
+
+After assigning data permissions to the role, you can click the `Synchronization` button to update the current data permissions information for all users
+
+ in the roleUsers can cancel permissions according to their needs, and canceling permissions does **not affect** the permissions of the role itself and other user permissions

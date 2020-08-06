@@ -511,3 +511,60 @@ job执行后会在job日志表(uap_job_log)中填写日志信息，可到表中�
    <img :src="$withBase('/develop/functions.png')" alt="image">
 
    有code为ADD说明有新增权限,反之没有新增权限，对应界面可以做隐藏，置灰，报错等处理
+
+
+### 数据权限
+
+数据权限功能是对UAP的角色权限功能的增强，此功能能够在角色原有的权限基础上，对数据的权限进行更加细致的划分。
+
+默认数据权限为64位，每位表示不同的数据内容，可以在角色选项卡中为每个角色动态的分配数据权限内容，以达到不同角色有不同的数据权限。
+
+### 开启数据权限功能
+
+1. 登录uap平台，在左侧菜单栏中点击`Application Settings`选项，选择`Mulit-tenant management` 
+2. 在租户列表下，点击**设置**按钮
+3. 开启`Data Privilege Enable`
+
+按照以上步骤能够开启租户的数据权限功能
+
+### 配置数据权限内容
+
+1. 点击**Data Privilege**选项卡
+
+<img :src="$withBase('/develop/dataPermissionMenu.jpg')" alt = "数据权限菜单">
+
+<!-- ![数据权限菜单](D:\Typora\笔记\imgs\数据权限菜单2.jpg) -->
+
+2. 点击每条记录中右侧的编辑按钮
+
+<img :src="$withBase('/develop/dataPermissionEditor.jpg')" alt = "数据权限编辑">
+<!-- ![数据权限编辑](D:\Typora\笔记\imgs\数据权限编辑.jpg) -->
+
+3. 对每位数据进行编辑即可
+
+### 增加数据权限位数
+
+数据权限默认为**64位**数据，如果实际操作中数据类型较大，可以根据一些步骤扩充数据量
+
+点击上图中的`Extended Digits` 按钮，选择想要扩充到的位数即可
+
+<img :src="$withBase('/develop/dataPlus.jpg')" alt = "数据权限位数扩充">
+<!-- ![数据权限位数扩充](D:\Typora\笔记\imgs\数据权限位数扩充.jpg) -->
+
+### 为角色分配数据权限
+
+数据权限可以对角色的权限进行增强，可以为每个角色分配不同的数据权限，用户可以通过被分配的角色来获取数据权限。
+
+<img :src="$withBase('/develop/RolePermission.jpg')" alt = "Role分配权限">
+<!-- ![Role分配权限](D:\Typora\笔记\imgs\Role分配权限.jpg) -->
+
+<img :src="$withBase('/develop/RolePermissionEditor.jpg')" alt = "Role数据权限编辑">
+<!-- ![Role数据权限编辑](D:\Typora\笔记\imgs\Role数据权限编辑.jpg) -->
+
+可以勾选与对应角色相应的数据权限内容，为角色配置权限，**Advanced option**勾选后可以查看数值模式，数值1代表**已勾选**，0代表**未勾选**
+
+### 同步权限
+
+为角色分配完成数据权限后，可以点击`Synchronization`按钮，为所有角色下的用户更新当前的数据权限信息
+
+用户可根据需要对权限进行取消，取消权限**不影响**角色本身权限以及其他用户权限
