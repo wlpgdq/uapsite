@@ -570,3 +570,79 @@ You can check the data permission content corresponding to the corresponding rol
 After assigning data permissions to the role, you can click the `Synchronization` button to update the current data permissions information for all users
 
  in the roleUsers can cancel permissions according to their needs, and canceling permissions does **not affect** the permissions of the role itself and other user permissions
+
+## Custom Report
+
+The report function can be edited according to the prepared `template file`, and the created template can be filled with data, which realizes the function of dynamically displaying and downloading reports
+
+### Configure data source
+
+The data of each report is obtained through the database, so you need to select a successfully configured data source before generating a report each time, and you can connect to the database normally
+
+1. Click to configure data source
+
+2. Check whether the tenant is correct
+
+3. Click Add
+
+<img :src="$withBase('/develop/reportDataSource.jpg')" alt = "Data Source">
+
+
+**Configure data source information**: data source name, database ip address, database name, database user name, database password
+
+<img :src="$withBase('/develop/reportAdd.jpg')" alt = "Add data source">
+
+
+> Examples:
+
+> Data source name: report
+
+> Database ip: 172.1.1.1
+
+> Database name: UAP
+
+> Database user name: Admin
+
+> Database password: 123
+
+The database connection test can be done through `Test Connection`, the test is passed means success, you can click the confirm button
+
+### Configure report templates
+
+The prerequisite for configuring the report template is that you have used the report tool to make a compiled .jasper file, and configure and fill the prepared template with **report config**.
+
+-Add report group
+
+<img :src="$withBase('/develop/reportconfigAddName.jpg')" alt = "Add group">
+
+- Add report templates in the group
+- Set template name
+- Upload the template file (you need to configure the dfs configuration in the properties file before uploading)
+- Add the Key data in the report (need to correspond to the Key in the template file)
+
+<img :src="$withBase('/develop/reportAddConfig.jpg')" alt = "Configuration template">
+
+### Configure report template instance
+
+Each template can create multiple instances, and the created instances can be tested, edited, set, deleted, and set role permissions.
+
+1. Click the Add Instance button
+
+<img :src="$withBase('/develop/instAdd.jpg')" alt = "Add instance">
+
+2. Assign an alias (name) to the Key defined in the template and fill in the data (value). In addition to this, you also need to add a name for the current instance and select a data source
+
+<img :src="$withBase('/develop/instAdd2.jpg')" alt = "Add instance">
+
+3. The configured instance can be tested by clicking the `√` button on the right of the instance. If it can be run, the configuration is successful
+
+4. For the administrator, the above information needs to be configured, and the platform user only needs to fill in the data on the existing template instance
+
+### User use
+
+The `Report View` tab is a function developed for user operations. For users, users only need to perform data filling operations on existing report templates to complete their requirements. Therefore, users only need to understand this function to achieve report query , Preview, download, etc.
+
+<img :src="$withBase('/develop/reportView.jpg')" alt = "reportView">
+
+
+##

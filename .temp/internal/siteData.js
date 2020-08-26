@@ -73,6 +73,125 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "/logo.png",
+        "actionText": "Get Started Quickly →",
+        "actionLink": "/guide/",
+        "features": [
+          {
+            "title": "Platformization",
+            "details": "Forming a development model based on HX UAP, each business system only needs to develop functions for actual business scenarios, without paying attention to the underlying platform issues."
+          },
+          {
+            "title": "Modular",
+            "details": "HX UAP itself also has modular features. During deployment and use, different models need only be deployed according to actual needs. Each functional model forms an independent service. Business systems developed based on HX UAP also have similar capabilities."
+          },
+          {
+            "title": "Compatibility",
+            "details": "The HX UAP platform is compatible with the underlying functions of existing business systems. The front end meets the overall interface style and operation mode, while also providing the operation mode and habits of the old system. The platform also provides various adaptations for retrofitting legacy systems."
+          },
+          {
+            "title": "Ease of use",
+            "details": "It meets the unified style of the interface design of the system software, and refers to the habits of various field users in the operation mode, so that the end user can get started quickly."
+          }
+        ],
+        "footer": "Copyright © 2020-uap"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-e12b590a",
+      "path": "/",
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
+    },
+    {
+      "title": "FAQ",
+      "frontmatter": {
+        "title": "FAQ",
+        "meteTitle": "FAQ",
+        "sidebarDepth": "auto"
+      },
+      "regularPath": "/faq/",
+      "relativePath": "faq/README.md",
+      "key": "v-b77b9c4c",
+      "path": "/faq/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Q：What is HX UAP？",
+          "slug": "q：what-is-hx-uap？"
+        },
+        {
+          "level": 2,
+          "title": "Q：What software or files should be prepared for HX UAP deployment？",
+          "slug": "q：what-software-or-files-should-be-prepared-for-hx-uap-deployment？"
+        },
+        {
+          "level": 2,
+          "title": "Q：Where should the war package be placed？",
+          "slug": "q：where-should-the-war-package-be-placed？"
+        },
+        {
+          "level": 2,
+          "title": "Q：Why does the configuration still not take effect after modifying the configuration file in Tomcat？",
+          "slug": "q：why-does-the-configuration-still-not-take-effect-after-modifying-the-configuration-file-in-tomcat？"
+        },
+        {
+          "level": 2,
+          "title": "Q：Why does Tomcat always report errors when starting？",
+          "slug": "q：why-does-tomcat-always-report-errors-when-starting？"
+        },
+        {
+          "level": 2,
+          "title": "Q: Why does Tomcat fail to start or exit automatically？",
+          "slug": "q-why-does-tomcat-fail-to-start-or-exit-automatically？"
+        },
+        {
+          "level": 2,
+          "title": "Q：What is the difference between an administrator user and a normal user?",
+          "slug": "q：what-is-the-difference-between-an-administrator-user-and-a-normal-user"
+        },
+        {
+          "level": 2,
+          "title": "Q：How to determine whether the account is an administrator role?",
+          "slug": "q：how-to-determine-whether-the-account-is-an-administrator-role"
+        }
+      ],
+      "lastUpdated": "8/6/2020, 3:54:23 PM"
+    },
+    {
+      "title": "Introduction",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-b75472e4",
+      "path": "/guide/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Background",
+          "slug": "background"
+        },
+        {
+          "level": 2,
+          "title": "Product target",
+          "slug": "product-target"
+        },
+        {
+          "level": 2,
+          "title": "Product range definition",
+          "slug": "product-range-definition"
+        },
+        {
+          "level": 2,
+          "title": "Product value",
+          "slug": "product-value"
+        }
+      ],
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
+    },
+    {
       "title": "Development Manual",
       "frontmatter": {
         "sidebar": "auto"
@@ -236,128 +355,39 @@ export const siteData = {
           "level": 3,
           "title": "Sync permissions",
           "slug": "sync-permissions"
+        },
+        {
+          "level": 2,
+          "title": "Custom Report",
+          "slug": "custom-report"
+        },
+        {
+          "level": 3,
+          "title": "Configure data source",
+          "slug": "configure-data-source"
+        },
+        {
+          "level": 3,
+          "title": "Configure report templates",
+          "slug": "configure-report-templates"
+        },
+        {
+          "level": 3,
+          "title": "Configure report template instance",
+          "slug": "configure-report-template-instance"
+        },
+        {
+          "level": 3,
+          "title": "User use",
+          "slug": "user-use"
+        },
+        {
+          "level": 2,
+          "title": "",
+          "slug": ""
         }
       ],
-      "lastUpdated": "3/19/2020, 9:16:12 AM"
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "/logo.png",
-        "actionText": "Get Started Quickly →",
-        "actionLink": "/guide/",
-        "features": [
-          {
-            "title": "Platformization",
-            "details": "Forming a development model based on HX UAP, each business system only needs to develop functions for actual business scenarios, without paying attention to the underlying platform issues."
-          },
-          {
-            "title": "Modular",
-            "details": "HX UAP itself also has modular features. During deployment and use, different models need only be deployed according to actual needs. Each functional model forms an independent service. Business systems developed based on HX UAP also have similar capabilities."
-          },
-          {
-            "title": "Compatibility",
-            "details": "The HX UAP platform is compatible with the underlying functions of existing business systems. The front end meets the overall interface style and operation mode, while also providing the operation mode and habits of the old system. The platform also provides various adaptations for retrofitting legacy systems."
-          },
-          {
-            "title": "Ease of use",
-            "details": "It meets the unified style of the interface design of the system software, and refers to the habits of various field users in the operation mode, so that the end user can get started quickly."
-          }
-        ],
-        "footer": "Copyright © 2020-uap"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-e12b590a",
-      "path": "/",
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
-    },
-    {
-      "title": "FAQ",
-      "frontmatter": {
-        "title": "FAQ",
-        "meteTitle": "FAQ",
-        "sidebarDepth": "auto"
-      },
-      "regularPath": "/faq/",
-      "relativePath": "faq/README.md",
-      "key": "v-b77b9c4c",
-      "path": "/faq/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Q：What is HX UAP？",
-          "slug": "q：what-is-hx-uap？"
-        },
-        {
-          "level": 2,
-          "title": "Q：What software or files should be prepared for HX UAP deployment？",
-          "slug": "q：what-software-or-files-should-be-prepared-for-hx-uap-deployment？"
-        },
-        {
-          "level": 2,
-          "title": "Q：Where should the war package be placed？",
-          "slug": "q：where-should-the-war-package-be-placed？"
-        },
-        {
-          "level": 2,
-          "title": "Q：Why does the configuration still not take effect after modifying the configuration file in Tomcat？",
-          "slug": "q：why-does-the-configuration-still-not-take-effect-after-modifying-the-configuration-file-in-tomcat？"
-        },
-        {
-          "level": 2,
-          "title": "Q：Why does Tomcat always report errors when starting？",
-          "slug": "q：why-does-tomcat-always-report-errors-when-starting？"
-        },
-        {
-          "level": 2,
-          "title": "Q: Why does Tomcat fail to start or exit automatically？",
-          "slug": "q-why-does-tomcat-fail-to-start-or-exit-automatically？"
-        },
-        {
-          "level": 2,
-          "title": "Q：What is the difference between an administrator user and a normal user?",
-          "slug": "q：what-is-the-difference-between-an-administrator-user-and-a-normal-user"
-        },
-        {
-          "level": 2,
-          "title": "Q：How to determine whether the account is an administrator role?",
-          "slug": "q：how-to-determine-whether-the-account-is-an-administrator-role"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
-      "title": "Introduction",
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-b75472e4",
-      "path": "/guide/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Background",
-          "slug": "background"
-        },
-        {
-          "level": 2,
-          "title": "Product target",
-          "slug": "product-target"
-        },
-        {
-          "level": 2,
-          "title": "Product range definition",
-          "slug": "product-range-definition"
-        },
-        {
-          "level": 2,
-          "title": "Product value",
-          "slug": "product-value"
-        }
-      ],
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
+      "lastUpdated": "8/6/2020, 3:54:23 PM"
     },
     {
       "title": "Deploy",
@@ -442,15 +472,6 @@ export const siteData = {
       "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
-      "title": "redis configuration",
-      "frontmatter": {},
-      "regularPath": "/guide/redis-sentry.html",
-      "relativePath": "guide/redis-sentry.md",
-      "key": "v-28865052",
-      "path": "/guide/redis-sentry.html",
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
-    },
-    {
       "title": "Configure and run",
       "frontmatter": {},
       "regularPath": "/guide/run.html",
@@ -510,6 +531,15 @@ export const siteData = {
         }
       ],
       "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
+      "title": "redis configuration",
+      "frontmatter": {},
+      "regularPath": "/guide/redis-sentry.html",
+      "relativePath": "guide/redis-sentry.md",
+      "key": "v-28865052",
+      "path": "/guide/redis-sentry.html",
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
       "title": "Introduction",
@@ -775,36 +805,6 @@ export const siteData = {
       "lastUpdated": "3/17/2020, 3:15:21 PM"
     },
     {
-      "title": "My Mission",
-      "frontmatter": {
-        "title": "My Mission",
-        "metaTitle": "My mission",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/guide/userManual/07-my-task.html",
-      "relativePath": "guide/userManual/07-my-task.md",
-      "key": "v-9bb21780",
-      "path": "/guide/userManual/07-my-task.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "My task",
-          "slug": "my-task-2"
-        },
-        {
-          "level": 2,
-          "title": "History Mission",
-          "slug": "history-mission"
-        },
-        {
-          "level": 2,
-          "title": "My process instance",
-          "slug": "my-process-instance"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
       "title": "Application Settings",
       "frontmatter": {
         "title": "Application Settings",
@@ -945,6 +945,36 @@ export const siteData = {
           "level": 2,
           "title": "Tenant Information",
           "slug": "tenant-information"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
+      "title": "My Mission",
+      "frontmatter": {
+        "title": "My Mission",
+        "metaTitle": "My mission",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/07-my-task.html",
+      "relativePath": "guide/userManual/07-my-task.md",
+      "key": "v-9bb21780",
+      "path": "/guide/userManual/07-my-task.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "My task",
+          "slug": "my-task-2"
+        },
+        {
+          "level": 2,
+          "title": "History Mission",
+          "slug": "history-mission"
+        },
+        {
+          "level": 2,
+          "title": "My process instance",
+          "slug": "my-process-instance"
         }
       ],
       "lastUpdated": "3/17/2020, 3:15:21 PM"
@@ -1100,39 +1130,6 @@ export const siteData = {
       "lastUpdated": "3/17/2020, 3:15:21 PM"
     },
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "/logo.png",
-        "actionText": "快速了解 →",
-        "actionLink": "/zh/guide/",
-        "features": [
-          {
-            "title": "平台化",
-            "details": "形成以HX UAP为基础的开发模式，各个业务系统只需要针对实际业务场景进行功能开发，无需关注底层平台问题。"
-          },
-          {
-            "title": "模块化",
-            "details": "HX UAP本身内部也具备模块化特征，在部署和使用过程中，只需要根据实际需求进行不同模型的部署，各个功能模型形成独自的服务，基于HX UAP开发的业务系统也具备类似能力。"
-          },
-          {
-            "title": "兼容性",
-            "details": "HX UAP平台兼容现有业务系统的底层功能，前端满足总体界面风格以及操作模式，同时也提供了旧有系统的操作模式以及习惯。平台也提供了各种适配用于旧有系统改造。"
-          },
-          {
-            "title": "易用性",
-            "details": "满足系统软件的界面设计统一风格，操作模式上参考了各个现场用户习惯，使得最终用户快速上手。"
-          }
-        ],
-        "footer": "Copyright © 2020-uap"
-      },
-      "regularPath": "/zh/",
-      "relativePath": "zh/README.md",
-      "key": "v-2827325e",
-      "path": "/zh/",
-      "lastUpdated": "2020/3/13 下午4:23:35"
-    },
-    {
       "title": "Release Notes",
       "frontmatter": {
         "sidebar": "auto"
@@ -1206,59 +1203,37 @@ export const siteData = {
       "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
-      "title": "FAQ",
+      "title": "Home",
       "frontmatter": {
-        "title": "FAQ",
-        "meteTitle": "FAQ",
-        "sidebarDepth": "auto"
+        "home": true,
+        "heroImage": "/logo.png",
+        "actionText": "快速了解 →",
+        "actionLink": "/zh/guide/",
+        "features": [
+          {
+            "title": "平台化",
+            "details": "形成以HX UAP为基础的开发模式，各个业务系统只需要针对实际业务场景进行功能开发，无需关注底层平台问题。"
+          },
+          {
+            "title": "模块化",
+            "details": "HX UAP本身内部也具备模块化特征，在部署和使用过程中，只需要根据实际需求进行不同模型的部署，各个功能模型形成独自的服务，基于HX UAP开发的业务系统也具备类似能力。"
+          },
+          {
+            "title": "兼容性",
+            "details": "HX UAP平台兼容现有业务系统的底层功能，前端满足总体界面风格以及操作模式，同时也提供了旧有系统的操作模式以及习惯。平台也提供了各种适配用于旧有系统改造。"
+          },
+          {
+            "title": "易用性",
+            "details": "满足系统软件的界面设计统一风格，操作模式上参考了各个现场用户习惯，使得最终用户快速上手。"
+          }
+        ],
+        "footer": "Copyright © 2020-uap"
       },
-      "regularPath": "/zh/faq/",
-      "relativePath": "zh/faq/README.md",
-      "key": "v-865b251e",
-      "path": "/zh/faq/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Q：什么是HX UAP？",
-          "slug": "q：什么是hx-uap？"
-        },
-        {
-          "level": 2,
-          "title": "Q：HX UAP部署需要准备什么软件或文件？",
-          "slug": "q：hx-uap部署需要准备什么软件或文件？"
-        },
-        {
-          "level": 2,
-          "title": "Q：war包应该放在哪里？",
-          "slug": "q：war包应该放在哪里？"
-        },
-        {
-          "level": 2,
-          "title": "Q：为什么修改Tomcat中的配置文件后，配置仍不生效？",
-          "slug": "q：为什么修改tomcat中的配置文件后，配置仍不生效？"
-        },
-        {
-          "level": 2,
-          "title": "Q：为什么Tomcat启动时总是报错？",
-          "slug": "q：为什么tomcat启动时总是报错？"
-        },
-        {
-          "level": 2,
-          "title": "Q：为什么Tomcat启动不起来或者自动退出？",
-          "slug": "q：为什么tomcat启动不起来或者自动退出？"
-        },
-        {
-          "level": 2,
-          "title": "Q：管理员用户与普通用户的区别是什么？",
-          "slug": "q：管理员用户与普通用户的区别是什么？"
-        },
-        {
-          "level": 2,
-          "title": "Q：如何判断账户是否为管理员角色？",
-          "slug": "q：如何判断账户是否为管理员角色？"
-        }
-      ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
+      "regularPath": "/zh/",
+      "relativePath": "zh/README.md",
+      "key": "v-2827325e",
+      "path": "/zh/",
+      "lastUpdated": "2020/3/13 下午4:23:35"
     },
     {
       "title": "开发手册",
@@ -1424,9 +1399,65 @@ export const siteData = {
           "level": 3,
           "title": "同步权限",
           "slug": "同步权限"
+        },
+        {
+          "level": 2,
+          "title": "自定义报表",
+          "slug": "自定义报表"
+        },
+        {
+          "level": 3,
+          "title": "配置数据源",
+          "slug": "配置数据源"
+        },
+        {
+          "level": 3,
+          "title": "配置报表模板",
+          "slug": "配置报表模板"
+        },
+        {
+          "level": 3,
+          "title": "配置报表模板实例",
+          "slug": "配置报表模板实例"
+        },
+        {
+          "level": 3,
+          "title": "用户使用",
+          "slug": "用户使用"
+        },
+        {
+          "level": 2,
+          "title": "Jasper文件工具使用方法",
+          "slug": "jasper文件工具使用方法"
+        },
+        {
+          "level": 3,
+          "title": "TIBCO的基本使用方法",
+          "slug": "tibco的基本使用方法"
         }
       ],
-      "lastUpdated": "2020/3/19 上午9:16:12"
+      "lastUpdated": "2020/8/6 下午3:54:23"
+    },
+    {
+      "title": "部署",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/deploy.html",
+      "relativePath": "zh/guide/deploy.md",
+      "key": "v-5055fbfa",
+      "path": "/zh/guide/deploy.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "平台基础功能数据库",
+          "slug": "平台基础功能数据库"
+        },
+        {
+          "level": 2,
+          "title": "程序",
+          "slug": "程序"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
     },
     {
       "title": "介绍",
@@ -1460,25 +1491,59 @@ export const siteData = {
       "lastUpdated": "2020/3/13 下午4:23:35"
     },
     {
-      "title": "部署",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/deploy.html",
-      "relativePath": "zh/guide/deploy.md",
-      "key": "v-5055fbfa",
-      "path": "/zh/guide/deploy.html",
+      "title": "FAQ",
+      "frontmatter": {
+        "title": "FAQ",
+        "meteTitle": "FAQ",
+        "sidebarDepth": "auto"
+      },
+      "regularPath": "/zh/faq/",
+      "relativePath": "zh/faq/README.md",
+      "key": "v-865b251e",
+      "path": "/zh/faq/",
       "headers": [
         {
           "level": 2,
-          "title": "平台基础功能数据库",
-          "slug": "平台基础功能数据库"
+          "title": "Q：什么是HX UAP？",
+          "slug": "q：什么是hx-uap？"
         },
         {
           "level": 2,
-          "title": "程序",
-          "slug": "程序"
+          "title": "Q：HX UAP部署需要准备什么软件或文件？",
+          "slug": "q：hx-uap部署需要准备什么软件或文件？"
+        },
+        {
+          "level": 2,
+          "title": "Q：war包应该放在哪里？",
+          "slug": "q：war包应该放在哪里？"
+        },
+        {
+          "level": 2,
+          "title": "Q：为什么修改Tomcat中的配置文件后，配置仍不生效？",
+          "slug": "q：为什么修改tomcat中的配置文件后，配置仍不生效？"
+        },
+        {
+          "level": 2,
+          "title": "Q：为什么Tomcat启动时总是报错？",
+          "slug": "q：为什么tomcat启动时总是报错？"
+        },
+        {
+          "level": 2,
+          "title": "Q：为什么Tomcat启动不起来或者自动退出？",
+          "slug": "q：为什么tomcat启动不起来或者自动退出？"
+        },
+        {
+          "level": 2,
+          "title": "Q：管理员用户与普通用户的区别是什么？",
+          "slug": "q：管理员用户与普通用户的区别是什么？"
+        },
+        {
+          "level": 2,
+          "title": "Q：如何判断账户是否为管理员角色？",
+          "slug": "q：如何判断账户是否为管理员角色？"
         }
       ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
+      "lastUpdated": "2020/8/6 下午3:54:23"
     },
     {
       "title": "部署前的准备工作",
@@ -1542,74 +1607,28 @@ export const siteData = {
       "lastUpdated": "2020/3/13 下午4:23:35"
     },
     {
-      "title": "配置和运行",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/run.html",
-      "relativePath": "zh/guide/run.md",
-      "key": "v-b3d192d0",
-      "path": "/zh/guide/run.html",
+      "title": "介绍",
+      "frontmatter": {
+        "title": "介绍",
+        "metaTitle": "介绍"
+      },
+      "regularPath": "/zh/guide/userManual/01-introduction.html",
+      "relativePath": "zh/guide/userManual/01-introduction.md",
+      "key": "v-4a35e966",
+      "path": "/zh/guide/userManual/01-introduction.html",
       "headers": [
         {
           "level": 2,
-          "title": "tomcat配置",
-          "slug": "tomcat配置"
+          "title": "平台介绍",
+          "slug": "平台介绍"
         },
         {
           "level": 2,
-          "title": "配置文件",
-          "slug": "配置文件"
-        },
-        {
-          "level": 3,
-          "title": "统一应用平台发布需要根据实际需要环境配置",
-          "slug": "统一应用平台发布需要根据实际需要环境配置"
-        },
-        {
-          "level": 3,
-          "title": "各个模块有一些特定的配置项，在部署每个模块时要提前配置好该模块的配置",
-          "slug": "各个模块有一些特定的配置项，在部署每个模块时要提前配置好该模块的配置"
-        },
-        {
-          "level": 2,
-          "title": "UAP前端图片替换",
-          "slug": "uap前端图片替换"
-        },
-        {
-          "level": 2,
-          "title": "国际化",
-          "slug": "国际化"
-        },
-        {
-          "level": 2,
-          "title": "tomcat运行和关闭",
-          "slug": "tomcat运行和关闭"
-        },
-        {
-          "level": 2,
-          "title": "lincense 配置",
-          "slug": "lincense-配置"
-        },
-        {
-          "level": 2,
-          "title": "系统监控配置",
-          "slug": "系统监控配置"
-        },
-        {
-          "level": 2,
-          "title": "打开统一应用平台",
-          "slug": "打开统一应用平台"
+          "title": "术语",
+          "slug": "术语"
         }
       ],
       "lastUpdated": "2020/3/17 下午3:15:21"
-    },
-    {
-      "title": "redis配置",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/redis-sentry.html",
-      "relativePath": "zh/guide/redis-sentry.md",
-      "key": "v-ef51ab0c",
-      "path": "/zh/guide/redis-sentry.html",
-      "lastUpdated": "2020/3/13 下午4:23:35"
     },
     {
       "title": "登录和首页",
@@ -1634,30 +1653,6 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2020/3/18 下午3:03:06"
-    },
-    {
-      "title": "介绍",
-      "frontmatter": {
-        "title": "介绍",
-        "metaTitle": "介绍"
-      },
-      "regularPath": "/zh/guide/userManual/01-introduction.html",
-      "relativePath": "zh/guide/userManual/01-introduction.md",
-      "key": "v-4a35e966",
-      "path": "/zh/guide/userManual/01-introduction.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "平台介绍",
-          "slug": "平台介绍"
-        },
-        {
-          "level": 2,
-          "title": "术语",
-          "slug": "术语"
-        }
-      ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
     },
     {
       "title": "组织管理",
@@ -1805,6 +1800,67 @@ export const siteData = {
           "level": 3,
           "title": "配置（将角色分配给用户）",
           "slug": "配置（将角色分配给用户）"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "配置和运行",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/run.html",
+      "relativePath": "zh/guide/run.md",
+      "key": "v-b3d192d0",
+      "path": "/zh/guide/run.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "tomcat配置",
+          "slug": "tomcat配置"
+        },
+        {
+          "level": 2,
+          "title": "配置文件",
+          "slug": "配置文件"
+        },
+        {
+          "level": 3,
+          "title": "统一应用平台发布需要根据实际需要环境配置",
+          "slug": "统一应用平台发布需要根据实际需要环境配置"
+        },
+        {
+          "level": 3,
+          "title": "各个模块有一些特定的配置项，在部署每个模块时要提前配置好该模块的配置",
+          "slug": "各个模块有一些特定的配置项，在部署每个模块时要提前配置好该模块的配置"
+        },
+        {
+          "level": 2,
+          "title": "UAP前端图片替换",
+          "slug": "uap前端图片替换"
+        },
+        {
+          "level": 2,
+          "title": "国际化",
+          "slug": "国际化"
+        },
+        {
+          "level": 2,
+          "title": "tomcat运行和关闭",
+          "slug": "tomcat运行和关闭"
+        },
+        {
+          "level": 2,
+          "title": "lincense 配置",
+          "slug": "lincense-配置"
+        },
+        {
+          "level": 2,
+          "title": "系统监控配置",
+          "slug": "系统监控配置"
+        },
+        {
+          "level": 2,
+          "title": "打开统一应用平台",
+          "slug": "打开统一应用平台"
         }
       ],
       "lastUpdated": "2020/3/17 下午3:15:21"
@@ -2270,6 +2326,15 @@ export const siteData = {
           "slug": "问题修复和优化-4"
         }
       ],
+      "lastUpdated": "2020/3/13 下午4:23:35"
+    },
+    {
+      "title": "redis配置",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/redis-sentry.html",
+      "relativePath": "zh/guide/redis-sentry.md",
+      "key": "v-ef51ab0c",
+      "path": "/zh/guide/redis-sentry.html",
       "lastUpdated": "2020/3/13 下午4:23:35"
     }
   ],
