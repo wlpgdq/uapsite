@@ -645,4 +645,79 @@ The `Report View` tab is a function developed for user operations. For users, us
 <img :src="$withBase('/develop/reportView.jpg')" alt = "reportView">
 
 
-##
+## How to use Jasper file tool
+
+After installing TIBCO JasperSoft Studio, open TIBCO JasperSoft Studio and you can see the following interface
+
+<img :src="$withBase('/develop/TIBCO1.jpg')" alt = "reportView">
+
+The interface is roughly divided into four areas
+- Project area: mainly display the files of the current project
+- Outline area: mainly displays the outline of the current report file
+- Work area: area for editing report files
+- Component area: components required for report files
+
+### Basic usage of TIBCO
+
+**New Construction**
+
+File->new project->JasperReport project
+
+<img :src="$withBase('/develop/TIBCONewPjct.jpg')" alt = "newProject">
+
+<img :src="$withBase('/develop/TIBCONewPjct2.jpg')" alt = "newProject">
+
+**create a new file** 
+
+Right-click the project -> new Jasper Report
+
+<img :src="$withBase('/develop/TIBCONewPjct3.jpg')" alt = "newProject">
+
+next->input name->finish
+
+<img :src="$withBase('/develop/TIBCONewPjct4.jpg')" alt = "newProject">
+
+**Working area & left engineering area**
+
+<img :src="$withBase('/develop/TIBCONewPjct5.jpg')" alt = "newProject">
+
+Work area: There are 7 modules in total, corresponding to different report functions
+Project area on the left: The outline has 5 modules to help the work area improve its functions
+
+See the table for specific functions
+
+| Element | noun | description |
+| :--------------: | :----: | :------------: |
+| style | Style | Create global style |
+| parameter | parameter | equivalent to Key-value |
+| sort Field | ordered field | ordered mapping field |
+| scriptlets | Script | |
+| Title | Title | Except for the first page display, the rest are not displayed |
+| Page Header | Page Header | Column Header of Table Column |
+| Column Header | Column Header | Column Header of the Table Column |
+| Detail | Content area | Repeated content is displayed here |
+| Column Footer | Column Footer | Column Footer in the table |
+| Page Footer | Footer | Every page will be displayed, at the bottom of the page |
+| Last Page Footer | Last Page Footer | Show only on the last page |
+| Summary | Statistics area | On the last page of the report, generally used for statistics |
+| Background | Background | Set the background style of the report |
+
+**Compile report file**
+
+Right-click the .jrxml file and click compile
+
+<img :src="$withBase('/develop/TIBCO2.jpg')" alt = "Compile">
+
+**Sql statement writing**
+
+Right-click the file in the outline and select DataSet and QuerySet
+
+<img :src="$withBase('/develop/TIBCO5.jpg')" alt = "Compile">
+
+Write SQL statements in the option box. The data queried by the SQL statements are queried according to the column mode. Field components can be created for each column in the workspace.
+
+<img :src="$withBase('/develop/TIBCO6.jpg')" alt = "Compile">
+
+Specific TIBCO use method documents can refer to
+
+[Reference Document](https://www.jianshu.com/p/999d8e6c8f6c)
