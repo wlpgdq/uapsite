@@ -4,6 +4,25 @@ sidebar: auto
 
 # Release Notes
 
+## Version: UAP 2.3.0.0
+
+### New Function
+
+| Function points | Description | Remarks |
+| ---- | ---- | ---- |
+| Contains all UAP 2.0.0.0 | Refer to UAP2.0.0.0 Release Notes | |
+| Configuration Center | Provide custom configuration for administrators | |
+| Report function | Support custom report function | Need to generate .jasper file through report tool in advance |
+| Data Permission | Added Data Permission Function | Better Segmentation Permissions |
+| Configure database data | Add the function of database configuration data | |
+
+### Bug fixes and optimizations
+
+| Problem | Description | Remarks |
+| ---- | ---- | ---- |
+| Time issue of Iranian calendar data export | Data conversion issue | Optimization |
+
+
 ## Version: UAP 2.0.0.0
 
 ### New Function
