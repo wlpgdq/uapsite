@@ -719,3 +719,124 @@ next->输入name->finish
 
 具体TIBCO使用方法文档可参照
 [参考文档](https://www.jianshu.com/p/999d8e6c8f6c)
+
+## 文件系统
+
+### uap-dfs.jar下载
+
+文件系统目前支持本地配置及fastDfs分布式文件系统两种文件存储方式。UAP提供了`uap-dfs.jar`包实现了对本地及fastDfs中的文件存储、更新及删除操作，开发者使用前先到公司maven仓库下载最新的`uap-dfs.jar`
+
+### uap-dfs.jar使用
+
+在项目的pom中引入uap-dfs.jar的依赖，进行相关配置（参见配置手册），jar包中提供了`FastDfsClient`和`LicalClient`两个工具类，开发者可直接调用工具类中的方法对文件进行操作
+
+## 配置管理
+
+### 配置管理开发步骤
+
+#### uap-config.jar下载
+
+UAP统一配置管理中心能够集中化管理不同应用配置，提供了统一的配置管理界面，配置修改后可以及时生效（20秒内），针对配置的修改提供了审计日志方便跟踪。
+
+开发者使用前需要先到公司的maven仓库下载最新的uap-config.jar包
+
+#### 配置项开发
+
+在pom中添加如下依赖
+
+~~~xml
+<dependency>
+  <groupId>com.hexing.uap</groupId>
+  <artifactId>uap-config</artifactId>
+  <version>${project.version}</version>
+</dependency>
+~~~
+
+保证uap-config包能够被扫描到，推荐使用spring-boot工程
+为项目启动类添加
+~~~java
+@ComponScan(basePackage = {"com.hexing.uap.config} ,nameGenerator = UapBeanNameGenerator.class)
+~~~
+
+在properties文件中添加配置项`uap.client.uapUrl`配置UAP服务地址
+
+~~~properties
+uap.client.uapUrl = http://172.**.**.**:8080/uap
+~~~
+
+在配置类上添加注解 **@UapConfigBean**
+在配置属性上添加 **@UapConfigField** 并填写value值
+
+~~~java
+@UapConfigBean
+public class BpmAnnoTest{
+    @UapConfigField(value="Tom",type="string")
+    public static String name;
+    @UapConfigField(value="1000",type="integer")
+    public static Integer size;
+    @UapConfigField(value="true",type="boolean")
+    public static Boolean isAdmin;
+}
+~~~
+
+在使用处直接声明配置类，即可获取配置属性最新值，如下所示
+
+~~~java
+String name MyConfigTest.name;
+~~~
+
+**注：**
+配置类上只允许添加@UapConfigBean注解，不可添加@Component等注解
+业务应用启动时需保证UAP应用已经启动成功并且正确配置UAP服务地址
+
+#### 备注
+
+配置管理的配置项包括：`用户密码过期时间`，`日志保留时间`，`用户密码允许错误次数`，`用户Token有效期`，`调度中心地址`等。
+配置管理项不包括 ~~数据库地址~~ 、~~redis地址~~等启动项
+
+配置项校验目前仅支持**string**、**boolean**、**integer**三种类型的校验
+
+## 审计功能
+
+### 审计流程
+
+流程图
+
+<img :src="$withBase('/develop/audit1.jpg')" alt = "审计流程图">
+
+### 审计开发
+UAP审计相关代码都在uap-common.jar包中，其他模块可引入该报。集成要点如下：
+
+1. 本模块的所有需要审计的实体类都要实现IAudit接口，该接口方法
+
+~~~java
+String auditSign();//返回当前实体类所代表的数据名称
+Object primaryKey();//返回每条数据的具备唯一性的特征值
+Set<String> auditFields();//返回当前类需要参与审计的字段名。如果此合计不为空，则会记录不在本集合内的所有字段
+Set<String> excludeFields();//返回氮气类不参与审计的字段名。如果为空，则会记录不在本合集内的所有字段
+Set<String> sensitiveFields();//返回当前类的私密或敏感的字段名。在记录是此字段会模糊处理
+~~~
+
+2. 继承审计处理的切面抽象类 AbsAuditAspert，填写相关方法的切面表达式，在运行中通过切面表达式拦截相关的方法，并收集数据。主要有以下切点：
+
+~~~java
+savePointCut();//拦截新增或修改单个对象的方法，方法执行完后要返回最新数据，切面方法返回的数据
+saveBitchPointCut();//拦截新增或修改多个对象的方法，方法执行完后要返回最新数据，切面方法返回的数据
+deletePointCut();//拦截删除单个对象的方法，，切面方法返回的数据
+deleteBitchPointCut();//拦截删除多个对象的方法，，切面方法返回的数据
+findPointCut();//拦截查找单个对象的方法，切面方法返回的数据
+findCachePointCut();//拦截查找缓存中单个对象的方法，切面方法返回的数据
+~~~
+
+3. 在前端请求到达后端时，拦截请求，判断请求接口是否需要审计，如果需要审计，在当前线程变量中添加审计标识，并创建审计处理对象AuditHander，放入线程。uap-common包中提供AuditUtil工具类可完成以上工作
+
+4. 在后端结果返回时，通过线程中的AuditHander对象处理审计数据。无论结果成功或失败都要确保清理一次线程变量，以避免线程池参与变量污染后续请求
+
+5. 对于部分无法按常规方式手机审计数据情况，AuditUtil工具提供收到添加审计记录的功能
+
+6. 使用uap-common提供的审计功能，要求工程代码结构比较规范，否则切面表达式可能很难写
+
+7. 如不使用uap-common提供的审计功能，可自行在业务中收集审计数据，调用UAP提供的审计记录接口
+~~~
+POST:/audit
+~~~

@@ -73,6 +73,70 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "/logo.png",
+        "actionText": "Get Started Quickly →",
+        "actionLink": "/guide/",
+        "features": [
+          {
+            "title": "Platformization",
+            "details": "Forming a development model based on HX UAP, each business system only needs to develop functions for actual business scenarios, without paying attention to the underlying platform issues."
+          },
+          {
+            "title": "Modular",
+            "details": "HX UAP itself also has modular features. During deployment and use, different models need only be deployed according to actual needs. Each functional model forms an independent service. Business systems developed based on HX UAP also have similar capabilities."
+          },
+          {
+            "title": "Compatibility",
+            "details": "The HX UAP platform is compatible with the underlying functions of existing business systems. The front end meets the overall interface style and operation mode, while also providing the operation mode and habits of the old system. The platform also provides various adaptations for retrofitting legacy systems."
+          },
+          {
+            "title": "Ease of use",
+            "details": "It meets the unified style of the interface design of the system software, and refers to the habits of various field users in the operation mode, so that the end user can get started quickly."
+          }
+        ],
+        "footer": "Copyright © 2020-uap"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-e12b590a",
+      "path": "/",
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
+    },
+    {
+      "title": "Introduction",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-b75472e4",
+      "path": "/guide/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Background",
+          "slug": "background"
+        },
+        {
+          "level": 2,
+          "title": "Product target",
+          "slug": "product-target"
+        },
+        {
+          "level": 2,
+          "title": "Product range definition",
+          "slug": "product-range-definition"
+        },
+        {
+          "level": 2,
+          "title": "Product value",
+          "slug": "product-value"
+        }
+      ],
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
+    },
+    {
       "title": "Development Manual",
       "frontmatter": {
         "sidebar": "auto"
@@ -329,70 +393,6 @@ export const siteData = {
         }
       ],
       "lastUpdated": "8/6/2020, 3:54:23 PM"
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "/logo.png",
-        "actionText": "Get Started Quickly →",
-        "actionLink": "/guide/",
-        "features": [
-          {
-            "title": "Platformization",
-            "details": "Forming a development model based on HX UAP, each business system only needs to develop functions for actual business scenarios, without paying attention to the underlying platform issues."
-          },
-          {
-            "title": "Modular",
-            "details": "HX UAP itself also has modular features. During deployment and use, different models need only be deployed according to actual needs. Each functional model forms an independent service. Business systems developed based on HX UAP also have similar capabilities."
-          },
-          {
-            "title": "Compatibility",
-            "details": "The HX UAP platform is compatible with the underlying functions of existing business systems. The front end meets the overall interface style and operation mode, while also providing the operation mode and habits of the old system. The platform also provides various adaptations for retrofitting legacy systems."
-          },
-          {
-            "title": "Ease of use",
-            "details": "It meets the unified style of the interface design of the system software, and refers to the habits of various field users in the operation mode, so that the end user can get started quickly."
-          }
-        ],
-        "footer": "Copyright © 2020-uap"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-e12b590a",
-      "path": "/",
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
-    },
-    {
-      "title": "Introduction",
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-b75472e4",
-      "path": "/guide/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Background",
-          "slug": "background"
-        },
-        {
-          "level": 2,
-          "title": "Product target",
-          "slug": "product-target"
-        },
-        {
-          "level": 2,
-          "title": "Product range definition",
-          "slug": "product-range-definition"
-        },
-        {
-          "level": 2,
-          "title": "Product value",
-          "slug": "product-value"
-        }
-      ],
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
       "title": "Deploy",
@@ -810,6 +810,36 @@ export const siteData = {
       "lastUpdated": "3/17/2020, 3:15:21 PM"
     },
     {
+      "title": "My Mission",
+      "frontmatter": {
+        "title": "My Mission",
+        "metaTitle": "My mission",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/07-my-task.html",
+      "relativePath": "guide/userManual/07-my-task.md",
+      "key": "v-9bb21780",
+      "path": "/guide/userManual/07-my-task.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "My task",
+          "slug": "my-task-2"
+        },
+        {
+          "level": 2,
+          "title": "History Mission",
+          "slug": "history-mission"
+        },
+        {
+          "level": 2,
+          "title": "My process instance",
+          "slug": "my-process-instance"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
       "title": "Application Settings",
       "frontmatter": {
         "title": "Application Settings",
@@ -950,36 +980,6 @@ export const siteData = {
           "level": 2,
           "title": "Tenant Information",
           "slug": "tenant-information"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
-      "title": "My Mission",
-      "frontmatter": {
-        "title": "My Mission",
-        "metaTitle": "My mission",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/guide/userManual/07-my-task.html",
-      "relativePath": "guide/userManual/07-my-task.md",
-      "key": "v-9bb21780",
-      "path": "/guide/userManual/07-my-task.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "My task",
-          "slug": "my-task-2"
-        },
-        {
-          "level": 2,
-          "title": "History Mission",
-          "slug": "history-mission"
-        },
-        {
-          "level": 2,
-          "title": "My process instance",
-          "slug": "my-process-instance"
         }
       ],
       "lastUpdated": "3/17/2020, 3:15:21 PM"
@@ -1220,7 +1220,7 @@ export const siteData = {
           "slug": "bug-fixes-and-optimizations-5"
         }
       ],
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
+      "lastUpdated": "9/7/2020, 9:33:19 AM"
     },
     {
       "title": "Home",
@@ -1253,6 +1253,122 @@ export const siteData = {
       "relativePath": "zh/README.md",
       "key": "v-2827325e",
       "path": "/zh/",
+      "lastUpdated": "2020/3/13 下午4:23:35"
+    },
+    {
+      "title": "FAQ",
+      "frontmatter": {
+        "title": "FAQ",
+        "meteTitle": "FAQ",
+        "sidebarDepth": "auto"
+      },
+      "regularPath": "/zh/faq/",
+      "relativePath": "zh/faq/README.md",
+      "key": "v-865b251e",
+      "path": "/zh/faq/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Q：什么是HX UAP？",
+          "slug": "q：什么是hx-uap？"
+        },
+        {
+          "level": 2,
+          "title": "Q：HX UAP部署需要准备什么软件或文件？",
+          "slug": "q：hx-uap部署需要准备什么软件或文件？"
+        },
+        {
+          "level": 2,
+          "title": "Q：war包应该放在哪里？",
+          "slug": "q：war包应该放在哪里？"
+        },
+        {
+          "level": 2,
+          "title": "Q：为什么修改Tomcat中的配置文件后，配置仍不生效？",
+          "slug": "q：为什么修改tomcat中的配置文件后，配置仍不生效？"
+        },
+        {
+          "level": 2,
+          "title": "Q：为什么Tomcat启动时总是报错？",
+          "slug": "q：为什么tomcat启动时总是报错？"
+        },
+        {
+          "level": 2,
+          "title": "Q：为什么Tomcat启动不起来或者自动退出？",
+          "slug": "q：为什么tomcat启动不起来或者自动退出？"
+        },
+        {
+          "level": 2,
+          "title": "Q：管理员用户与普通用户的区别是什么？",
+          "slug": "q：管理员用户与普通用户的区别是什么？"
+        },
+        {
+          "level": 2,
+          "title": "Q：如何判断账户是否为管理员角色？",
+          "slug": "q：如何判断账户是否为管理员角色？"
+        }
+      ],
+      "lastUpdated": "2020/8/6 下午3:54:23"
+    },
+    {
+      "title": "部署前的准备工作",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/prepare.html",
+      "relativePath": "zh/guide/prepare.md",
+      "key": "v-10e27020",
+      "path": "/zh/guide/prepare.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "操作系统",
+          "slug": "操作系统"
+        },
+        {
+          "level": 3,
+          "title": "统一应用平台支持Windows服务器或者Linux服务器，推荐使用Linux服务器。",
+          "slug": "统一应用平台支持windows服务器或者linux服务器，推荐使用linux服务器。"
+        },
+        {
+          "level": 3,
+          "title": "安装操作系统",
+          "slug": "安装操作系统"
+        },
+        {
+          "level": 2,
+          "title": "环境准备",
+          "slug": "环境准备"
+        },
+        {
+          "level": 3,
+          "title": "统一应用平台需要用到以下相关工具或者运行环境",
+          "slug": "统一应用平台需要用到以下相关工具或者运行环境"
+        },
+        {
+          "level": 3,
+          "title": "安装数据库",
+          "slug": "安装数据库"
+        },
+        {
+          "level": 3,
+          "title": "安装JDK",
+          "slug": "安装jdk"
+        },
+        {
+          "level": 3,
+          "title": "安装Tomcat",
+          "slug": "安装tomcat"
+        },
+        {
+          "level": 3,
+          "title": "安装浏览器",
+          "slug": "安装浏览器"
+        },
+        {
+          "level": 3,
+          "title": "统一应用平台安装包",
+          "slug": "统一应用平台安装包"
+        }
+      ],
       "lastUpdated": "2020/3/13 下午4:23:35"
     },
     {
@@ -1454,64 +1570,74 @@ export const siteData = {
           "level": 3,
           "title": "TIBCO的基本使用方法",
           "slug": "tibco的基本使用方法"
+        },
+        {
+          "level": 2,
+          "title": "文件系统",
+          "slug": "文件系统"
+        },
+        {
+          "level": 3,
+          "title": "uap-dfs.jar下载",
+          "slug": "uap-dfs-jar下载"
+        },
+        {
+          "level": 3,
+          "title": "uap-dfs.jar使用",
+          "slug": "uap-dfs-jar使用"
+        },
+        {
+          "level": 2,
+          "title": "配置管理",
+          "slug": "配置管理"
+        },
+        {
+          "level": 3,
+          "title": "配置管理开发步骤",
+          "slug": "配置管理开发步骤"
+        },
+        {
+          "level": 2,
+          "title": "审计功能",
+          "slug": "审计功能"
+        },
+        {
+          "level": 3,
+          "title": "审计流程",
+          "slug": "审计流程"
         }
       ],
       "lastUpdated": "2020/8/26 上午9:27:40"
     },
     {
-      "title": "FAQ",
-      "frontmatter": {
-        "title": "FAQ",
-        "meteTitle": "FAQ",
-        "sidebarDepth": "auto"
-      },
-      "regularPath": "/zh/faq/",
-      "relativePath": "zh/faq/README.md",
-      "key": "v-865b251e",
-      "path": "/zh/faq/",
+      "title": "部署",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/deploy.html",
+      "relativePath": "zh/guide/deploy.md",
+      "key": "v-5055fbfa",
+      "path": "/zh/guide/deploy.html",
       "headers": [
         {
           "level": 2,
-          "title": "Q：什么是HX UAP？",
-          "slug": "q：什么是hx-uap？"
+          "title": "平台基础功能数据库",
+          "slug": "平台基础功能数据库"
         },
         {
           "level": 2,
-          "title": "Q：HX UAP部署需要准备什么软件或文件？",
-          "slug": "q：hx-uap部署需要准备什么软件或文件？"
-        },
-        {
-          "level": 2,
-          "title": "Q：war包应该放在哪里？",
-          "slug": "q：war包应该放在哪里？"
-        },
-        {
-          "level": 2,
-          "title": "Q：为什么修改Tomcat中的配置文件后，配置仍不生效？",
-          "slug": "q：为什么修改tomcat中的配置文件后，配置仍不生效？"
-        },
-        {
-          "level": 2,
-          "title": "Q：为什么Tomcat启动时总是报错？",
-          "slug": "q：为什么tomcat启动时总是报错？"
-        },
-        {
-          "level": 2,
-          "title": "Q：为什么Tomcat启动不起来或者自动退出？",
-          "slug": "q：为什么tomcat启动不起来或者自动退出？"
-        },
-        {
-          "level": 2,
-          "title": "Q：管理员用户与普通用户的区别是什么？",
-          "slug": "q：管理员用户与普通用户的区别是什么？"
-        },
-        {
-          "level": 2,
-          "title": "Q：如何判断账户是否为管理员角色？",
-          "slug": "q：如何判断账户是否为管理员角色？"
+          "title": "程序",
+          "slug": "程序"
         }
       ],
-      "lastUpdated": "2020/8/6 下午3:54:23"
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "redis配置",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/redis-sentry.html",
+      "relativePath": "zh/guide/redis-sentry.md",
+      "key": "v-ef51ab0c",
+      "path": "/zh/guide/redis-sentry.html",
+      "lastUpdated": "2020/3/13 下午4:23:35"
     },
     {
       "title": "介绍",
@@ -1542,97 +1668,6 @@ export const siteData = {
           "slug": "产品价值"
         }
       ],
-      "lastUpdated": "2020/3/13 下午4:23:35"
-    },
-    {
-      "title": "部署",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/deploy.html",
-      "relativePath": "zh/guide/deploy.md",
-      "key": "v-5055fbfa",
-      "path": "/zh/guide/deploy.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "平台基础功能数据库",
-          "slug": "平台基础功能数据库"
-        },
-        {
-          "level": 2,
-          "title": "程序",
-          "slug": "程序"
-        }
-      ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
-    },
-    {
-      "title": "部署前的准备工作",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/prepare.html",
-      "relativePath": "zh/guide/prepare.md",
-      "key": "v-10e27020",
-      "path": "/zh/guide/prepare.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "操作系统",
-          "slug": "操作系统"
-        },
-        {
-          "level": 3,
-          "title": "统一应用平台支持Windows服务器或者Linux服务器，推荐使用Linux服务器。",
-          "slug": "统一应用平台支持windows服务器或者linux服务器，推荐使用linux服务器。"
-        },
-        {
-          "level": 3,
-          "title": "安装操作系统",
-          "slug": "安装操作系统"
-        },
-        {
-          "level": 2,
-          "title": "环境准备",
-          "slug": "环境准备"
-        },
-        {
-          "level": 3,
-          "title": "统一应用平台需要用到以下相关工具或者运行环境",
-          "slug": "统一应用平台需要用到以下相关工具或者运行环境"
-        },
-        {
-          "level": 3,
-          "title": "安装数据库",
-          "slug": "安装数据库"
-        },
-        {
-          "level": 3,
-          "title": "安装JDK",
-          "slug": "安装jdk"
-        },
-        {
-          "level": 3,
-          "title": "安装Tomcat",
-          "slug": "安装tomcat"
-        },
-        {
-          "level": 3,
-          "title": "安装浏览器",
-          "slug": "安装浏览器"
-        },
-        {
-          "level": 3,
-          "title": "统一应用平台安装包",
-          "slug": "统一应用平台安装包"
-        }
-      ],
-      "lastUpdated": "2020/3/13 下午4:23:35"
-    },
-    {
-      "title": "redis配置",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/redis-sentry.html",
-      "relativePath": "zh/guide/redis-sentry.md",
-      "key": "v-ef51ab0c",
-      "path": "/zh/guide/redis-sentry.html",
       "lastUpdated": "2020/3/13 下午4:23:35"
     },
     {
@@ -1719,30 +1754,6 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2020/3/17 下午3:15:21"
-    },
-    {
-      "title": "登录和首页",
-      "frontmatter": {
-        "title": "登录和首页",
-        "metaTitle": "登录和首页"
-      },
-      "regularPath": "/zh/guide/userManual/02-login.html",
-      "relativePath": "zh/guide/userManual/02-login.md",
-      "key": "v-2d354e69",
-      "path": "/zh/guide/userManual/02-login.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "登录",
-          "slug": "登录"
-        },
-        {
-          "level": 2,
-          "title": "首页",
-          "slug": "首页"
-        }
-      ],
-      "lastUpdated": "2020/3/18 下午3:03:06"
     },
     {
       "title": "组织管理",
@@ -1845,54 +1856,28 @@ export const siteData = {
       "lastUpdated": "2020/3/17 下午3:15:21"
     },
     {
-      "title": "权限管理",
+      "title": "登录和首页",
       "frontmatter": {
-        "title": "权限管理",
-        "metaTitle": "权限管理",
-        "sidebarDepth": 3
+        "title": "登录和首页",
+        "metaTitle": "登录和首页"
       },
-      "regularPath": "/zh/guide/userManual/04-authority.html",
-      "relativePath": "zh/guide/userManual/04-authority.md",
-      "key": "v-5d0a3a9e",
-      "path": "/zh/guide/userManual/04-authority.html",
+      "regularPath": "/zh/guide/userManual/02-login.html",
+      "relativePath": "zh/guide/userManual/02-login.md",
+      "key": "v-2d354e69",
+      "path": "/zh/guide/userManual/02-login.html",
       "headers": [
         {
           "level": 2,
-          "title": "角色",
-          "slug": "角色"
+          "title": "登录",
+          "slug": "登录"
         },
         {
-          "level": 3,
-          "title": "新增角色",
-          "slug": "新增角色"
-        },
-        {
-          "level": 3,
-          "title": "删除角色",
-          "slug": "删除角色"
-        },
-        {
-          "level": 3,
-          "title": "编辑角色",
-          "slug": "编辑角色"
-        },
-        {
-          "level": 3,
-          "title": "启停角色",
-          "slug": "启停角色"
-        },
-        {
-          "level": 3,
-          "title": "角色分配菜单",
-          "slug": "角色分配菜单"
-        },
-        {
-          "level": 3,
-          "title": "配置（将角色分配给用户）",
-          "slug": "配置（将角色分配给用户）"
+          "level": 2,
+          "title": "首页",
+          "slug": "首页"
         }
       ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
+      "lastUpdated": "2020/3/18 下午3:03:06"
     },
     {
       "title": "系统设置",
@@ -1955,6 +1940,56 @@ export const siteData = {
           "level": 2,
           "title": "菜单日志",
           "slug": "菜单日志"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "权限管理",
+      "frontmatter": {
+        "title": "权限管理",
+        "metaTitle": "权限管理",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/04-authority.html",
+      "relativePath": "zh/guide/userManual/04-authority.md",
+      "key": "v-5d0a3a9e",
+      "path": "/zh/guide/userManual/04-authority.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "角色",
+          "slug": "角色"
+        },
+        {
+          "level": 3,
+          "title": "新增角色",
+          "slug": "新增角色"
+        },
+        {
+          "level": 3,
+          "title": "删除角色",
+          "slug": "删除角色"
+        },
+        {
+          "level": 3,
+          "title": "编辑角色",
+          "slug": "编辑角色"
+        },
+        {
+          "level": 3,
+          "title": "启停角色",
+          "slug": "启停角色"
+        },
+        {
+          "level": 3,
+          "title": "角色分配菜单",
+          "slug": "角色分配菜单"
+        },
+        {
+          "level": 3,
+          "title": "配置（将角色分配给用户）",
+          "slug": "配置（将角色分配给用户）"
         }
       ],
       "lastUpdated": "2020/3/17 下午3:15:21"
@@ -2265,26 +2300,6 @@ export const siteData = {
       "lastUpdated": "2020/3/17 下午3:15:21"
     },
     {
-      "title": "监控",
-      "frontmatter": {
-        "title": "监控",
-        "metaTitle": "监控",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/zh/guide/userManual/11-monitor.html",
-      "relativePath": "zh/guide/userManual/11-monitor.md",
-      "key": "v-7fa31bcb",
-      "path": "/zh/guide/userManual/11-monitor.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "监控数据",
-          "slug": "监控数据"
-        }
-      ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
-    },
-    {
       "title": "发布说明",
       "frontmatter": {
         "sidebar": "auto"
@@ -2370,7 +2385,27 @@ export const siteData = {
           "slug": "问题修复和优化-5"
         }
       ],
-      "lastUpdated": "2020/3/13 下午4:23:35"
+      "lastUpdated": "2020/9/7 上午9:33:19"
+    },
+    {
+      "title": "监控",
+      "frontmatter": {
+        "title": "监控",
+        "metaTitle": "监控",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/11-monitor.html",
+      "relativePath": "zh/guide/userManual/11-monitor.md",
+      "key": "v-7fa31bcb",
+      "path": "/zh/guide/userManual/11-monitor.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "监控数据",
+          "slug": "监控数据"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
     }
   ],
   "themeConfig": {
