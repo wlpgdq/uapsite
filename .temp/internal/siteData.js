@@ -106,6 +106,61 @@ export const siteData = {
       "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
+      "title": "FAQ",
+      "frontmatter": {
+        "title": "FAQ",
+        "meteTitle": "FAQ",
+        "sidebarDepth": "auto"
+      },
+      "regularPath": "/faq/",
+      "relativePath": "faq/README.md",
+      "key": "v-b77b9c4c",
+      "path": "/faq/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Q：What is HX UAP？",
+          "slug": "q：what-is-hx-uap？"
+        },
+        {
+          "level": 2,
+          "title": "Q：What software or files should be prepared for HX UAP deployment？",
+          "slug": "q：what-software-or-files-should-be-prepared-for-hx-uap-deployment？"
+        },
+        {
+          "level": 2,
+          "title": "Q：Where should the war package be placed？",
+          "slug": "q：where-should-the-war-package-be-placed？"
+        },
+        {
+          "level": 2,
+          "title": "Q：Why does the configuration still not take effect after modifying the configuration file in Tomcat？",
+          "slug": "q：why-does-the-configuration-still-not-take-effect-after-modifying-the-configuration-file-in-tomcat？"
+        },
+        {
+          "level": 2,
+          "title": "Q：Why does Tomcat always report errors when starting？",
+          "slug": "q：why-does-tomcat-always-report-errors-when-starting？"
+        },
+        {
+          "level": 2,
+          "title": "Q: Why does Tomcat fail to start or exit automatically？",
+          "slug": "q-why-does-tomcat-fail-to-start-or-exit-automatically？"
+        },
+        {
+          "level": 2,
+          "title": "Q：What is the difference between an administrator user and a normal user?",
+          "slug": "q：what-is-the-difference-between-an-administrator-user-and-a-normal-user"
+        },
+        {
+          "level": 2,
+          "title": "Q：How to determine whether the account is an administrator role?",
+          "slug": "q：how-to-determine-whether-the-account-is-an-administrator-role"
+        }
+      ],
+      "lastUpdated": "8/6/2020, 3:54:23 PM"
+    },
+    {
       "title": "Introduction",
       "frontmatter": {},
       "regularPath": "/guide/",
@@ -340,61 +395,6 @@ export const siteData = {
       "lastUpdated": "8/26/2020, 9:42:44 AM"
     },
     {
-      "title": "FAQ",
-      "frontmatter": {
-        "title": "FAQ",
-        "meteTitle": "FAQ",
-        "sidebarDepth": "auto"
-      },
-      "regularPath": "/faq/",
-      "relativePath": "faq/README.md",
-      "key": "v-b77b9c4c",
-      "path": "/faq/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Q：What is HX UAP？",
-          "slug": "q：what-is-hx-uap？"
-        },
-        {
-          "level": 2,
-          "title": "Q：What software or files should be prepared for HX UAP deployment？",
-          "slug": "q：what-software-or-files-should-be-prepared-for-hx-uap-deployment？"
-        },
-        {
-          "level": 2,
-          "title": "Q：Where should the war package be placed？",
-          "slug": "q：where-should-the-war-package-be-placed？"
-        },
-        {
-          "level": 2,
-          "title": "Q：Why does the configuration still not take effect after modifying the configuration file in Tomcat？",
-          "slug": "q：why-does-the-configuration-still-not-take-effect-after-modifying-the-configuration-file-in-tomcat？"
-        },
-        {
-          "level": 2,
-          "title": "Q：Why does Tomcat always report errors when starting？",
-          "slug": "q：why-does-tomcat-always-report-errors-when-starting？"
-        },
-        {
-          "level": 2,
-          "title": "Q: Why does Tomcat fail to start or exit automatically？",
-          "slug": "q-why-does-tomcat-fail-to-start-or-exit-automatically？"
-        },
-        {
-          "level": 2,
-          "title": "Q：What is the difference between an administrator user and a normal user?",
-          "slug": "q：what-is-the-difference-between-an-administrator-user-and-a-normal-user"
-        },
-        {
-          "level": 2,
-          "title": "Q：How to determine whether the account is an administrator role?",
-          "slug": "q：how-to-determine-whether-the-account-is-an-administrator-role"
-        }
-      ],
-      "lastUpdated": "8/6/2020, 3:54:23 PM"
-    },
-    {
       "title": "Deploy",
       "frontmatter": {},
       "regularPath": "/guide/deploy.html",
@@ -413,6 +413,15 @@ export const siteData = {
           "slug": "program"
         }
       ],
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
+    },
+    {
+      "title": "redis configuration",
+      "frontmatter": {},
+      "regularPath": "/guide/redis-sentry.html",
+      "relativePath": "guide/redis-sentry.md",
+      "key": "v-28865052",
+      "path": "/guide/redis-sentry.html",
       "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
@@ -474,15 +483,6 @@ export const siteData = {
           "slug": "unified-application-platform-installation-package"
         }
       ],
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
-    },
-    {
-      "title": "redis configuration",
-      "frontmatter": {},
-      "regularPath": "/guide/redis-sentry.html",
-      "relativePath": "guide/redis-sentry.md",
-      "key": "v-28865052",
-      "path": "/guide/redis-sentry.html",
       "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
@@ -810,36 +810,6 @@ export const siteData = {
       "lastUpdated": "3/17/2020, 3:15:21 PM"
     },
     {
-      "title": "My Mission",
-      "frontmatter": {
-        "title": "My Mission",
-        "metaTitle": "My mission",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/guide/userManual/07-my-task.html",
-      "relativePath": "guide/userManual/07-my-task.md",
-      "key": "v-9bb21780",
-      "path": "/guide/userManual/07-my-task.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "My task",
-          "slug": "my-task-2"
-        },
-        {
-          "level": 2,
-          "title": "History Mission",
-          "slug": "history-mission"
-        },
-        {
-          "level": 2,
-          "title": "My process instance",
-          "slug": "my-process-instance"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
       "title": "Application Settings",
       "frontmatter": {
         "title": "Application Settings",
@@ -1060,6 +1030,36 @@ export const siteData = {
       "lastUpdated": "3/17/2020, 3:15:21 PM"
     },
     {
+      "title": "My Mission",
+      "frontmatter": {
+        "title": "My Mission",
+        "metaTitle": "My mission",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/07-my-task.html",
+      "relativePath": "guide/userManual/07-my-task.md",
+      "key": "v-9bb21780",
+      "path": "/guide/userManual/07-my-task.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "My task",
+          "slug": "my-task-2"
+        },
+        {
+          "level": 2,
+          "title": "History Mission",
+          "slug": "history-mission"
+        },
+        {
+          "level": 2,
+          "title": "My process instance",
+          "slug": "my-process-instance"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
       "title": "Timed Task",
       "frontmatter": {
         "title": "Timed Task",
@@ -1253,122 +1253,6 @@ export const siteData = {
       "relativePath": "zh/README.md",
       "key": "v-2827325e",
       "path": "/zh/",
-      "lastUpdated": "2020/3/13 下午4:23:35"
-    },
-    {
-      "title": "FAQ",
-      "frontmatter": {
-        "title": "FAQ",
-        "meteTitle": "FAQ",
-        "sidebarDepth": "auto"
-      },
-      "regularPath": "/zh/faq/",
-      "relativePath": "zh/faq/README.md",
-      "key": "v-865b251e",
-      "path": "/zh/faq/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Q：什么是HX UAP？",
-          "slug": "q：什么是hx-uap？"
-        },
-        {
-          "level": 2,
-          "title": "Q：HX UAP部署需要准备什么软件或文件？",
-          "slug": "q：hx-uap部署需要准备什么软件或文件？"
-        },
-        {
-          "level": 2,
-          "title": "Q：war包应该放在哪里？",
-          "slug": "q：war包应该放在哪里？"
-        },
-        {
-          "level": 2,
-          "title": "Q：为什么修改Tomcat中的配置文件后，配置仍不生效？",
-          "slug": "q：为什么修改tomcat中的配置文件后，配置仍不生效？"
-        },
-        {
-          "level": 2,
-          "title": "Q：为什么Tomcat启动时总是报错？",
-          "slug": "q：为什么tomcat启动时总是报错？"
-        },
-        {
-          "level": 2,
-          "title": "Q：为什么Tomcat启动不起来或者自动退出？",
-          "slug": "q：为什么tomcat启动不起来或者自动退出？"
-        },
-        {
-          "level": 2,
-          "title": "Q：管理员用户与普通用户的区别是什么？",
-          "slug": "q：管理员用户与普通用户的区别是什么？"
-        },
-        {
-          "level": 2,
-          "title": "Q：如何判断账户是否为管理员角色？",
-          "slug": "q：如何判断账户是否为管理员角色？"
-        }
-      ],
-      "lastUpdated": "2020/8/6 下午3:54:23"
-    },
-    {
-      "title": "部署前的准备工作",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/prepare.html",
-      "relativePath": "zh/guide/prepare.md",
-      "key": "v-10e27020",
-      "path": "/zh/guide/prepare.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "操作系统",
-          "slug": "操作系统"
-        },
-        {
-          "level": 3,
-          "title": "统一应用平台支持Windows服务器或者Linux服务器，推荐使用Linux服务器。",
-          "slug": "统一应用平台支持windows服务器或者linux服务器，推荐使用linux服务器。"
-        },
-        {
-          "level": 3,
-          "title": "安装操作系统",
-          "slug": "安装操作系统"
-        },
-        {
-          "level": 2,
-          "title": "环境准备",
-          "slug": "环境准备"
-        },
-        {
-          "level": 3,
-          "title": "统一应用平台需要用到以下相关工具或者运行环境",
-          "slug": "统一应用平台需要用到以下相关工具或者运行环境"
-        },
-        {
-          "level": 3,
-          "title": "安装数据库",
-          "slug": "安装数据库"
-        },
-        {
-          "level": 3,
-          "title": "安装JDK",
-          "slug": "安装jdk"
-        },
-        {
-          "level": 3,
-          "title": "安装Tomcat",
-          "slug": "安装tomcat"
-        },
-        {
-          "level": 3,
-          "title": "安装浏览器",
-          "slug": "安装浏览器"
-        },
-        {
-          "level": 3,
-          "title": "统一应用平台安装包",
-          "slug": "统一应用平台安装包"
-        }
-      ],
       "lastUpdated": "2020/3/13 下午4:23:35"
     },
     {
@@ -1605,9 +1489,69 @@ export const siteData = {
           "level": 3,
           "title": "审计流程",
           "slug": "审计流程"
+        },
+        {
+          "level": 3,
+          "title": "审计开发",
+          "slug": "审计开发"
         }
       ],
-      "lastUpdated": "2020/8/26 上午9:27:40"
+      "lastUpdated": "2020/10/21 下午3:34:31"
+    },
+    {
+      "title": "FAQ",
+      "frontmatter": {
+        "title": "FAQ",
+        "meteTitle": "FAQ",
+        "sidebarDepth": "auto"
+      },
+      "regularPath": "/zh/faq/",
+      "relativePath": "zh/faq/README.md",
+      "key": "v-865b251e",
+      "path": "/zh/faq/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Q：什么是HX UAP？",
+          "slug": "q：什么是hx-uap？"
+        },
+        {
+          "level": 2,
+          "title": "Q：HX UAP部署需要准备什么软件或文件？",
+          "slug": "q：hx-uap部署需要准备什么软件或文件？"
+        },
+        {
+          "level": 2,
+          "title": "Q：war包应该放在哪里？",
+          "slug": "q：war包应该放在哪里？"
+        },
+        {
+          "level": 2,
+          "title": "Q：为什么修改Tomcat中的配置文件后，配置仍不生效？",
+          "slug": "q：为什么修改tomcat中的配置文件后，配置仍不生效？"
+        },
+        {
+          "level": 2,
+          "title": "Q：为什么Tomcat启动时总是报错？",
+          "slug": "q：为什么tomcat启动时总是报错？"
+        },
+        {
+          "level": 2,
+          "title": "Q：为什么Tomcat启动不起来或者自动退出？",
+          "slug": "q：为什么tomcat启动不起来或者自动退出？"
+        },
+        {
+          "level": 2,
+          "title": "Q：管理员用户与普通用户的区别是什么？",
+          "slug": "q：管理员用户与普通用户的区别是什么？"
+        },
+        {
+          "level": 2,
+          "title": "Q：如何判断账户是否为管理员角色？",
+          "slug": "q：如何判断账户是否为管理员角色？"
+        }
+      ],
+      "lastUpdated": "2020/8/6 下午3:54:23"
     },
     {
       "title": "部署",
@@ -1629,15 +1573,6 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2020/3/17 下午3:15:21"
-    },
-    {
-      "title": "redis配置",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/redis-sentry.html",
-      "relativePath": "zh/guide/redis-sentry.md",
-      "key": "v-ef51ab0c",
-      "path": "/zh/guide/redis-sentry.html",
-      "lastUpdated": "2020/3/13 下午4:23:35"
     },
     {
       "title": "介绍",
@@ -1668,6 +1603,76 @@ export const siteData = {
           "slug": "产品价值"
         }
       ],
+      "lastUpdated": "2020/3/13 下午4:23:35"
+    },
+    {
+      "title": "部署前的准备工作",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/prepare.html",
+      "relativePath": "zh/guide/prepare.md",
+      "key": "v-10e27020",
+      "path": "/zh/guide/prepare.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "操作系统",
+          "slug": "操作系统"
+        },
+        {
+          "level": 3,
+          "title": "统一应用平台支持Windows服务器或者Linux服务器，推荐使用Linux服务器。",
+          "slug": "统一应用平台支持windows服务器或者linux服务器，推荐使用linux服务器。"
+        },
+        {
+          "level": 3,
+          "title": "安装操作系统",
+          "slug": "安装操作系统"
+        },
+        {
+          "level": 2,
+          "title": "环境准备",
+          "slug": "环境准备"
+        },
+        {
+          "level": 3,
+          "title": "统一应用平台需要用到以下相关工具或者运行环境",
+          "slug": "统一应用平台需要用到以下相关工具或者运行环境"
+        },
+        {
+          "level": 3,
+          "title": "安装数据库",
+          "slug": "安装数据库"
+        },
+        {
+          "level": 3,
+          "title": "安装JDK",
+          "slug": "安装jdk"
+        },
+        {
+          "level": 3,
+          "title": "安装Tomcat",
+          "slug": "安装tomcat"
+        },
+        {
+          "level": 3,
+          "title": "安装浏览器",
+          "slug": "安装浏览器"
+        },
+        {
+          "level": 3,
+          "title": "统一应用平台安装包",
+          "slug": "统一应用平台安装包"
+        }
+      ],
+      "lastUpdated": "2020/3/13 下午4:23:35"
+    },
+    {
+      "title": "redis配置",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/redis-sentry.html",
+      "relativePath": "zh/guide/redis-sentry.md",
+      "key": "v-ef51ab0c",
+      "path": "/zh/guide/redis-sentry.html",
       "lastUpdated": "2020/3/13 下午4:23:35"
     },
     {
@@ -1751,6 +1756,80 @@ export const siteData = {
           "level": 2,
           "title": "术语",
           "slug": "术语"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "登录和首页",
+      "frontmatter": {
+        "title": "登录和首页",
+        "metaTitle": "登录和首页"
+      },
+      "regularPath": "/zh/guide/userManual/02-login.html",
+      "relativePath": "zh/guide/userManual/02-login.md",
+      "key": "v-2d354e69",
+      "path": "/zh/guide/userManual/02-login.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "登录",
+          "slug": "登录"
+        },
+        {
+          "level": 2,
+          "title": "首页",
+          "slug": "首页"
+        }
+      ],
+      "lastUpdated": "2020/3/18 下午3:03:06"
+    },
+    {
+      "title": "权限管理",
+      "frontmatter": {
+        "title": "权限管理",
+        "metaTitle": "权限管理",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/04-authority.html",
+      "relativePath": "zh/guide/userManual/04-authority.md",
+      "key": "v-5d0a3a9e",
+      "path": "/zh/guide/userManual/04-authority.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "角色",
+          "slug": "角色"
+        },
+        {
+          "level": 3,
+          "title": "新增角色",
+          "slug": "新增角色"
+        },
+        {
+          "level": 3,
+          "title": "删除角色",
+          "slug": "删除角色"
+        },
+        {
+          "level": 3,
+          "title": "编辑角色",
+          "slug": "编辑角色"
+        },
+        {
+          "level": 3,
+          "title": "启停角色",
+          "slug": "启停角色"
+        },
+        {
+          "level": 3,
+          "title": "角色分配菜单",
+          "slug": "角色分配菜单"
+        },
+        {
+          "level": 3,
+          "title": "配置（将角色分配给用户）",
+          "slug": "配置（将角色分配给用户）"
         }
       ],
       "lastUpdated": "2020/3/17 下午3:15:21"
@@ -1856,30 +1935,6 @@ export const siteData = {
       "lastUpdated": "2020/3/17 下午3:15:21"
     },
     {
-      "title": "登录和首页",
-      "frontmatter": {
-        "title": "登录和首页",
-        "metaTitle": "登录和首页"
-      },
-      "regularPath": "/zh/guide/userManual/02-login.html",
-      "relativePath": "zh/guide/userManual/02-login.md",
-      "key": "v-2d354e69",
-      "path": "/zh/guide/userManual/02-login.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "登录",
-          "slug": "登录"
-        },
-        {
-          "level": 2,
-          "title": "首页",
-          "slug": "首页"
-        }
-      ],
-      "lastUpdated": "2020/3/18 下午3:03:06"
-    },
-    {
       "title": "系统设置",
       "frontmatter": {
         "title": "系统设置",
@@ -1940,56 +1995,6 @@ export const siteData = {
           "level": 2,
           "title": "菜单日志",
           "slug": "菜单日志"
-        }
-      ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
-    },
-    {
-      "title": "权限管理",
-      "frontmatter": {
-        "title": "权限管理",
-        "metaTitle": "权限管理",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/zh/guide/userManual/04-authority.html",
-      "relativePath": "zh/guide/userManual/04-authority.md",
-      "key": "v-5d0a3a9e",
-      "path": "/zh/guide/userManual/04-authority.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "角色",
-          "slug": "角色"
-        },
-        {
-          "level": 3,
-          "title": "新增角色",
-          "slug": "新增角色"
-        },
-        {
-          "level": 3,
-          "title": "删除角色",
-          "slug": "删除角色"
-        },
-        {
-          "level": 3,
-          "title": "编辑角色",
-          "slug": "编辑角色"
-        },
-        {
-          "level": 3,
-          "title": "启停角色",
-          "slug": "启停角色"
-        },
-        {
-          "level": 3,
-          "title": "角色分配菜单",
-          "slug": "角色分配菜单"
-        },
-        {
-          "level": 3,
-          "title": "配置（将角色分配给用户）",
-          "slug": "配置（将角色分配给用户）"
         }
       ],
       "lastUpdated": "2020/3/17 下午3:15:21"
@@ -2270,6 +2275,26 @@ export const siteData = {
       "lastUpdated": "2020/3/17 下午3:15:21"
     },
     {
+      "title": "监控",
+      "frontmatter": {
+        "title": "监控",
+        "metaTitle": "监控",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/11-monitor.html",
+      "relativePath": "zh/guide/userManual/11-monitor.md",
+      "key": "v-7fa31bcb",
+      "path": "/zh/guide/userManual/11-monitor.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "监控数据",
+          "slug": "监控数据"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
       "title": "消息中心",
       "frontmatter": {
         "title": "消息中心",
@@ -2386,26 +2411,6 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2020/9/7 上午9:33:19"
-    },
-    {
-      "title": "监控",
-      "frontmatter": {
-        "title": "监控",
-        "metaTitle": "监控",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/zh/guide/userManual/11-monitor.html",
-      "relativePath": "zh/guide/userManual/11-monitor.md",
-      "key": "v-7fa31bcb",
-      "path": "/zh/guide/userManual/11-monitor.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "监控数据",
-          "slug": "监控数据"
-        }
-      ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
     }
   ],
   "themeConfig": {
@@ -2445,6 +2450,10 @@ export const siteData = {
           {
             "text": "License Apply",
             "link": "https://172.16.45.18/ui/page/login.html"
+          },
+          {
+            "text": "Language Tools",
+            "link": "https://172.16.45.18/uap-licApply/ui/lang.html"
           }
         ],
         "sidebar": {
@@ -2518,6 +2527,10 @@ export const siteData = {
           {
             "text": "License 申请",
             "link": "https://172.16.45.18/ui/page/login.html"
+          },
+          {
+            "text": "语言工具",
+            "link": "https://172.16.45.18/uap-licApply/ui/lang.html"
           }
         ],
         "sidebar": {

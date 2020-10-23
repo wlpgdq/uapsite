@@ -25,5 +25,9 @@ module.exports = [
   {
     text: 'License 申请',
     link: 'https://172.16.45.18/ui/page/login.html'
+  },
+  {
+    text: '语言工具',
+    link: 'https://172.16.45.18/uap-licApply/ui/lang.html'
   }
 ]
