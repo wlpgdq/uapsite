@@ -108,3 +108,13 @@ A：用户可以根据Menus选项卡的 `Functional types`选项进行判断
 根据表格可以得知，管理员的菜单选项有三个选项，分别为**商务功能**、**通用功能**和**开发功能**
 
 另外两个角色只拥有与其相关的两个功能接口
+
+## Q：License文件问题
+
+A1：Tomcat启动时显示License提示为`The License is illegal, please re-apply for a new license![7D4FC688D5F714A470257823DFE97BD2]`
+
+表明当前的License已过期或不合法，请再次申请。点击右上角的**License申请** 按钮
+
+A2：Tomcat启动时显示License提示硬件码位置并没有数据时，表明用户未配置**license的路径**，请在`uap.properties`文件中添加。
+
+A3：Tomcat启动时显示License提示`[/lincese]`打印出路径，表示没有lincese的申请工具文件,如.so文件或是.dll文件
