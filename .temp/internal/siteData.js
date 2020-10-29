@@ -106,92 +106,6 @@ export const siteData = {
       "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
-      "title": "FAQ",
-      "frontmatter": {
-        "title": "FAQ",
-        "meteTitle": "FAQ",
-        "sidebarDepth": "auto"
-      },
-      "regularPath": "/faq/",
-      "relativePath": "faq/README.md",
-      "key": "v-b77b9c4c",
-      "path": "/faq/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Q：What is HX UAP？",
-          "slug": "q：what-is-hx-uap？"
-        },
-        {
-          "level": 2,
-          "title": "Q：What software or files should be prepared for HX UAP deployment？",
-          "slug": "q：what-software-or-files-should-be-prepared-for-hx-uap-deployment？"
-        },
-        {
-          "level": 2,
-          "title": "Q：Where should the war package be placed？",
-          "slug": "q：where-should-the-war-package-be-placed？"
-        },
-        {
-          "level": 2,
-          "title": "Q：Why does the configuration still not take effect after modifying the configuration file in Tomcat？",
-          "slug": "q：why-does-the-configuration-still-not-take-effect-after-modifying-the-configuration-file-in-tomcat？"
-        },
-        {
-          "level": 2,
-          "title": "Q：Why does Tomcat always report errors when starting？",
-          "slug": "q：why-does-tomcat-always-report-errors-when-starting？"
-        },
-        {
-          "level": 2,
-          "title": "Q: Why does Tomcat fail to start or exit automatically？",
-          "slug": "q-why-does-tomcat-fail-to-start-or-exit-automatically？"
-        },
-        {
-          "level": 2,
-          "title": "Q：What is the difference between an administrator user and a normal user?",
-          "slug": "q：what-is-the-difference-between-an-administrator-user-and-a-normal-user"
-        },
-        {
-          "level": 2,
-          "title": "Q：How to determine whether the account is an administrator role?",
-          "slug": "q：how-to-determine-whether-the-account-is-an-administrator-role"
-        }
-      ],
-      "lastUpdated": "8/6/2020, 3:54:23 PM"
-    },
-    {
-      "title": "Introduction",
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-b75472e4",
-      "path": "/guide/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Background",
-          "slug": "background"
-        },
-        {
-          "level": 2,
-          "title": "Product target",
-          "slug": "product-target"
-        },
-        {
-          "level": 2,
-          "title": "Product range definition",
-          "slug": "product-range-definition"
-        },
-        {
-          "level": 2,
-          "title": "Product value",
-          "slug": "product-value"
-        }
-      ],
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
-    },
-    {
       "title": "Development Manual",
       "frontmatter": {
         "sidebar": "auto"
@@ -395,6 +309,92 @@ export const siteData = {
       "lastUpdated": "8/26/2020, 9:42:44 AM"
     },
     {
+      "title": "FAQ",
+      "frontmatter": {
+        "title": "FAQ",
+        "meteTitle": "FAQ",
+        "sidebarDepth": "auto"
+      },
+      "regularPath": "/faq/",
+      "relativePath": "faq/README.md",
+      "key": "v-b77b9c4c",
+      "path": "/faq/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Q：What is HX UAP？",
+          "slug": "q：what-is-hx-uap？"
+        },
+        {
+          "level": 2,
+          "title": "Q：What software or files should be prepared for HX UAP deployment？",
+          "slug": "q：what-software-or-files-should-be-prepared-for-hx-uap-deployment？"
+        },
+        {
+          "level": 2,
+          "title": "Q：Where should the war package be placed？",
+          "slug": "q：where-should-the-war-package-be-placed？"
+        },
+        {
+          "level": 2,
+          "title": "Q：Why does the configuration still not take effect after modifying the configuration file in Tomcat？",
+          "slug": "q：why-does-the-configuration-still-not-take-effect-after-modifying-the-configuration-file-in-tomcat？"
+        },
+        {
+          "level": 2,
+          "title": "Q：Why does Tomcat always report errors when starting？",
+          "slug": "q：why-does-tomcat-always-report-errors-when-starting？"
+        },
+        {
+          "level": 2,
+          "title": "Q: Why does Tomcat fail to start or exit automatically？",
+          "slug": "q-why-does-tomcat-fail-to-start-or-exit-automatically？"
+        },
+        {
+          "level": 2,
+          "title": "Q：What is the difference between an administrator user and a normal user?",
+          "slug": "q：what-is-the-difference-between-an-administrator-user-and-a-normal-user"
+        },
+        {
+          "level": 2,
+          "title": "Q：How to determine whether the account is an administrator role?",
+          "slug": "q：how-to-determine-whether-the-account-is-an-administrator-role"
+        }
+      ],
+      "lastUpdated": "8/6/2020, 3:54:23 PM"
+    },
+    {
+      "title": "Introduction",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-b75472e4",
+      "path": "/guide/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Background",
+          "slug": "background"
+        },
+        {
+          "level": 2,
+          "title": "Product target",
+          "slug": "product-target"
+        },
+        {
+          "level": 2,
+          "title": "Product range definition",
+          "slug": "product-range-definition"
+        },
+        {
+          "level": 2,
+          "title": "Product value",
+          "slug": "product-value"
+        }
+      ],
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
+    },
+    {
       "title": "Deploy",
       "frontmatter": {},
       "regularPath": "/guide/deploy.html",
@@ -413,15 +413,6 @@ export const siteData = {
           "slug": "program"
         }
       ],
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
-    },
-    {
-      "title": "redis configuration",
-      "frontmatter": {},
-      "regularPath": "/guide/redis-sentry.html",
-      "relativePath": "guide/redis-sentry.md",
-      "key": "v-28865052",
-      "path": "/guide/redis-sentry.html",
       "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
@@ -483,6 +474,15 @@ export const siteData = {
           "slug": "unified-application-platform-installation-package"
         }
       ],
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
+    },
+    {
+      "title": "redis configuration",
+      "frontmatter": {},
+      "regularPath": "/guide/redis-sentry.html",
+      "relativePath": "guide/redis-sentry.md",
+      "key": "v-28865052",
+      "path": "/guide/redis-sentry.html",
       "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
@@ -863,6 +863,11 @@ export const siteData = {
         },
         {
           "level": 3,
+          "title": "Menu copy, cut, paste",
+          "slug": "menu-copy-cut-paste"
+        },
+        {
+          "level": 3,
           "title": "Edit menu",
           "slug": "edit-menu"
         },
@@ -950,6 +955,46 @@ export const siteData = {
           "level": 2,
           "title": "Tenant Information",
           "slug": "tenant-information"
+        },
+        {
+          "level": 2,
+          "title": "Tenant menu",
+          "slug": "tenant-menu"
+        },
+        {
+          "level": 2,
+          "title": "Tenant file system",
+          "slug": "tenant-file-system"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
+      "title": "My Mission",
+      "frontmatter": {
+        "title": "My Mission",
+        "metaTitle": "My mission",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/07-my-task.html",
+      "relativePath": "guide/userManual/07-my-task.md",
+      "key": "v-9bb21780",
+      "path": "/guide/userManual/07-my-task.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "My task",
+          "slug": "my-task-2"
+        },
+        {
+          "level": 2,
+          "title": "History Mission",
+          "slug": "history-mission"
+        },
+        {
+          "level": 2,
+          "title": "My process instance",
+          "slug": "my-process-instance"
         }
       ],
       "lastUpdated": "3/17/2020, 3:15:21 PM"
@@ -1030,36 +1075,6 @@ export const siteData = {
       "lastUpdated": "3/17/2020, 3:15:21 PM"
     },
     {
-      "title": "My Mission",
-      "frontmatter": {
-        "title": "My Mission",
-        "metaTitle": "My mission",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/guide/userManual/07-my-task.html",
-      "relativePath": "guide/userManual/07-my-task.md",
-      "key": "v-9bb21780",
-      "path": "/guide/userManual/07-my-task.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "My task",
-          "slug": "my-task-2"
-        },
-        {
-          "level": 2,
-          "title": "History Mission",
-          "slug": "history-mission"
-        },
-        {
-          "level": 2,
-          "title": "My process instance",
-          "slug": "my-process-instance"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
       "title": "Timed Task",
       "frontmatter": {
         "title": "Timed Task",
@@ -1115,6 +1130,109 @@ export const siteData = {
       "lastUpdated": "3/17/2020, 3:15:21 PM"
     },
     {
+      "title": "Release Notes",
+      "frontmatter": {
+        "sidebar": "auto"
+      },
+      "regularPath": "/miscellaneous/release-notes.html",
+      "relativePath": "miscellaneous/release-notes.md",
+      "key": "v-d1f6489a",
+      "path": "/miscellaneous/release-notes.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Version: UAP 3.0.0.0",
+          "slug": "version-uap-3-0-0-0"
+        },
+        {
+          "level": 3,
+          "title": "New Function",
+          "slug": "new-function"
+        },
+        {
+          "level": 2,
+          "title": "Bug fixes and optimizations",
+          "slug": "bug-fixes-and-optimizations"
+        },
+        {
+          "level": 2,
+          "title": "Version: UAP 2.3.0.0",
+          "slug": "version-uap-2-3-0-0"
+        },
+        {
+          "level": 3,
+          "title": "New Function",
+          "slug": "new-function-2"
+        },
+        {
+          "level": 3,
+          "title": "Bug fixes and optimizations",
+          "slug": "bug-fixes-and-optimizations-2"
+        },
+        {
+          "level": 2,
+          "title": "Version: UAP 2.0.0.0",
+          "slug": "version-uap-2-0-0-0"
+        },
+        {
+          "level": 3,
+          "title": "New Function",
+          "slug": "new-function-3"
+        },
+        {
+          "level": 3,
+          "title": "Bug fixes and optimizations",
+          "slug": "bug-fixes-and-optimizations-3"
+        },
+        {
+          "level": 2,
+          "title": "Version: UAP 1.3.0.0",
+          "slug": "version-uap-1-3-0-0"
+        },
+        {
+          "level": 3,
+          "title": "New Function",
+          "slug": "new-function-4"
+        },
+        {
+          "level": 3,
+          "title": "Bug fixes and optimizations",
+          "slug": "bug-fixes-and-optimizations-4"
+        },
+        {
+          "level": 2,
+          "title": "Version: UAP 1.2.0.3",
+          "slug": "version-uap-1-2-0-3"
+        },
+        {
+          "level": 3,
+          "title": "New Function",
+          "slug": "new-function-5"
+        },
+        {
+          "level": 3,
+          "title": "Bug fixes and optimizations",
+          "slug": "bug-fixes-and-optimizations-5"
+        },
+        {
+          "level": 2,
+          "title": "Version: UAP 1.1.0.2",
+          "slug": "version-uap-1-1-0-2"
+        },
+        {
+          "level": 3,
+          "title": "New Function",
+          "slug": "new-function-6"
+        },
+        {
+          "level": 3,
+          "title": "Bug fixes and optimizations",
+          "slug": "bug-fixes-and-optimizations-6"
+        }
+      ],
+      "lastUpdated": "9/7/2020, 9:33:19 AM"
+    },
+    {
       "title": "Monitoring",
       "frontmatter": {
         "title": "Monitoring",
@@ -1133,94 +1251,6 @@ export const siteData = {
         }
       ],
       "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
-      "title": "Release Notes",
-      "frontmatter": {
-        "sidebar": "auto"
-      },
-      "regularPath": "/miscellaneous/release-notes.html",
-      "relativePath": "miscellaneous/release-notes.md",
-      "key": "v-d1f6489a",
-      "path": "/miscellaneous/release-notes.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Version: UAP 2.3.0.0",
-          "slug": "version-uap-2-3-0-0"
-        },
-        {
-          "level": 3,
-          "title": "New Function",
-          "slug": "new-function"
-        },
-        {
-          "level": 3,
-          "title": "Bug fixes and optimizations",
-          "slug": "bug-fixes-and-optimizations"
-        },
-        {
-          "level": 2,
-          "title": "Version: UAP 2.0.0.0",
-          "slug": "version-uap-2-0-0-0"
-        },
-        {
-          "level": 3,
-          "title": "New Function",
-          "slug": "new-function-2"
-        },
-        {
-          "level": 3,
-          "title": "Bug fixes and optimizations",
-          "slug": "bug-fixes-and-optimizations-2"
-        },
-        {
-          "level": 2,
-          "title": "Version: UAP 1.3.0.0",
-          "slug": "version-uap-1-3-0-0"
-        },
-        {
-          "level": 3,
-          "title": "New Function",
-          "slug": "new-function-3"
-        },
-        {
-          "level": 3,
-          "title": "Bug fixes and optimizations",
-          "slug": "bug-fixes-and-optimizations-3"
-        },
-        {
-          "level": 2,
-          "title": "Version: UAP 1.2.0.3",
-          "slug": "version-uap-1-2-0-3"
-        },
-        {
-          "level": 3,
-          "title": "New Function",
-          "slug": "new-function-4"
-        },
-        {
-          "level": 3,
-          "title": "Bug fixes and optimizations",
-          "slug": "bug-fixes-and-optimizations-4"
-        },
-        {
-          "level": 2,
-          "title": "Version: UAP 1.1.0.2",
-          "slug": "version-uap-1-1-0-2"
-        },
-        {
-          "level": 3,
-          "title": "New Function",
-          "slug": "new-function-5"
-        },
-        {
-          "level": 3,
-          "title": "Bug fixes and optimizations",
-          "slug": "bug-fixes-and-optimizations-5"
-        }
-      ],
-      "lastUpdated": "9/7/2020, 9:33:19 AM"
     },
     {
       "title": "Home",
@@ -1549,30 +1579,14 @@ export const siteData = {
           "level": 2,
           "title": "Q：如何判断账户是否为管理员角色？",
           "slug": "q：如何判断账户是否为管理员角色？"
-        }
-      ],
-      "lastUpdated": "2020/8/6 下午3:54:23"
-    },
-    {
-      "title": "部署",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/deploy.html",
-      "relativePath": "zh/guide/deploy.md",
-      "key": "v-5055fbfa",
-      "path": "/zh/guide/deploy.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "平台基础功能数据库",
-          "slug": "平台基础功能数据库"
         },
         {
           "level": 2,
-          "title": "程序",
-          "slug": "程序"
+          "title": "Q：License文件问题",
+          "slug": "q：license文件问题"
         }
       ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
+      "lastUpdated": "2020/10/27 下午3:13:48"
     },
     {
       "title": "介绍",
@@ -1604,6 +1618,27 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2020/3/13 下午4:23:35"
+    },
+    {
+      "title": "部署",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/deploy.html",
+      "relativePath": "zh/guide/deploy.md",
+      "key": "v-5055fbfa",
+      "path": "/zh/guide/deploy.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "平台基础功能数据库",
+          "slug": "平台基础功能数据库"
+        },
+        {
+          "level": 2,
+          "title": "程序",
+          "slug": "程序"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
     },
     {
       "title": "部署前的准备工作",
@@ -1761,30 +1796,6 @@ export const siteData = {
       "lastUpdated": "2020/3/17 下午3:15:21"
     },
     {
-      "title": "登录和首页",
-      "frontmatter": {
-        "title": "登录和首页",
-        "metaTitle": "登录和首页"
-      },
-      "regularPath": "/zh/guide/userManual/02-login.html",
-      "relativePath": "zh/guide/userManual/02-login.md",
-      "key": "v-2d354e69",
-      "path": "/zh/guide/userManual/02-login.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "登录",
-          "slug": "登录"
-        },
-        {
-          "level": 2,
-          "title": "首页",
-          "slug": "首页"
-        }
-      ],
-      "lastUpdated": "2020/3/18 下午3:03:06"
-    },
-    {
       "title": "权限管理",
       "frontmatter": {
         "title": "权限管理",
@@ -1835,169 +1846,28 @@ export const siteData = {
       "lastUpdated": "2020/3/17 下午3:15:21"
     },
     {
-      "title": "组织管理",
+      "title": "登录和首页",
       "frontmatter": {
-        "title": "组织管理",
-        "metaTitle": "组织管理",
-        "sidebarDepth": 3
+        "title": "登录和首页",
+        "metaTitle": "登录和首页"
       },
-      "regularPath": "/zh/guide/userManual/03-organization.html",
-      "relativePath": "zh/guide/userManual/03-organization.md",
-      "key": "v-77b9c32d",
-      "path": "/zh/guide/userManual/03-organization.html",
+      "regularPath": "/zh/guide/userManual/02-login.html",
+      "relativePath": "zh/guide/userManual/02-login.md",
+      "key": "v-2d354e69",
+      "path": "/zh/guide/userManual/02-login.html",
       "headers": [
         {
           "level": 2,
-          "title": "用户",
-          "slug": "用户"
-        },
-        {
-          "level": 3,
-          "title": "用户操作列表介绍",
-          "slug": "用户操作列表介绍"
-        },
-        {
-          "level": 3,
-          "title": "新增用户",
-          "slug": "新增用户"
-        },
-        {
-          "level": 3,
-          "title": "编辑用户",
-          "slug": "编辑用户"
-        },
-        {
-          "level": 3,
-          "title": "配置（给用户配置角色）",
-          "slug": "配置（给用户配置角色）"
-        },
-        {
-          "level": 3,
-          "title": "配置管理单元",
-          "slug": "配置管理单元"
-        },
-        {
-          "level": 3,
-          "title": "重置密码",
-          "slug": "重置密码"
-        },
-        {
-          "level": 3,
-          "title": "密码修改记录",
-          "slug": "密码修改记录"
-        },
-        {
-          "level": 3,
-          "title": "启停用户",
-          "slug": "启停用户"
+          "title": "登录",
+          "slug": "登录"
         },
         {
           "level": 2,
-          "title": "组织",
-          "slug": "组织"
-        },
-        {
-          "level": 3,
-          "title": "新增组织",
-          "slug": "新增组织"
-        },
-        {
-          "level": 3,
-          "title": "编辑组织",
-          "slug": "编辑组织"
-        },
-        {
-          "level": 3,
-          "title": "组织排序",
-          "slug": "组织排序"
-        },
-        {
-          "level": 3,
-          "title": "启停组织",
-          "slug": "启停组织"
-        },
-        {
-          "level": 2,
-          "title": "管理单位配置",
-          "slug": "管理单位配置"
-        },
-        {
-          "level": 3,
-          "title": "新增用户分配组织",
-          "slug": "新增用户分配组织"
-        },
-        {
-          "level": 3,
-          "title": "删除用户已分配组织",
-          "slug": "删除用户已分配组织"
+          "title": "首页",
+          "slug": "首页"
         }
       ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
-    },
-    {
-      "title": "系统设置",
-      "frontmatter": {
-        "title": "系统设置",
-        "metaTitle": "系统设置",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/zh/guide/userManual/05-system-settings.html",
-      "relativePath": "zh/guide/userManual/05-system-settings.md",
-      "key": "v-5adc489a",
-      "path": "/zh/guide/userManual/05-system-settings.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "系统编码",
-          "slug": "系统编码"
-        },
-        {
-          "level": 3,
-          "title": "新增编码",
-          "slug": "新增编码"
-        },
-        {
-          "level": 3,
-          "title": "编辑编码",
-          "slug": "编辑编码"
-        },
-        {
-          "level": 3,
-          "title": "删除编码",
-          "slug": "删除编码"
-        },
-        {
-          "level": 2,
-          "title": "API接口日志",
-          "slug": "api接口日志"
-        },
-        {
-          "level": 3,
-          "title": "查看详细的日志信息",
-          "slug": "查看详细的日志信息"
-        },
-        {
-          "level": 2,
-          "title": "登录日志",
-          "slug": "登录日志"
-        },
-        {
-          "level": 2,
-          "title": "日历管理",
-          "slug": "日历管理"
-        },
-        {
-          "level": 2,
-          "title": "非法登录日志",
-          "slug": "非法登录日志"
-        },
-        {
-          "level": 2,
-          "title": "菜单日志",
-          "slug": "菜单日志"
-        }
-      ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
+      "lastUpdated": "2020/3/18 下午3:03:06"
     },
     {
       "title": "应用设置",
@@ -2073,6 +1943,11 @@ export const siteData = {
         },
         {
           "level": 3,
+          "title": "菜单复制、剪切、粘贴",
+          "slug": "菜单复制、剪切、粘贴"
+        },
+        {
+          "level": 3,
           "title": "删除菜单定制",
           "slug": "删除菜单定制"
         },
@@ -2140,6 +2015,86 @@ export const siteData = {
           "level": 2,
           "title": "租户信息",
           "slug": "租户信息"
+        },
+        {
+          "level": 2,
+          "title": "租户菜单",
+          "slug": "租户菜单"
+        },
+        {
+          "level": 2,
+          "title": "租户文件系统",
+          "slug": "租户文件系统"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "系统设置",
+      "frontmatter": {
+        "title": "系统设置",
+        "metaTitle": "系统设置",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/05-system-settings.html",
+      "relativePath": "zh/guide/userManual/05-system-settings.md",
+      "key": "v-5adc489a",
+      "path": "/zh/guide/userManual/05-system-settings.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "系统编码",
+          "slug": "系统编码"
+        },
+        {
+          "level": 3,
+          "title": "新增编码",
+          "slug": "新增编码"
+        },
+        {
+          "level": 3,
+          "title": "编辑编码",
+          "slug": "编辑编码"
+        },
+        {
+          "level": 3,
+          "title": "删除编码",
+          "slug": "删除编码"
+        },
+        {
+          "level": 2,
+          "title": "API接口日志",
+          "slug": "api接口日志"
+        },
+        {
+          "level": 3,
+          "title": "查看详细的日志信息",
+          "slug": "查看详细的日志信息"
+        },
+        {
+          "level": 2,
+          "title": "登录日志",
+          "slug": "登录日志"
+        },
+        {
+          "level": 2,
+          "title": "日历管理",
+          "slug": "日历管理"
+        },
+        {
+          "level": 2,
+          "title": "非法登录日志",
+          "slug": "非法登录日志"
+        },
+        {
+          "level": 2,
+          "title": "菜单日志",
+          "slug": "菜单日志"
+        },
+        {
+          "level": 2,
+          "title": "审计日志",
+          "slug": "审计日志"
         }
       ],
       "lastUpdated": "2020/3/17 下午3:15:21"
@@ -2275,26 +2230,6 @@ export const siteData = {
       "lastUpdated": "2020/3/17 下午3:15:21"
     },
     {
-      "title": "监控",
-      "frontmatter": {
-        "title": "监控",
-        "metaTitle": "监控",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/zh/guide/userManual/11-monitor.html",
-      "relativePath": "zh/guide/userManual/11-monitor.md",
-      "key": "v-7fa31bcb",
-      "path": "/zh/guide/userManual/11-monitor.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "监控数据",
-          "slug": "监控数据"
-        }
-      ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
-    },
-    {
       "title": "消息中心",
       "frontmatter": {
         "title": "消息中心",
@@ -2325,6 +2260,126 @@ export const siteData = {
       "lastUpdated": "2020/3/17 下午3:15:21"
     },
     {
+      "title": "组织管理",
+      "frontmatter": {
+        "title": "组织管理",
+        "metaTitle": "组织管理",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/03-organization.html",
+      "relativePath": "zh/guide/userManual/03-organization.md",
+      "key": "v-77b9c32d",
+      "path": "/zh/guide/userManual/03-organization.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "用户",
+          "slug": "用户"
+        },
+        {
+          "level": 3,
+          "title": "用户操作列表介绍",
+          "slug": "用户操作列表介绍"
+        },
+        {
+          "level": 3,
+          "title": "新增用户",
+          "slug": "新增用户"
+        },
+        {
+          "level": 3,
+          "title": "编辑用户",
+          "slug": "编辑用户"
+        },
+        {
+          "level": 3,
+          "title": "配置（给用户配置角色）",
+          "slug": "配置（给用户配置角色）"
+        },
+        {
+          "level": 3,
+          "title": "配置管理单元",
+          "slug": "配置管理单元"
+        },
+        {
+          "level": 3,
+          "title": "重置密码",
+          "slug": "重置密码"
+        },
+        {
+          "level": 3,
+          "title": "密码修改记录",
+          "slug": "密码修改记录"
+        },
+        {
+          "level": 3,
+          "title": "启停用户",
+          "slug": "启停用户"
+        },
+        {
+          "level": 2,
+          "title": "组织",
+          "slug": "组织"
+        },
+        {
+          "level": 3,
+          "title": "新增组织",
+          "slug": "新增组织"
+        },
+        {
+          "level": 3,
+          "title": "编辑组织",
+          "slug": "编辑组织"
+        },
+        {
+          "level": 3,
+          "title": "组织排序",
+          "slug": "组织排序"
+        },
+        {
+          "level": 3,
+          "title": "启停组织",
+          "slug": "启停组织"
+        },
+        {
+          "level": 2,
+          "title": "管理单位配置",
+          "slug": "管理单位配置"
+        },
+        {
+          "level": 3,
+          "title": "新增用户分配组织",
+          "slug": "新增用户分配组织"
+        },
+        {
+          "level": 3,
+          "title": "删除用户已分配组织",
+          "slug": "删除用户已分配组织"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "监控",
+      "frontmatter": {
+        "title": "监控",
+        "metaTitle": "监控",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/11-monitor.html",
+      "relativePath": "zh/guide/userManual/11-monitor.md",
+      "key": "v-7fa31bcb",
+      "path": "/zh/guide/userManual/11-monitor.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "监控数据",
+          "slug": "监控数据"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
       "title": "发布说明",
       "frontmatter": {
         "sidebar": "auto"
@@ -2336,8 +2391,8 @@ export const siteData = {
       "headers": [
         {
           "level": 2,
-          "title": "版本：UAP 2.3.0.0",
-          "slug": "版本：uap-2-3-0-0"
+          "title": "版本：UAP 3.0.0.0",
+          "slug": "版本：uap-3-0-0-0"
         },
         {
           "level": 3,
@@ -2351,8 +2406,8 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "版本：UAP 2.0.0.0",
-          "slug": "版本：uap-2-0-0-0"
+          "title": "版本：UAP 2.3.0.0",
+          "slug": "版本：uap-2-3-0-0"
         },
         {
           "level": 3,
@@ -2366,8 +2421,8 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "版本：UAP 1.3.0.0",
-          "slug": "版本：uap-1-3-0-0"
+          "title": "版本：UAP 2.0.0.0",
+          "slug": "版本：uap-2-0-0-0"
         },
         {
           "level": 3,
@@ -2381,8 +2436,8 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "版本：UAP 1.2.0.3",
-          "slug": "版本：uap-1-2-0-3"
+          "title": "版本：UAP 1.3.0.0",
+          "slug": "版本：uap-1-3-0-0"
         },
         {
           "level": 3,
@@ -2396,8 +2451,8 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "版本：UAP 1.1.0.2",
-          "slug": "版本：uap-1-1-0-2"
+          "title": "版本：UAP 1.2.0.3",
+          "slug": "版本：uap-1-2-0-3"
         },
         {
           "level": 3,
@@ -2408,6 +2463,21 @@ export const siteData = {
           "level": 3,
           "title": "问题修复和优化",
           "slug": "问题修复和优化-5"
+        },
+        {
+          "level": 2,
+          "title": "版本：UAP 1.1.0.2",
+          "slug": "版本：uap-1-1-0-2"
+        },
+        {
+          "level": 3,
+          "title": "新功能",
+          "slug": "新功能-6"
+        },
+        {
+          "level": 3,
+          "title": "问题修复和优化",
+          "slug": "问题修复和优化-6"
         }
       ],
       "lastUpdated": "2020/9/7 上午9:33:19"

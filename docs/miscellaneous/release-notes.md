@@ -4,6 +4,24 @@ sidebar: auto
 
 # Release Notes
 
+## Version: UAP 3.0.0.0
+
+### New Function
+
+| Function points | Description | Remarks |
+| ---- | ---- | ---- |
+| Contains all UAP 2.3.0.0 | Refer to UAP2.3.0.0 Release Notes | |
+| Tenant upload and download | Provide tenants with upload and download functions of the distributed file system | |
+| Audit function | Support for auditing the fields that need to be audited | Need to extend the classes that need to be audited |
+| Menu drag & drop | Support menu drag & drop copy | |
+| License file internationalization conversion tool | Supports mutual conversion of properties files and Json format files | Address in Uap-Site |
+
+## Bug fixes and optimizations
+
+| Problem | Description | Remarks |
+| ---- | ---- | ---- |
+| Back-end internationalization coding refinement | Refine the back-end prompt information, as much as possible | Optimize |
+
 ## Version: UAP 2.3.0.0
 
 ### New Function

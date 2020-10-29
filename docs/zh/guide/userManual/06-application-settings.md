@@ -120,6 +120,12 @@ API Tab页面对操作只对功能菜单有效
 新增的菜单定制ID不可包含字符"-"
 :::
 
+### 菜单复制、剪切、粘贴
+
+选中某个菜单鼠标右击，选择对应操作（复制，剪切），然后再选择一个菜单，鼠标右击，选择粘贴
+
+<img :src="$withBase('/userManual/menuCopy.jpg')" alt="image">
+
 #### 字段介绍
 
 * `菜单类型`系统默认支持“组合”，“分组”，“菜单”。其中这三项对应菜单树的一二三级菜单，系统会显示后面两级。
@@ -248,3 +254,63 @@ API Tab页面对操作只对功能菜单有效
 
 租户信息页面展示了当前登录用户所属租户的详细信息，包括租户名称、logo、税号、邮箱、手机号码、地址、关联的定制菜单、定制任务、应用等基本信息和配置信息。
 修改租户信息点击保存按钮
+
+## 租户菜单
+
+当前用户建立租户后，通过配置租户（关联应用和设定主页菜单）、应用下建立角色、设定角色的菜单、租户下建立组织、组织下新建用户并添加用户角色等操作，最终生成了租户下用户的菜单。具体步骤如下所示：
+
+- 新增租户
+点击多租户菜单右上角的`新增`按钮，系统弹出新增租户界面，如下图所示：
+
+<img :src="$withBase('/userManual/tenantEdit.jpg')" alt="tenantEdit">
+
+## 租户文件系统
+
+菜单树点击“应用设置”-> “租户文件系统”，打开页面。如图所示。
+
+<img :src="$withBase('/userManual/tenantFile.jpg')" alt="tenantFile">
+
+页面提供了按照不同条件查询接口功能，可选的查询条件包括租户，文件类型，文件名称，描述。下面显示对应文件的列表。
+页面还包含`上传`，`预览`，`编辑`，`下载`，`删除`功能。
+
+- 上传
+
+点击`upload`按钮弹出新增文件弹出框如下：
+
+<img :src="$withBase('/userManual/tenantFileUpload.jpg')" alt="tenantFileUpload">
+
+选择文件，选择类型，填入描述，点击`确认`按钮
+
+- 预览
+
+点击列表右边的操作按钮<img :src="$withBase('/userManual/eye.jpg')" alt="eye"> 预览当前的文件
+
+- 编辑
+
+点击列表右边的操作按钮 打开当前的文件`编辑`弹出框如下：
+
+<img :src="$withBase('/userManual/tenantFileEdit.jpg')" alt="tenantFileEdit">
+
+- 下载
+
+点击列表右边的操作按钮<img :src="$withBase('/userManual/tenantFileDownload.jpg')" alt="tenantFileDownload"> 下载当前的文件
+
+## 系统配置管理
+
+菜单树点击“应用设置”-> “系统配置”，打开页面。如图所示。
+
+<img :src="$withBase('/userManual/configDisplay.jpg')" alt="configDisplay">
+
+界面显示配置参数的列表,提供了按照配置参数的`key`模糊查询，参数的修改，参数修改历史功能
+
+点击列表操作右边的编辑按钮修改参数如下：
+
+<img :src="$withBase('/userManual/configEdit.jpg')" alt="configEdit">
+
+点击列表操作右边的<img :src="$withBase('/userManual/eye.jpg')" alt="eye">查看修改记录按钮，弹出当前参数的修改历史记录列表如下：
+
+<img :src="$withBase('/userManual/configEdit.jpg')" alt="configEdit">
+
+点击<img :src="$withBase('/userManual/configViewHistory.jpg')" alt="configViewHistory">查看参数历史修改记录，弹出所有配置参数的历史修改记录如下：
+
+<img :src="$withBase('/userManual/configViewHistoryList.jpg')" alt="configViewHistoryList">

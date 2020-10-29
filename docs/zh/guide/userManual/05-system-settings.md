@@ -124,3 +124,19 @@ sidebarDepth: 3
 <img :src="$withBase('/userManual/menuLog.png')" alt="image">
 
 该页面主要显示当前登录用户所属租户下的用户操作界面记录列表，页面展示了用户账号、用户姓名、菜单名字和操作时间，系统提供了按照时间查询菜单日志
+
+## 审计日志
+
+菜单树点击“系统设置”->“菜单日志”，打开审计日志页面，如图所示：
+
+<img :src="$withBase('/userManual/auditDisplay.jpg')" alt="auditDisplay">
+
+显示条件内的审计列表，主要显示用户在什么时间对什么做了什么操作。页面显示了用户账号，操作时间，操作改变，操作机器IP。还提供了按时间，用户查询和导出审计日志功能。
+
+**审计详情：**
+点击列表最后的操作下的详情按钮，显示对应审计的详细内容如下：
+
+<img :src="$withBase('/userManual/auditDetailDisplay.jpg'')" alt="auditDetailDisplay">
+
+显示具体的数据的改变。
+
