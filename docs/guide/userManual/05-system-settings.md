@@ -124,3 +124,19 @@ In the menu tree, click System Settings-> Menu Log to open the menu log page, as
 <img :src = "$withBase('/userManual/menuLog.png')" alt = "image">
 
 This page mainly displays the user operation interface record list under the tenant to which the currently logged in user belongs. The page displays the user account, user name, menu name, and operation time. The system provides querying the menu log according to time.
+
+## Audit log
+
+In the menu tree, click "System Settings" -> "Menu Log" to open the audit log page, as shown in the figure:
+
+<img :src="$withBase('/userManual/auditDisplay.jpg')" alt="auditDisplay">
+
+Display the audit list within the conditions, mainly showing what operation the user did to what at what time. The page displays the user account, operating time, operating changes, and operating machine IP. It also provides functions for querying and exporting audit logs by time and users.
+
+**Audit details:**
+
+Click the details button under the last operation of the list to display the details of the corresponding audit as follows:
+
+<img :src="$withBase('/userManual/auditDetailDisplay.jpg')" alt="auditDetailDisplay">
+
+Show specific data changes.

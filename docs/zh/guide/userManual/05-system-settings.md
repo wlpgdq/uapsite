@@ -136,7 +136,6 @@ sidebarDepth: 3
 **审计详情：**
 点击列表最后的操作下的详情按钮，显示对应审计的详细内容如下：
 
-<img :src="$withBase('/userManual/auditDetailDisplay.jpg'')" alt="auditDetailDisplay">
+<img :src="$withBase('/userManual/auditDetailDisplay.jpg')" alt="auditDetailDisplay">
 
 显示具体的数据的改变。
-
