@@ -486,6 +486,30 @@ export const siteData = {
       "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
+      "title": "Introduction",
+      "frontmatter": {
+        "title": "Introduction",
+        "metaTitle": "Introduction"
+      },
+      "regularPath": "/guide/userManual/01-introduction.html",
+      "relativePath": "guide/userManual/01-introduction.md",
+      "key": "v-6649fcd4",
+      "path": "/guide/userManual/01-introduction.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Platform Introduction",
+          "slug": "platform-introduction"
+        },
+        {
+          "level": 2,
+          "title": "The Term",
+          "slug": "the-term"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
       "title": "Configure and run",
       "frontmatter": {},
       "regularPath": "/guide/run.html",
@@ -542,30 +566,6 @@ export const siteData = {
           "level": 2,
           "title": "Open unified application platform",
           "slug": "open-unified-application-platform"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
-      "title": "Introduction",
-      "frontmatter": {
-        "title": "Introduction",
-        "metaTitle": "Introduction"
-      },
-      "regularPath": "/guide/userManual/01-introduction.html",
-      "relativePath": "guide/userManual/01-introduction.md",
-      "key": "v-6649fcd4",
-      "path": "/guide/userManual/01-introduction.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Platform Introduction",
-          "slug": "platform-introduction"
-        },
-        {
-          "level": 2,
-          "title": "The Term",
-          "slug": "the-term"
         }
       ],
       "lastUpdated": "3/17/2020, 3:15:21 PM"
@@ -810,6 +810,111 @@ export const siteData = {
       "lastUpdated": "3/17/2020, 3:15:21 PM"
     },
     {
+      "title": "My Mission",
+      "frontmatter": {
+        "title": "My Mission",
+        "metaTitle": "My mission",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/07-my-task.html",
+      "relativePath": "guide/userManual/07-my-task.md",
+      "key": "v-9bb21780",
+      "path": "/guide/userManual/07-my-task.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "My task",
+          "slug": "my-task-2"
+        },
+        {
+          "level": 2,
+          "title": "History Mission",
+          "slug": "history-mission"
+        },
+        {
+          "level": 2,
+          "title": "My process instance",
+          "slug": "my-process-instance"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
+      "title": "Workflow",
+      "frontmatter": {
+        "title": "Workflow",
+        "metaTitle": "Workflow",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/08-workflow.html",
+      "relativePath": "guide/userManual/08-workflow.md",
+      "key": "v-da332ccc",
+      "path": "/guide/userManual/08-workflow.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Process Design",
+          "slug": "process-design"
+        },
+        {
+          "level": 3,
+          "title": "Process grouping",
+          "slug": "process-grouping"
+        },
+        {
+          "level": 3,
+          "title": "Process",
+          "slug": "process"
+        },
+        {
+          "level": 2,
+          "title": "Deployment process",
+          "slug": "deployment-process"
+        },
+        {
+          "level": 3,
+          "title": "Process form configuration",
+          "slug": "process-form-configuration"
+        },
+        {
+          "level": 3,
+          "title": "View deployment information",
+          "slug": "view-deployment-information"
+        },
+        {
+          "level": 2,
+          "title": "Process instance",
+          "slug": "process-instance"
+        },
+        {
+          "level": 2,
+          "title": "Process task",
+          "slug": "process-task"
+        },
+        {
+          "level": 2,
+          "title": "Page configuration",
+          "slug": "page-configuration"
+        },
+        {
+          "level": 3,
+          "title": "Field Combination",
+          "slug": "field-combination"
+        },
+        {
+          "level": 3,
+          "title": "Field",
+          "slug": "field"
+        },
+        {
+          "level": 2,
+          "title": "Dynamic field management",
+          "slug": "dynamic-field-management"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
       "title": "Application Settings",
       "frontmatter": {
         "title": "Application Settings",
@@ -965,114 +1070,14 @@ export const siteData = {
           "level": 2,
           "title": "Tenant file system",
           "slug": "tenant-file-system"
+        },
+        {
+          "level": 2,
+          "title": "System Configuration Management",
+          "slug": "system-configuration-management"
         }
       ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
-      "title": "My Mission",
-      "frontmatter": {
-        "title": "My Mission",
-        "metaTitle": "My mission",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/guide/userManual/07-my-task.html",
-      "relativePath": "guide/userManual/07-my-task.md",
-      "key": "v-9bb21780",
-      "path": "/guide/userManual/07-my-task.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "My task",
-          "slug": "my-task-2"
-        },
-        {
-          "level": 2,
-          "title": "History Mission",
-          "slug": "history-mission"
-        },
-        {
-          "level": 2,
-          "title": "My process instance",
-          "slug": "my-process-instance"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
-      "title": "Workflow",
-      "frontmatter": {
-        "title": "Workflow",
-        "metaTitle": "Workflow",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/guide/userManual/08-workflow.html",
-      "relativePath": "guide/userManual/08-workflow.md",
-      "key": "v-da332ccc",
-      "path": "/guide/userManual/08-workflow.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Process Design",
-          "slug": "process-design"
-        },
-        {
-          "level": 3,
-          "title": "Process grouping",
-          "slug": "process-grouping"
-        },
-        {
-          "level": 3,
-          "title": "Process",
-          "slug": "process"
-        },
-        {
-          "level": 2,
-          "title": "Deployment process",
-          "slug": "deployment-process"
-        },
-        {
-          "level": 3,
-          "title": "Process form configuration",
-          "slug": "process-form-configuration"
-        },
-        {
-          "level": 3,
-          "title": "View deployment information",
-          "slug": "view-deployment-information"
-        },
-        {
-          "level": 2,
-          "title": "Process instance",
-          "slug": "process-instance"
-        },
-        {
-          "level": 2,
-          "title": "Process task",
-          "slug": "process-task"
-        },
-        {
-          "level": 2,
-          "title": "Page configuration",
-          "slug": "page-configuration"
-        },
-        {
-          "level": 3,
-          "title": "Field Combination",
-          "slug": "field-combination"
-        },
-        {
-          "level": 3,
-          "title": "Field",
-          "slug": "field"
-        },
-        {
-          "level": 2,
-          "title": "Dynamic field management",
-          "slug": "dynamic-field-management"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
+      "lastUpdated": "10/29/2020, 3:46:56 PM"
     },
     {
       "title": "Timed Task",
@@ -1125,6 +1130,26 @@ export const siteData = {
           "level": 2,
           "title": "Configure the color of the message type",
           "slug": "configure-the-color-of-the-message-type"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
+      "title": "Monitoring",
+      "frontmatter": {
+        "title": "Monitoring",
+        "metaTitle": "Monitoring",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/11-monitor.html",
+      "relativePath": "guide/userManual/11-monitor.md",
+      "key": "v-3b241de0",
+      "path": "/guide/userManual/11-monitor.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Monitoring data",
+          "slug": "monitoring-data"
         }
       ],
       "lastUpdated": "3/17/2020, 3:15:21 PM"
@@ -1230,27 +1255,7 @@ export const siteData = {
           "slug": "bug-fixes-and-optimizations-6"
         }
       ],
-      "lastUpdated": "9/7/2020, 9:33:19 AM"
-    },
-    {
-      "title": "Monitoring",
-      "frontmatter": {
-        "title": "Monitoring",
-        "metaTitle": "Monitoring",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/guide/userManual/11-monitor.html",
-      "relativePath": "guide/userManual/11-monitor.md",
-      "key": "v-3b241de0",
-      "path": "/guide/userManual/11-monitor.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Monitoring data",
-          "slug": "monitoring-data"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
+      "lastUpdated": "10/29/2020, 3:46:56 PM"
     },
     {
       "title": "Home",
@@ -1529,6 +1534,27 @@ export const siteData = {
       "lastUpdated": "2020/10/21 下午3:34:31"
     },
     {
+      "title": "部署",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/deploy.html",
+      "relativePath": "zh/guide/deploy.md",
+      "key": "v-5055fbfa",
+      "path": "/zh/guide/deploy.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "平台基础功能数据库",
+          "slug": "平台基础功能数据库"
+        },
+        {
+          "level": 2,
+          "title": "程序",
+          "slug": "程序"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
       "title": "FAQ",
       "frontmatter": {
         "title": "FAQ",
@@ -1618,27 +1644,6 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2020/3/13 下午4:23:35"
-    },
-    {
-      "title": "部署",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/deploy.html",
-      "relativePath": "zh/guide/deploy.md",
-      "key": "v-5055fbfa",
-      "path": "/zh/guide/deploy.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "平台基础功能数据库",
-          "slug": "平台基础功能数据库"
-        },
-        {
-          "level": 2,
-          "title": "程序",
-          "slug": "程序"
-        }
-      ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
     },
     {
       "title": "部署前的准备工作",
@@ -1796,6 +1801,130 @@ export const siteData = {
       "lastUpdated": "2020/3/17 下午3:15:21"
     },
     {
+      "title": "登录和首页",
+      "frontmatter": {
+        "title": "登录和首页",
+        "metaTitle": "登录和首页"
+      },
+      "regularPath": "/zh/guide/userManual/02-login.html",
+      "relativePath": "zh/guide/userManual/02-login.md",
+      "key": "v-2d354e69",
+      "path": "/zh/guide/userManual/02-login.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "登录",
+          "slug": "登录"
+        },
+        {
+          "level": 2,
+          "title": "首页",
+          "slug": "首页"
+        }
+      ],
+      "lastUpdated": "2020/3/18 下午3:03:06"
+    },
+    {
+      "title": "组织管理",
+      "frontmatter": {
+        "title": "组织管理",
+        "metaTitle": "组织管理",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/03-organization.html",
+      "relativePath": "zh/guide/userManual/03-organization.md",
+      "key": "v-77b9c32d",
+      "path": "/zh/guide/userManual/03-organization.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "用户",
+          "slug": "用户"
+        },
+        {
+          "level": 3,
+          "title": "用户操作列表介绍",
+          "slug": "用户操作列表介绍"
+        },
+        {
+          "level": 3,
+          "title": "新增用户",
+          "slug": "新增用户"
+        },
+        {
+          "level": 3,
+          "title": "编辑用户",
+          "slug": "编辑用户"
+        },
+        {
+          "level": 3,
+          "title": "配置（给用户配置角色）",
+          "slug": "配置（给用户配置角色）"
+        },
+        {
+          "level": 3,
+          "title": "配置管理单元",
+          "slug": "配置管理单元"
+        },
+        {
+          "level": 3,
+          "title": "重置密码",
+          "slug": "重置密码"
+        },
+        {
+          "level": 3,
+          "title": "密码修改记录",
+          "slug": "密码修改记录"
+        },
+        {
+          "level": 3,
+          "title": "启停用户",
+          "slug": "启停用户"
+        },
+        {
+          "level": 2,
+          "title": "组织",
+          "slug": "组织"
+        },
+        {
+          "level": 3,
+          "title": "新增组织",
+          "slug": "新增组织"
+        },
+        {
+          "level": 3,
+          "title": "编辑组织",
+          "slug": "编辑组织"
+        },
+        {
+          "level": 3,
+          "title": "组织排序",
+          "slug": "组织排序"
+        },
+        {
+          "level": 3,
+          "title": "启停组织",
+          "slug": "启停组织"
+        },
+        {
+          "level": 2,
+          "title": "管理单位配置",
+          "slug": "管理单位配置"
+        },
+        {
+          "level": 3,
+          "title": "新增用户分配组织",
+          "slug": "新增用户分配组织"
+        },
+        {
+          "level": 3,
+          "title": "删除用户已分配组织",
+          "slug": "删除用户已分配组织"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
       "title": "权限管理",
       "frontmatter": {
         "title": "权限管理",
@@ -1846,28 +1975,74 @@ export const siteData = {
       "lastUpdated": "2020/3/17 下午3:15:21"
     },
     {
-      "title": "登录和首页",
+      "title": "系统设置",
       "frontmatter": {
-        "title": "登录和首页",
-        "metaTitle": "登录和首页"
+        "title": "系统设置",
+        "metaTitle": "系统设置",
+        "sidebarDepth": 3
       },
-      "regularPath": "/zh/guide/userManual/02-login.html",
-      "relativePath": "zh/guide/userManual/02-login.md",
-      "key": "v-2d354e69",
-      "path": "/zh/guide/userManual/02-login.html",
+      "regularPath": "/zh/guide/userManual/05-system-settings.html",
+      "relativePath": "zh/guide/userManual/05-system-settings.md",
+      "key": "v-5adc489a",
+      "path": "/zh/guide/userManual/05-system-settings.html",
       "headers": [
         {
           "level": 2,
-          "title": "登录",
-          "slug": "登录"
+          "title": "系统编码",
+          "slug": "系统编码"
+        },
+        {
+          "level": 3,
+          "title": "新增编码",
+          "slug": "新增编码"
+        },
+        {
+          "level": 3,
+          "title": "编辑编码",
+          "slug": "编辑编码"
+        },
+        {
+          "level": 3,
+          "title": "删除编码",
+          "slug": "删除编码"
         },
         {
           "level": 2,
-          "title": "首页",
-          "slug": "首页"
+          "title": "API接口日志",
+          "slug": "api接口日志"
+        },
+        {
+          "level": 3,
+          "title": "查看详细的日志信息",
+          "slug": "查看详细的日志信息"
+        },
+        {
+          "level": 2,
+          "title": "登录日志",
+          "slug": "登录日志"
+        },
+        {
+          "level": 2,
+          "title": "日历管理",
+          "slug": "日历管理"
+        },
+        {
+          "level": 2,
+          "title": "非法登录日志",
+          "slug": "非法登录日志"
+        },
+        {
+          "level": 2,
+          "title": "菜单日志",
+          "slug": "菜单日志"
+        },
+        {
+          "level": 2,
+          "title": "审计日志",
+          "slug": "审计日志"
         }
       ],
-      "lastUpdated": "2020/3/18 下午3:03:06"
+      "lastUpdated": "2020/10/29 下午3:46:56"
     },
     {
       "title": "应用设置",
@@ -2025,109 +2200,14 @@ export const siteData = {
           "level": 2,
           "title": "租户文件系统",
           "slug": "租户文件系统"
+        },
+        {
+          "level": 2,
+          "title": "系统配置管理",
+          "slug": "系统配置管理"
         }
       ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
-    },
-    {
-      "title": "系统设置",
-      "frontmatter": {
-        "title": "系统设置",
-        "metaTitle": "系统设置",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/zh/guide/userManual/05-system-settings.html",
-      "relativePath": "zh/guide/userManual/05-system-settings.md",
-      "key": "v-5adc489a",
-      "path": "/zh/guide/userManual/05-system-settings.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "系统编码",
-          "slug": "系统编码"
-        },
-        {
-          "level": 3,
-          "title": "新增编码",
-          "slug": "新增编码"
-        },
-        {
-          "level": 3,
-          "title": "编辑编码",
-          "slug": "编辑编码"
-        },
-        {
-          "level": 3,
-          "title": "删除编码",
-          "slug": "删除编码"
-        },
-        {
-          "level": 2,
-          "title": "API接口日志",
-          "slug": "api接口日志"
-        },
-        {
-          "level": 3,
-          "title": "查看详细的日志信息",
-          "slug": "查看详细的日志信息"
-        },
-        {
-          "level": 2,
-          "title": "登录日志",
-          "slug": "登录日志"
-        },
-        {
-          "level": 2,
-          "title": "日历管理",
-          "slug": "日历管理"
-        },
-        {
-          "level": 2,
-          "title": "非法登录日志",
-          "slug": "非法登录日志"
-        },
-        {
-          "level": 2,
-          "title": "菜单日志",
-          "slug": "菜单日志"
-        },
-        {
-          "level": 2,
-          "title": "审计日志",
-          "slug": "审计日志"
-        }
-      ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
-    },
-    {
-      "title": "我的任务",
-      "frontmatter": {
-        "title": "我的任务",
-        "metaTitle": "我的任务",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/zh/guide/userManual/07-my-task.html",
-      "relativePath": "zh/guide/userManual/07-my-task.md",
-      "key": "v-9ccfe1b6",
-      "path": "/zh/guide/userManual/07-my-task.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "我的任务",
-          "slug": "我的任务-2"
-        },
-        {
-          "level": 2,
-          "title": "历史任务",
-          "slug": "历史任务"
-        },
-        {
-          "level": 2,
-          "title": "我的流程实例",
-          "slug": "我的流程实例"
-        }
-      ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
+      "lastUpdated": "2020/10/29 下午3:46:56"
     },
     {
       "title": "工作流",
@@ -2205,6 +2285,36 @@ export const siteData = {
       "lastUpdated": "2020/3/17 下午3:15:21"
     },
     {
+      "title": "我的任务",
+      "frontmatter": {
+        "title": "我的任务",
+        "metaTitle": "我的任务",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/07-my-task.html",
+      "relativePath": "zh/guide/userManual/07-my-task.md",
+      "key": "v-9ccfe1b6",
+      "path": "/zh/guide/userManual/07-my-task.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "我的任务",
+          "slug": "我的任务-2"
+        },
+        {
+          "level": 2,
+          "title": "历史任务",
+          "slug": "历史任务"
+        },
+        {
+          "level": 2,
+          "title": "我的流程实例",
+          "slug": "我的流程实例"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
       "title": "定时任务",
       "frontmatter": {
         "title": "定时任务",
@@ -2255,106 +2365,6 @@ export const siteData = {
           "level": 2,
           "title": "配置消息类型的颜色",
           "slug": "配置消息类型的颜色"
-        }
-      ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
-    },
-    {
-      "title": "组织管理",
-      "frontmatter": {
-        "title": "组织管理",
-        "metaTitle": "组织管理",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/zh/guide/userManual/03-organization.html",
-      "relativePath": "zh/guide/userManual/03-organization.md",
-      "key": "v-77b9c32d",
-      "path": "/zh/guide/userManual/03-organization.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "用户",
-          "slug": "用户"
-        },
-        {
-          "level": 3,
-          "title": "用户操作列表介绍",
-          "slug": "用户操作列表介绍"
-        },
-        {
-          "level": 3,
-          "title": "新增用户",
-          "slug": "新增用户"
-        },
-        {
-          "level": 3,
-          "title": "编辑用户",
-          "slug": "编辑用户"
-        },
-        {
-          "level": 3,
-          "title": "配置（给用户配置角色）",
-          "slug": "配置（给用户配置角色）"
-        },
-        {
-          "level": 3,
-          "title": "配置管理单元",
-          "slug": "配置管理单元"
-        },
-        {
-          "level": 3,
-          "title": "重置密码",
-          "slug": "重置密码"
-        },
-        {
-          "level": 3,
-          "title": "密码修改记录",
-          "slug": "密码修改记录"
-        },
-        {
-          "level": 3,
-          "title": "启停用户",
-          "slug": "启停用户"
-        },
-        {
-          "level": 2,
-          "title": "组织",
-          "slug": "组织"
-        },
-        {
-          "level": 3,
-          "title": "新增组织",
-          "slug": "新增组织"
-        },
-        {
-          "level": 3,
-          "title": "编辑组织",
-          "slug": "编辑组织"
-        },
-        {
-          "level": 3,
-          "title": "组织排序",
-          "slug": "组织排序"
-        },
-        {
-          "level": 3,
-          "title": "启停组织",
-          "slug": "启停组织"
-        },
-        {
-          "level": 2,
-          "title": "管理单位配置",
-          "slug": "管理单位配置"
-        },
-        {
-          "level": 3,
-          "title": "新增用户分配组织",
-          "slug": "新增用户分配组织"
-        },
-        {
-          "level": 3,
-          "title": "删除用户已分配组织",
-          "slug": "删除用户已分配组织"
         }
       ],
       "lastUpdated": "2020/3/17 下午3:15:21"
@@ -2480,7 +2490,7 @@ export const siteData = {
           "slug": "问题修复和优化-6"
         }
       ],
-      "lastUpdated": "2020/9/7 上午9:33:19"
+      "lastUpdated": "2020/10/29 下午3:46:56"
     }
   ],
   "themeConfig": {
