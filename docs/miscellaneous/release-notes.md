@@ -22,6 +22,23 @@ sidebar: auto
 | ---- | ---- | ---- |
 | Back-end internationalization coding refinement | Refine the back-end prompt information, as much as possible | Optimize |
 
+### 3.0.0.0 version upgrade notes
+
+The `UAP3.0.0.0` version is a major version upgrade in the UAP version update process. Due to the addition and optimization of most of the functions, the content of this version has changed a lot, and users need to update some of the content
+
+::: warning
+For developers: This upgrade needs to update the `uap-common` package version to `3.0.0.0-RELEASE` for development projects that use the `uap-common` package after upgrading the database script.
+:::
+
+```xml
+     <!-- The dependent version should be changed to the following -->
+     <dependency>
+        <groupId>com.hexing.uap</groupId>
+        <artifactId>uap-common</artifactId>
+        <version>3.0.0.0-RELEASE</version>
+     <dependency/>
+```
+
 ## Version: UAP 2.3.0.0
 
 ### New Function
@@ -61,6 +78,30 @@ Workflow Upgrade | Flowable Version Upgrade | |
 | ---- | ---- | ---- |
 Oracle Data Script Cannot Be Repeated | Data Script | Optimization |
 
+### 2.0.0.0 version upgrade notes
+
+The `UAP2.0.0.0` version is a major version upgrade in the UAP version update process. Due to the addition and optimization of most functions, the content of this version has changed a lot, and users need to update some of the content
+
+::: warning
+For developers: This upgrade optimizes the structure of the `uap-common` package, and puts the TokenUtil.class under the `uap-common` package into the util package
+:::
+
+```
+Old version reference tool class: com.hexing.uap.common.TokenUtil.class
+New version reference tool class: com.hexing.uap.util.TokenUtil.class
+```
+
+<img :src="$withBase('/develop/update1.png')" alt = "update">
+
+::: warning
+For developers: merge `TokenResponseCode.class` into `ResponseCode.class`, and refine and delete some codes
+:::
+
+<img :src="$withBase('/develop/update2.png')" alt = "update">
+
+Partially refined Code:
+
+<img :src="$withBase('/develop/update3.png')" alt = "update">
 
 ## Version: UAP 1.3.0.0
 

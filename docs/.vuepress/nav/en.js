@@ -3,10 +3,10 @@ module.exports = [
     text: 'Guide',
     link: '/guide/'
   },
-  {
-    text: 'Development',
-    link: '/development/'
-  },
+  // {
+  //   text: 'Development',
+  //   link: '/development/'
+  // },
   {
     text: 'Learn more',
     ariaLabel: 'Learn more',

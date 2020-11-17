@@ -22,6 +22,22 @@ sidebar: auto
 | ---- | ---- | ---- |
 | 后端国际化编码细化 | 对后端提示信息尽可能进行细化 | 优化 |
 
+### 3.0.0.0版本升级注意事项
+
+UAP3.0.0.0版本是UAP版本更新过程中的大型版本升级，由于对于大部分功能新增以及优化，此版本内容改动较大，用户需要对部分内容进行更新
+
+::: warning
+对于开发人员：本次升级需要在升级数据库脚本之后，对使用uap-common包的开发项目，需要将uap-common包版本更新为3.0.0.0-RELEASE
+:::
+
+```xml
+    <!-- 依赖版本应改成如下 -->
+    <dependency>
+        <groupId>com.hexing.uap</groupId>
+		<artifactId>uap-common</artifactId>
+		<version>3.0.0.0-RELEASE</version>
+    <dependency/>
+```
 
 ## 版本：UAP 2.3.0.0
 
@@ -60,6 +76,31 @@ sidebar: auto
 | 问题 | 描述 | 备注 |
 | ---- | ---- | ---- |
 | Oracle数据脚本不能重复执行 | 数据脚本 | 优化 |
+
+### 2.0.0.0版本升级注意事项
+
+UAP2.0.0.0版本是UAP版本更新过程中的大型版本升级，由于对于大部分功能新增以及优化，此版本内容改动较大，用户需要对部分内容进行更新
+
+::: warning
+对于开发人员：本次升级对uap-common包进行结构优化，将uap-common包下的TokenUtil.class放入util包下
+:::
+
+```
+旧版本引用工具类：com.hexing.uap.common.TokenUtil.class
+新版本引用工具类：com.hexing.uap.util.TokenUtil.class
+```
+
+<img :src="$withBase('/develop/update1.png')" alt = "update">
+
+::: warning
+对于开发人员：将TokenResponseCode.class合并到ResponseCode.class，并将部分Code进行细化及删除
+:::
+
+<img :src="$withBase('/develop/update2.png')" alt = "update">
+
+部分细化Code：
+
+<img :src="$withBase('/develop/update3.png')" alt = "update">
 
 
 ## 版本：UAP 1.3.0.0
