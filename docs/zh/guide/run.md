@@ -258,6 +258,14 @@ ${tomcat_home}/webapps/uap-ui/WEB-INF/classes/static/js/i18next/
 新的国际化文件需要按照如下规则命名：translation-${language_code}.json
 
 其中language_code为你需要添加的语言，要和3.2里面语言code保持一致。新的国际化文件可以基于默认的translation-en.json翻译产生。
+* 后端国际化
+
+后端国际化主要是国际化页面提示，新的国际化文件需要放置在uap包解压目录下:
+
+${tomcat_home}/webapps/uap/WEB-INF/classes/
+
+新的国际化文件需要按照如下规则命名：massages_${language_code}.properties
+
 
 * 菜单国际化
 统一应用平台提供了菜单国际化数据库脚本模板，位于发布包的如下路径：

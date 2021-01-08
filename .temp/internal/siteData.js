@@ -73,59 +73,159 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "FAQ",
+      "title": "Home",
       "frontmatter": {
-        "title": "FAQ",
-        "meteTitle": "FAQ",
-        "sidebarDepth": "auto"
+        "home": true,
+        "heroImage": "/logo.png",
+        "actionText": "Get Started Quickly →",
+        "actionLink": "/guide/",
+        "features": [
+          {
+            "title": "Platformization",
+            "details": "Forming a development model based on HX UAP, each business system only needs to develop functions for actual business scenarios, without paying attention to the underlying platform issues."
+          },
+          {
+            "title": "Modular",
+            "details": "HX UAP itself also has modular features. During deployment and use, different models need only be deployed according to actual needs. Each functional model forms an independent service. Business systems developed based on HX UAP also have similar capabilities."
+          },
+          {
+            "title": "Compatibility",
+            "details": "The HX UAP platform is compatible with the underlying functions of existing business systems. The front end meets the overall interface style and operation mode, while also providing the operation mode and habits of the old system. The platform also provides various adaptations for retrofitting legacy systems."
+          },
+          {
+            "title": "Ease of use",
+            "details": "It meets the unified style of the interface design of the system software, and refers to the habits of various field users in the operation mode, so that the end user can get started quickly."
+          }
+        ],
+        "footer": "Copyright © 2020-uap"
       },
-      "regularPath": "/faq/",
-      "relativePath": "faq/README.md",
-      "key": "v-b77b9c4c",
-      "path": "/faq/",
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-e12b590a",
+      "path": "/",
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
+    },
+    {
+      "title": "Deploy",
+      "frontmatter": {},
+      "regularPath": "/guide/deploy.html",
+      "relativePath": "guide/deploy.md",
+      "key": "v-fe06712a",
+      "path": "/guide/deploy.html",
       "headers": [
         {
           "level": 2,
-          "title": "Q：What is HX UAP？",
-          "slug": "q：what-is-hx-uap？"
+          "title": "Platform Basic Function Database",
+          "slug": "platform-basic-function-database"
         },
         {
           "level": 2,
-          "title": "Q：What software or files should be prepared for HX UAP deployment？",
-          "slug": "q：what-software-or-files-should-be-prepared-for-hx-uap-deployment？"
-        },
-        {
-          "level": 2,
-          "title": "Q：Where should the war package be placed？",
-          "slug": "q：where-should-the-war-package-be-placed？"
-        },
-        {
-          "level": 2,
-          "title": "Q：Why does the configuration still not take effect after modifying the configuration file in Tomcat？",
-          "slug": "q：why-does-the-configuration-still-not-take-effect-after-modifying-the-configuration-file-in-tomcat？"
-        },
-        {
-          "level": 2,
-          "title": "Q：Why does Tomcat always report errors when starting？",
-          "slug": "q：why-does-tomcat-always-report-errors-when-starting？"
-        },
-        {
-          "level": 2,
-          "title": "Q: Why does Tomcat fail to start or exit automatically？",
-          "slug": "q-why-does-tomcat-fail-to-start-or-exit-automatically？"
-        },
-        {
-          "level": 2,
-          "title": "Q：What is the difference between an administrator user and a normal user?",
-          "slug": "q：what-is-the-difference-between-an-administrator-user-and-a-normal-user"
-        },
-        {
-          "level": 2,
-          "title": "Q：How to determine whether the account is an administrator role?",
-          "slug": "q：how-to-determine-whether-the-account-is-an-administrator-role"
+          "title": "Program",
+          "slug": "program"
         }
       ],
-      "lastUpdated": "8/6/2020, 3:54:23 PM"
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
+    },
+    {
+      "title": "Introduction",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-b75472e4",
+      "path": "/guide/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Background",
+          "slug": "background"
+        },
+        {
+          "level": 2,
+          "title": "Product target",
+          "slug": "product-target"
+        },
+        {
+          "level": 2,
+          "title": "Product range definition",
+          "slug": "product-range-definition"
+        },
+        {
+          "level": 2,
+          "title": "Product value",
+          "slug": "product-value"
+        }
+      ],
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
+    },
+    {
+      "title": "Preparation for deployment",
+      "frontmatter": {},
+      "regularPath": "/guide/prepare.html",
+      "relativePath": "guide/prepare.md",
+      "key": "v-153b3873",
+      "path": "/guide/prepare.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Operating system",
+          "slug": "operating-system"
+        },
+        {
+          "level": 3,
+          "title": "The unified application platform supports Windows server or Linux server. Linux server is recommended.",
+          "slug": "the-unified-application-platform-supports-windows-server-or-linux-server-linux-server-is-recommended"
+        },
+        {
+          "level": 3,
+          "title": "Install operating system",
+          "slug": "install-operating-system"
+        },
+        {
+          "level": 2,
+          "title": "Environmental preparation",
+          "slug": "environmental-preparation"
+        },
+        {
+          "level": 3,
+          "title": "Unified application platform requires the following related tools or operating environment",
+          "slug": "unified-application-platform-requires-the-following-related-tools-or-operating-environment"
+        },
+        {
+          "level": 3,
+          "title": "Install database",
+          "slug": "install-database"
+        },
+        {
+          "level": 3,
+          "title": "Install JDK",
+          "slug": "install-jdk"
+        },
+        {
+          "level": 3,
+          "title": "Install Tomcat",
+          "slug": "install-tomcat"
+        },
+        {
+          "level": 3,
+          "title": "Install browser",
+          "slug": "install-browser"
+        },
+        {
+          "level": 3,
+          "title": "Unified Application Platform Installation Package",
+          "slug": "unified-application-platform-installation-package"
+        }
+      ],
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
+    },
+    {
+      "title": "redis configuration",
+      "frontmatter": {},
+      "regularPath": "/guide/redis-sentry.html",
+      "relativePath": "guide/redis-sentry.md",
+      "key": "v-28865052",
+      "path": "/guide/redis-sentry.html",
+      "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
       "title": "Development Manual",
@@ -332,152 +432,6 @@ export const siteData = {
     },
     {
       "title": "Introduction",
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-b75472e4",
-      "path": "/guide/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Background",
-          "slug": "background"
-        },
-        {
-          "level": 2,
-          "title": "Product target",
-          "slug": "product-target"
-        },
-        {
-          "level": 2,
-          "title": "Product range definition",
-          "slug": "product-range-definition"
-        },
-        {
-          "level": 2,
-          "title": "Product value",
-          "slug": "product-value"
-        }
-      ],
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "/logo.png",
-        "actionText": "Get Started Quickly →",
-        "actionLink": "/guide/",
-        "features": [
-          {
-            "title": "Platformization",
-            "details": "Forming a development model based on HX UAP, each business system only needs to develop functions for actual business scenarios, without paying attention to the underlying platform issues."
-          },
-          {
-            "title": "Modular",
-            "details": "HX UAP itself also has modular features. During deployment and use, different models need only be deployed according to actual needs. Each functional model forms an independent service. Business systems developed based on HX UAP also have similar capabilities."
-          },
-          {
-            "title": "Compatibility",
-            "details": "The HX UAP platform is compatible with the underlying functions of existing business systems. The front end meets the overall interface style and operation mode, while also providing the operation mode and habits of the old system. The platform also provides various adaptations for retrofitting legacy systems."
-          },
-          {
-            "title": "Ease of use",
-            "details": "It meets the unified style of the interface design of the system software, and refers to the habits of various field users in the operation mode, so that the end user can get started quickly."
-          }
-        ],
-        "footer": "Copyright © 2020-uap"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-e12b590a",
-      "path": "/",
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
-    },
-    {
-      "title": "Deploy",
-      "frontmatter": {},
-      "regularPath": "/guide/deploy.html",
-      "relativePath": "guide/deploy.md",
-      "key": "v-fe06712a",
-      "path": "/guide/deploy.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Platform Basic Function Database",
-          "slug": "platform-basic-function-database"
-        },
-        {
-          "level": 2,
-          "title": "Program",
-          "slug": "program"
-        }
-      ],
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
-    },
-    {
-      "title": "Preparation for deployment",
-      "frontmatter": {},
-      "regularPath": "/guide/prepare.html",
-      "relativePath": "guide/prepare.md",
-      "key": "v-153b3873",
-      "path": "/guide/prepare.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Operating system",
-          "slug": "operating-system"
-        },
-        {
-          "level": 3,
-          "title": "The unified application platform supports Windows server or Linux server. Linux server is recommended.",
-          "slug": "the-unified-application-platform-supports-windows-server-or-linux-server-linux-server-is-recommended"
-        },
-        {
-          "level": 3,
-          "title": "Install operating system",
-          "slug": "install-operating-system"
-        },
-        {
-          "level": 2,
-          "title": "Environmental preparation",
-          "slug": "environmental-preparation"
-        },
-        {
-          "level": 3,
-          "title": "Unified application platform requires the following related tools or operating environment",
-          "slug": "unified-application-platform-requires-the-following-related-tools-or-operating-environment"
-        },
-        {
-          "level": 3,
-          "title": "Install database",
-          "slug": "install-database"
-        },
-        {
-          "level": 3,
-          "title": "Install JDK",
-          "slug": "install-jdk"
-        },
-        {
-          "level": 3,
-          "title": "Install Tomcat",
-          "slug": "install-tomcat"
-        },
-        {
-          "level": 3,
-          "title": "Install browser",
-          "slug": "install-browser"
-        },
-        {
-          "level": 3,
-          "title": "Unified Application Platform Installation Package",
-          "slug": "unified-application-platform-installation-package"
-        }
-      ],
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
-    },
-    {
-      "title": "Introduction",
       "frontmatter": {
         "title": "Introduction",
         "metaTitle": "Introduction"
@@ -499,15 +453,6 @@ export const siteData = {
         }
       ],
       "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
-      "title": "redis configuration",
-      "frontmatter": {},
-      "regularPath": "/guide/redis-sentry.html",
-      "relativePath": "guide/redis-sentry.md",
-      "key": "v-28865052",
-      "path": "/guide/redis-sentry.html",
-      "lastUpdated": "3/13/2020, 4:23:35 PM"
     },
     {
       "title": "Login and Home",
@@ -634,6 +579,61 @@ export const siteData = {
       "lastUpdated": "3/17/2020, 3:15:21 PM"
     },
     {
+      "title": "FAQ",
+      "frontmatter": {
+        "title": "FAQ",
+        "meteTitle": "FAQ",
+        "sidebarDepth": "auto"
+      },
+      "regularPath": "/faq/",
+      "relativePath": "faq/README.md",
+      "key": "v-b77b9c4c",
+      "path": "/faq/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Q：What is HX UAP？",
+          "slug": "q：what-is-hx-uap？"
+        },
+        {
+          "level": 2,
+          "title": "Q：What software or files should be prepared for HX UAP deployment？",
+          "slug": "q：what-software-or-files-should-be-prepared-for-hx-uap-deployment？"
+        },
+        {
+          "level": 2,
+          "title": "Q：Where should the war package be placed？",
+          "slug": "q：where-should-the-war-package-be-placed？"
+        },
+        {
+          "level": 2,
+          "title": "Q：Why does the configuration still not take effect after modifying the configuration file in Tomcat？",
+          "slug": "q：why-does-the-configuration-still-not-take-effect-after-modifying-the-configuration-file-in-tomcat？"
+        },
+        {
+          "level": 2,
+          "title": "Q：Why does Tomcat always report errors when starting？",
+          "slug": "q：why-does-tomcat-always-report-errors-when-starting？"
+        },
+        {
+          "level": 2,
+          "title": "Q: Why does Tomcat fail to start or exit automatically？",
+          "slug": "q-why-does-tomcat-fail-to-start-or-exit-automatically？"
+        },
+        {
+          "level": 2,
+          "title": "Q：What is the difference between an administrator user and a normal user?",
+          "slug": "q：what-is-the-difference-between-an-administrator-user-and-a-normal-user"
+        },
+        {
+          "level": 2,
+          "title": "Q：How to determine whether the account is an administrator role?",
+          "slug": "q：how-to-determine-whether-the-account-is-an-administrator-role"
+        }
+      ],
+      "lastUpdated": "8/6/2020, 3:54:23 PM"
+    },
+    {
       "title": "Rights Management",
       "frontmatter": {
         "title": "Rights Management",
@@ -679,36 +679,6 @@ export const siteData = {
           "level": 3,
           "title": "Configuration (assigning roles to users)",
           "slug": "configuration-assigning-roles-to-users"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
-      "title": "My Mission",
-      "frontmatter": {
-        "title": "My Mission",
-        "metaTitle": "My mission",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/guide/userManual/07-my-task.html",
-      "relativePath": "guide/userManual/07-my-task.md",
-      "key": "v-9bb21780",
-      "path": "/guide/userManual/07-my-task.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "My task",
-          "slug": "my-task-2"
-        },
-        {
-          "level": 2,
-          "title": "History Mission",
-          "slug": "history-mission"
-        },
-        {
-          "level": 2,
-          "title": "My process instance",
-          "slug": "my-process-instance"
         }
       ],
       "lastUpdated": "3/17/2020, 3:15:21 PM"
@@ -809,6 +779,36 @@ export const siteData = {
           "level": 2,
           "title": "Execution history",
           "slug": "execution-history"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
+      "title": "My Mission",
+      "frontmatter": {
+        "title": "My Mission",
+        "metaTitle": "My mission",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/07-my-task.html",
+      "relativePath": "guide/userManual/07-my-task.md",
+      "key": "v-9bb21780",
+      "path": "/guide/userManual/07-my-task.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "My task",
+          "slug": "my-task-2"
+        },
+        {
+          "level": 2,
+          "title": "History Mission",
+          "slug": "history-mission"
+        },
+        {
+          "level": 2,
+          "title": "My process instance",
+          "slug": "my-process-instance"
         }
       ],
       "lastUpdated": "3/17/2020, 3:15:21 PM"
@@ -1029,100 +1029,6 @@ export const siteData = {
       "lastUpdated": "3/17/2020, 3:15:21 PM"
     },
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroImage": "/logo.png",
-        "actionText": "快速了解 →",
-        "actionLink": "/zh/guide/",
-        "features": [
-          {
-            "title": "平台化",
-            "details": "形成以HX UAP为基础的开发模式，各个业务系统只需要针对实际业务场景进行功能开发，无需关注底层平台问题。"
-          },
-          {
-            "title": "模块化",
-            "details": "HX UAP本身内部也具备模块化特征，在部署和使用过程中，只需要根据实际需求进行不同模型的部署，各个功能模型形成独自的服务，基于HX UAP开发的业务系统也具备类似能力。"
-          },
-          {
-            "title": "兼容性",
-            "details": "HX UAP平台兼容现有业务系统的底层功能，前端满足总体界面风格以及操作模式，同时也提供了旧有系统的操作模式以及习惯。平台也提供了各种适配用于旧有系统改造。"
-          },
-          {
-            "title": "易用性",
-            "details": "满足系统软件的界面设计统一风格，操作模式上参考了各个现场用户习惯，使得最终用户快速上手。"
-          }
-        ],
-        "footer": "Copyright © 2020-uap"
-      },
-      "regularPath": "/zh/",
-      "relativePath": "zh/README.md",
-      "key": "v-2827325e",
-      "path": "/zh/",
-      "lastUpdated": "2020/3/13 下午4:23:35"
-    },
-    {
-      "title": "Configure and run",
-      "frontmatter": {},
-      "regularPath": "/guide/run.html",
-      "relativePath": "guide/run.md",
-      "key": "v-8f9f3e1a",
-      "path": "/guide/run.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Tomcat configuration",
-          "slug": "tomcat-configuration"
-        },
-        {
-          "level": 2,
-          "title": "Configuration file",
-          "slug": "configuration-file"
-        },
-        {
-          "level": 3,
-          "title": "The unified application platform release needs to be configured according to the actual needs of the environment",
-          "slug": "the-unified-application-platform-release-needs-to-be-configured-according-to-the-actual-needs-of-the-environment"
-        },
-        {
-          "level": 3,
-          "title": "Each module has some specific configuration items, and the configuration of the module must be configured in advance when deploying each module",
-          "slug": "each-module-has-some-specific-configuration-items-and-the-configuration-of-the-module-must-be-configured-in-advance-when-deploying-each-module"
-        },
-        {
-          "level": 2,
-          "title": "UAP front-end picture replacement",
-          "slug": "uap-front-end-picture-replacement"
-        },
-        {
-          "level": 2,
-          "title": "Globalization",
-          "slug": "globalization"
-        },
-        {
-          "level": 2,
-          "title": "Tomcat run and close",
-          "slug": "tomcat-run-and-close"
-        },
-        {
-          "level": 2,
-          "title": "Lincense configuration",
-          "slug": "lincense-configuration"
-        },
-        {
-          "level": 2,
-          "title": "System monitoring configuration",
-          "slug": "system-monitoring-configuration"
-        },
-        {
-          "level": 2,
-          "title": "Open unified application platform",
-          "slug": "open-unified-application-platform"
-        }
-      ],
-      "lastUpdated": "3/17/2020, 3:15:21 PM"
-    },
-    {
       "title": "Release Notes",
       "frontmatter": {
         "sidebar": "auto"
@@ -1233,7 +1139,101 @@ export const siteData = {
           "slug": "bug-fixes-and-optimizations-6"
         }
       ],
-      "lastUpdated": "10/29/2020, 3:46:56 PM"
+      "lastUpdated": "11/17/2020, 11:00:27 AM"
+    },
+    {
+      "title": "Configure and run",
+      "frontmatter": {},
+      "regularPath": "/guide/run.html",
+      "relativePath": "guide/run.md",
+      "key": "v-8f9f3e1a",
+      "path": "/guide/run.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Tomcat configuration",
+          "slug": "tomcat-configuration"
+        },
+        {
+          "level": 2,
+          "title": "Configuration file",
+          "slug": "configuration-file"
+        },
+        {
+          "level": 3,
+          "title": "The unified application platform release needs to be configured according to the actual needs of the environment",
+          "slug": "the-unified-application-platform-release-needs-to-be-configured-according-to-the-actual-needs-of-the-environment"
+        },
+        {
+          "level": 3,
+          "title": "Each module has some specific configuration items, and the configuration of the module must be configured in advance when deploying each module",
+          "slug": "each-module-has-some-specific-configuration-items-and-the-configuration-of-the-module-must-be-configured-in-advance-when-deploying-each-module"
+        },
+        {
+          "level": 2,
+          "title": "UAP front-end picture replacement",
+          "slug": "uap-front-end-picture-replacement"
+        },
+        {
+          "level": 2,
+          "title": "Globalization",
+          "slug": "globalization"
+        },
+        {
+          "level": 2,
+          "title": "Tomcat run and close",
+          "slug": "tomcat-run-and-close"
+        },
+        {
+          "level": 2,
+          "title": "Lincense configuration",
+          "slug": "lincense-configuration"
+        },
+        {
+          "level": 2,
+          "title": "System monitoring configuration",
+          "slug": "system-monitoring-configuration"
+        },
+        {
+          "level": 2,
+          "title": "Open unified application platform",
+          "slug": "open-unified-application-platform"
+        }
+      ],
+      "lastUpdated": "3/17/2020, 3:15:21 PM"
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroImage": "/logo.png",
+        "actionText": "快速了解 →",
+        "actionLink": "/zh/guide/",
+        "features": [
+          {
+            "title": "平台化",
+            "details": "形成以HX UAP为基础的开发模式，各个业务系统只需要针对实际业务场景进行功能开发，无需关注底层平台问题。"
+          },
+          {
+            "title": "模块化",
+            "details": "HX UAP本身内部也具备模块化特征，在部署和使用过程中，只需要根据实际需求进行不同模型的部署，各个功能模型形成独自的服务，基于HX UAP开发的业务系统也具备类似能力。"
+          },
+          {
+            "title": "兼容性",
+            "details": "HX UAP平台兼容现有业务系统的底层功能，前端满足总体界面风格以及操作模式，同时也提供了旧有系统的操作模式以及习惯。平台也提供了各种适配用于旧有系统改造。"
+          },
+          {
+            "title": "易用性",
+            "details": "满足系统软件的界面设计统一风格，操作模式上参考了各个现场用户习惯，使得最终用户快速上手。"
+          }
+        ],
+        "footer": "Copyright © 2020-uap"
+      },
+      "regularPath": "/zh/",
+      "relativePath": "zh/README.md",
+      "key": "v-2827325e",
+      "path": "/zh/",
+      "lastUpdated": "2020/3/13 下午4:23:35"
     },
     {
       "title": "介绍",
@@ -1286,6 +1286,15 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "redis配置",
+      "frontmatter": {},
+      "regularPath": "/zh/guide/redis-sentry.html",
+      "relativePath": "zh/guide/redis-sentry.md",
+      "key": "v-ef51ab0c",
+      "path": "/zh/guide/redis-sentry.html",
+      "lastUpdated": "2020/3/13 下午4:23:35"
     },
     {
       "title": "部署前的准备工作",
@@ -1349,13 +1358,313 @@ export const siteData = {
       "lastUpdated": "2020/3/13 下午4:23:35"
     },
     {
-      "title": "redis配置",
+      "title": "配置和运行",
       "frontmatter": {},
-      "regularPath": "/zh/guide/redis-sentry.html",
-      "relativePath": "zh/guide/redis-sentry.md",
-      "key": "v-ef51ab0c",
-      "path": "/zh/guide/redis-sentry.html",
-      "lastUpdated": "2020/3/13 下午4:23:35"
+      "regularPath": "/zh/guide/run.html",
+      "relativePath": "zh/guide/run.md",
+      "key": "v-b3d192d0",
+      "path": "/zh/guide/run.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "tomcat配置",
+          "slug": "tomcat配置"
+        },
+        {
+          "level": 2,
+          "title": "配置文件",
+          "slug": "配置文件"
+        },
+        {
+          "level": 3,
+          "title": "统一应用平台发布需要根据实际需要环境配置",
+          "slug": "统一应用平台发布需要根据实际需要环境配置"
+        },
+        {
+          "level": 3,
+          "title": "各个模块有一些特定的配置项，在部署每个模块时要提前配置好该模块的配置",
+          "slug": "各个模块有一些特定的配置项，在部署每个模块时要提前配置好该模块的配置"
+        },
+        {
+          "level": 2,
+          "title": "UAP前端图片替换",
+          "slug": "uap前端图片替换"
+        },
+        {
+          "level": 2,
+          "title": "国际化",
+          "slug": "国际化"
+        },
+        {
+          "level": 2,
+          "title": "tomcat运行和关闭",
+          "slug": "tomcat运行和关闭"
+        },
+        {
+          "level": 2,
+          "title": "lincense 配置",
+          "slug": "lincense-配置"
+        },
+        {
+          "level": 2,
+          "title": "系统监控配置",
+          "slug": "系统监控配置"
+        },
+        {
+          "level": 2,
+          "title": "打开统一应用平台",
+          "slug": "打开统一应用平台"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "介绍",
+      "frontmatter": {
+        "title": "介绍",
+        "metaTitle": "介绍"
+      },
+      "regularPath": "/zh/guide/userManual/01-introduction.html",
+      "relativePath": "zh/guide/userManual/01-introduction.md",
+      "key": "v-4a35e966",
+      "path": "/zh/guide/userManual/01-introduction.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "平台介绍",
+          "slug": "平台介绍"
+        },
+        {
+          "level": 2,
+          "title": "术语",
+          "slug": "术语"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "登录和首页",
+      "frontmatter": {
+        "title": "登录和首页",
+        "metaTitle": "登录和首页"
+      },
+      "regularPath": "/zh/guide/userManual/02-login.html",
+      "relativePath": "zh/guide/userManual/02-login.md",
+      "key": "v-2d354e69",
+      "path": "/zh/guide/userManual/02-login.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "登录",
+          "slug": "登录"
+        },
+        {
+          "level": 2,
+          "title": "首页",
+          "slug": "首页"
+        }
+      ],
+      "lastUpdated": "2020/3/18 下午3:03:06"
+    },
+    {
+      "title": "FAQ",
+      "frontmatter": {
+        "title": "FAQ",
+        "meteTitle": "FAQ",
+        "sidebarDepth": "auto"
+      },
+      "regularPath": "/zh/faq/",
+      "relativePath": "zh/faq/README.md",
+      "key": "v-865b251e",
+      "path": "/zh/faq/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Q：什么是HX UAP？",
+          "slug": "q：什么是hx-uap？"
+        },
+        {
+          "level": 2,
+          "title": "Q：HX UAP部署需要准备什么软件或文件？",
+          "slug": "q：hx-uap部署需要准备什么软件或文件？"
+        },
+        {
+          "level": 2,
+          "title": "Q：war包应该放在哪里？",
+          "slug": "q：war包应该放在哪里？"
+        },
+        {
+          "level": 2,
+          "title": "Q：为什么修改Tomcat中的配置文件后，配置仍不生效？",
+          "slug": "q：为什么修改tomcat中的配置文件后，配置仍不生效？"
+        },
+        {
+          "level": 2,
+          "title": "Q：为什么Tomcat启动时总是报错？",
+          "slug": "q：为什么tomcat启动时总是报错？"
+        },
+        {
+          "level": 2,
+          "title": "Q：为什么Tomcat启动不起来或者自动退出？",
+          "slug": "q：为什么tomcat启动不起来或者自动退出？"
+        },
+        {
+          "level": 2,
+          "title": "Q：管理员用户与普通用户的区别是什么？",
+          "slug": "q：管理员用户与普通用户的区别是什么？"
+        },
+        {
+          "level": 2,
+          "title": "Q：如何判断账户是否为管理员角色？",
+          "slug": "q：如何判断账户是否为管理员角色？"
+        },
+        {
+          "level": 2,
+          "title": "Q：License文件问题",
+          "slug": "q：license文件问题"
+        }
+      ],
+      "lastUpdated": "2020/10/27 下午3:13:48"
+    },
+    {
+      "title": "System Settings",
+      "frontmatter": {
+        "title": "System Settings",
+        "metaTitle": "System settings",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/guide/userManual/05-system-settings.html",
+      "relativePath": "guide/userManual/05-system-settings.md",
+      "key": "v-4076f760",
+      "path": "/guide/userManual/05-system-settings.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "System coding",
+          "slug": "system-coding"
+        },
+        {
+          "level": 3,
+          "title": "Add encoding",
+          "slug": "add-encoding"
+        },
+        {
+          "level": 3,
+          "title": "Edit encoding",
+          "slug": "edit-encoding"
+        },
+        {
+          "level": 3,
+          "title": "Delete encoding",
+          "slug": "delete-encoding"
+        },
+        {
+          "level": 2,
+          "title": "API Interface Log",
+          "slug": "api-interface-log"
+        },
+        {
+          "level": 3,
+          "title": "View detailed log information",
+          "slug": "view-detailed-log-information"
+        },
+        {
+          "level": 2,
+          "title": "Login log",
+          "slug": "login-log"
+        },
+        {
+          "level": 2,
+          "title": "Calendar management",
+          "slug": "calendar-management"
+        },
+        {
+          "level": 2,
+          "title": "Illegal login log",
+          "slug": "illegal-login-log"
+        },
+        {
+          "level": 2,
+          "title": "Menu log",
+          "slug": "menu-log"
+        },
+        {
+          "level": 2,
+          "title": "Audit log",
+          "slug": "audit-log"
+        }
+      ],
+      "lastUpdated": "10/30/2020, 2:21:05 PM"
+    },
+    {
+      "title": "系统设置",
+      "frontmatter": {
+        "title": "系统设置",
+        "metaTitle": "系统设置",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/05-system-settings.html",
+      "relativePath": "zh/guide/userManual/05-system-settings.md",
+      "key": "v-5adc489a",
+      "path": "/zh/guide/userManual/05-system-settings.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "系统编码",
+          "slug": "系统编码"
+        },
+        {
+          "level": 3,
+          "title": "新增编码",
+          "slug": "新增编码"
+        },
+        {
+          "level": 3,
+          "title": "编辑编码",
+          "slug": "编辑编码"
+        },
+        {
+          "level": 3,
+          "title": "删除编码",
+          "slug": "删除编码"
+        },
+        {
+          "level": 2,
+          "title": "API接口日志",
+          "slug": "api接口日志"
+        },
+        {
+          "level": 3,
+          "title": "查看详细的日志信息",
+          "slug": "查看详细的日志信息"
+        },
+        {
+          "level": 2,
+          "title": "登录日志",
+          "slug": "登录日志"
+        },
+        {
+          "level": 2,
+          "title": "日历管理",
+          "slug": "日历管理"
+        },
+        {
+          "level": 2,
+          "title": "非法登录日志",
+          "slug": "非法登录日志"
+        },
+        {
+          "level": 2,
+          "title": "菜单日志",
+          "slug": "菜单日志"
+        },
+        {
+          "level": 2,
+          "title": "审计日志",
+          "slug": "审计日志"
+        }
+      ],
+      "lastUpdated": "2020/10/30 下午2:21:05"
     },
     {
       "title": "开发手册",
@@ -1601,115 +1910,6 @@ export const siteData = {
       "lastUpdated": "2020/10/21 下午3:34:31"
     },
     {
-      "title": "配置和运行",
-      "frontmatter": {},
-      "regularPath": "/zh/guide/run.html",
-      "relativePath": "zh/guide/run.md",
-      "key": "v-b3d192d0",
-      "path": "/zh/guide/run.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "tomcat配置",
-          "slug": "tomcat配置"
-        },
-        {
-          "level": 2,
-          "title": "配置文件",
-          "slug": "配置文件"
-        },
-        {
-          "level": 3,
-          "title": "统一应用平台发布需要根据实际需要环境配置",
-          "slug": "统一应用平台发布需要根据实际需要环境配置"
-        },
-        {
-          "level": 3,
-          "title": "各个模块有一些特定的配置项，在部署每个模块时要提前配置好该模块的配置",
-          "slug": "各个模块有一些特定的配置项，在部署每个模块时要提前配置好该模块的配置"
-        },
-        {
-          "level": 2,
-          "title": "UAP前端图片替换",
-          "slug": "uap前端图片替换"
-        },
-        {
-          "level": 2,
-          "title": "国际化",
-          "slug": "国际化"
-        },
-        {
-          "level": 2,
-          "title": "tomcat运行和关闭",
-          "slug": "tomcat运行和关闭"
-        },
-        {
-          "level": 2,
-          "title": "lincense 配置",
-          "slug": "lincense-配置"
-        },
-        {
-          "level": 2,
-          "title": "系统监控配置",
-          "slug": "系统监控配置"
-        },
-        {
-          "level": 2,
-          "title": "打开统一应用平台",
-          "slug": "打开统一应用平台"
-        }
-      ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
-    },
-    {
-      "title": "介绍",
-      "frontmatter": {
-        "title": "介绍",
-        "metaTitle": "介绍"
-      },
-      "regularPath": "/zh/guide/userManual/01-introduction.html",
-      "relativePath": "zh/guide/userManual/01-introduction.md",
-      "key": "v-4a35e966",
-      "path": "/zh/guide/userManual/01-introduction.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "平台介绍",
-          "slug": "平台介绍"
-        },
-        {
-          "level": 2,
-          "title": "术语",
-          "slug": "术语"
-        }
-      ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
-    },
-    {
-      "title": "登录和首页",
-      "frontmatter": {
-        "title": "登录和首页",
-        "metaTitle": "登录和首页"
-      },
-      "regularPath": "/zh/guide/userManual/02-login.html",
-      "relativePath": "zh/guide/userManual/02-login.md",
-      "key": "v-2d354e69",
-      "path": "/zh/guide/userManual/02-login.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "登录",
-          "slug": "登录"
-        },
-        {
-          "level": 2,
-          "title": "首页",
-          "slug": "首页"
-        }
-      ],
-      "lastUpdated": "2020/3/18 下午3:03:06"
-    },
-    {
       "title": "组织管理",
       "frontmatter": {
         "title": "组织管理",
@@ -1860,236 +2060,6 @@ export const siteData = {
       "lastUpdated": "2020/3/17 下午3:15:21"
     },
     {
-      "title": "FAQ",
-      "frontmatter": {
-        "title": "FAQ",
-        "meteTitle": "FAQ",
-        "sidebarDepth": "auto"
-      },
-      "regularPath": "/zh/faq/",
-      "relativePath": "zh/faq/README.md",
-      "key": "v-865b251e",
-      "path": "/zh/faq/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Q：什么是HX UAP？",
-          "slug": "q：什么是hx-uap？"
-        },
-        {
-          "level": 2,
-          "title": "Q：HX UAP部署需要准备什么软件或文件？",
-          "slug": "q：hx-uap部署需要准备什么软件或文件？"
-        },
-        {
-          "level": 2,
-          "title": "Q：war包应该放在哪里？",
-          "slug": "q：war包应该放在哪里？"
-        },
-        {
-          "level": 2,
-          "title": "Q：为什么修改Tomcat中的配置文件后，配置仍不生效？",
-          "slug": "q：为什么修改tomcat中的配置文件后，配置仍不生效？"
-        },
-        {
-          "level": 2,
-          "title": "Q：为什么Tomcat启动时总是报错？",
-          "slug": "q：为什么tomcat启动时总是报错？"
-        },
-        {
-          "level": 2,
-          "title": "Q：为什么Tomcat启动不起来或者自动退出？",
-          "slug": "q：为什么tomcat启动不起来或者自动退出？"
-        },
-        {
-          "level": 2,
-          "title": "Q：管理员用户与普通用户的区别是什么？",
-          "slug": "q：管理员用户与普通用户的区别是什么？"
-        },
-        {
-          "level": 2,
-          "title": "Q：如何判断账户是否为管理员角色？",
-          "slug": "q：如何判断账户是否为管理员角色？"
-        },
-        {
-          "level": 2,
-          "title": "Q：License文件问题",
-          "slug": "q：license文件问题"
-        }
-      ],
-      "lastUpdated": "2020/10/27 下午3:13:48"
-    },
-    {
-      "title": "我的任务",
-      "frontmatter": {
-        "title": "我的任务",
-        "metaTitle": "我的任务",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/zh/guide/userManual/07-my-task.html",
-      "relativePath": "zh/guide/userManual/07-my-task.md",
-      "key": "v-9ccfe1b6",
-      "path": "/zh/guide/userManual/07-my-task.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "我的任务",
-          "slug": "我的任务-2"
-        },
-        {
-          "level": 2,
-          "title": "历史任务",
-          "slug": "历史任务"
-        },
-        {
-          "level": 2,
-          "title": "我的流程实例",
-          "slug": "我的流程实例"
-        }
-      ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
-    },
-    {
-      "title": "System Settings",
-      "frontmatter": {
-        "title": "System Settings",
-        "metaTitle": "System settings",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/guide/userManual/05-system-settings.html",
-      "relativePath": "guide/userManual/05-system-settings.md",
-      "key": "v-4076f760",
-      "path": "/guide/userManual/05-system-settings.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "System coding",
-          "slug": "system-coding"
-        },
-        {
-          "level": 3,
-          "title": "Add encoding",
-          "slug": "add-encoding"
-        },
-        {
-          "level": 3,
-          "title": "Edit encoding",
-          "slug": "edit-encoding"
-        },
-        {
-          "level": 3,
-          "title": "Delete encoding",
-          "slug": "delete-encoding"
-        },
-        {
-          "level": 2,
-          "title": "API Interface Log",
-          "slug": "api-interface-log"
-        },
-        {
-          "level": 3,
-          "title": "View detailed log information",
-          "slug": "view-detailed-log-information"
-        },
-        {
-          "level": 2,
-          "title": "Login log",
-          "slug": "login-log"
-        },
-        {
-          "level": 2,
-          "title": "Calendar management",
-          "slug": "calendar-management"
-        },
-        {
-          "level": 2,
-          "title": "Illegal login log",
-          "slug": "illegal-login-log"
-        },
-        {
-          "level": 2,
-          "title": "Menu log",
-          "slug": "menu-log"
-        },
-        {
-          "level": 2,
-          "title": "Audit log",
-          "slug": "audit-log"
-        }
-      ],
-      "lastUpdated": "10/30/2020, 2:21:05 PM"
-    },
-    {
-      "title": "系统设置",
-      "frontmatter": {
-        "title": "系统设置",
-        "metaTitle": "系统设置",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/zh/guide/userManual/05-system-settings.html",
-      "relativePath": "zh/guide/userManual/05-system-settings.md",
-      "key": "v-5adc489a",
-      "path": "/zh/guide/userManual/05-system-settings.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "系统编码",
-          "slug": "系统编码"
-        },
-        {
-          "level": 3,
-          "title": "新增编码",
-          "slug": "新增编码"
-        },
-        {
-          "level": 3,
-          "title": "编辑编码",
-          "slug": "编辑编码"
-        },
-        {
-          "level": 3,
-          "title": "删除编码",
-          "slug": "删除编码"
-        },
-        {
-          "level": 2,
-          "title": "API接口日志",
-          "slug": "api接口日志"
-        },
-        {
-          "level": 3,
-          "title": "查看详细的日志信息",
-          "slug": "查看详细的日志信息"
-        },
-        {
-          "level": 2,
-          "title": "登录日志",
-          "slug": "登录日志"
-        },
-        {
-          "level": 2,
-          "title": "日历管理",
-          "slug": "日历管理"
-        },
-        {
-          "level": 2,
-          "title": "非法登录日志",
-          "slug": "非法登录日志"
-        },
-        {
-          "level": 2,
-          "title": "菜单日志",
-          "slug": "菜单日志"
-        },
-        {
-          "level": 2,
-          "title": "审计日志",
-          "slug": "审计日志"
-        }
-      ],
-      "lastUpdated": "2020/10/30 下午2:21:05"
-    },
-    {
       "title": "工作流",
       "frontmatter": {
         "title": "工作流",
@@ -2160,6 +2130,66 @@ export const siteData = {
           "level": 2,
           "title": "动态字段管理",
           "slug": "动态字段管理"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "我的任务",
+      "frontmatter": {
+        "title": "我的任务",
+        "metaTitle": "我的任务",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/07-my-task.html",
+      "relativePath": "zh/guide/userManual/07-my-task.md",
+      "key": "v-9ccfe1b6",
+      "path": "/zh/guide/userManual/07-my-task.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "我的任务",
+          "slug": "我的任务-2"
+        },
+        {
+          "level": 2,
+          "title": "历史任务",
+          "slug": "历史任务"
+        },
+        {
+          "level": 2,
+          "title": "我的流程实例",
+          "slug": "我的流程实例"
+        }
+      ],
+      "lastUpdated": "2020/3/17 下午3:15:21"
+    },
+    {
+      "title": "消息中心",
+      "frontmatter": {
+        "title": "消息中心",
+        "metaTitle": "消息中心",
+        "sidebarDepth": 3
+      },
+      "regularPath": "/zh/guide/userManual/10-message.html",
+      "relativePath": "zh/guide/userManual/10-message.md",
+      "key": "v-0aeb5673",
+      "path": "/zh/guide/userManual/10-message.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "用户消息",
+          "slug": "用户消息"
+        },
+        {
+          "level": 2,
+          "title": "所有消息",
+          "slug": "所有消息"
+        },
+        {
+          "level": 2,
+          "title": "配置消息类型的颜色",
+          "slug": "配置消息类型的颜色"
         }
       ],
       "lastUpdated": "2020/3/17 下午3:15:21"
@@ -2320,37 +2350,7 @@ export const siteData = {
           "slug": "问题修复和优化-6"
         }
       ],
-      "lastUpdated": "2020/10/30 上午11:31:10"
-    },
-    {
-      "title": "消息中心",
-      "frontmatter": {
-        "title": "消息中心",
-        "metaTitle": "消息中心",
-        "sidebarDepth": 3
-      },
-      "regularPath": "/zh/guide/userManual/10-message.html",
-      "relativePath": "zh/guide/userManual/10-message.md",
-      "key": "v-0aeb5673",
-      "path": "/zh/guide/userManual/10-message.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "用户消息",
-          "slug": "用户消息"
-        },
-        {
-          "level": 2,
-          "title": "所有消息",
-          "slug": "所有消息"
-        },
-        {
-          "level": 2,
-          "title": "配置消息类型的颜色",
-          "slug": "配置消息类型的颜色"
-        }
-      ],
-      "lastUpdated": "2020/3/17 下午3:15:21"
+      "lastUpdated": "2020/11/17 上午11:00:27"
     },
     {
       "title": "应用设置",
