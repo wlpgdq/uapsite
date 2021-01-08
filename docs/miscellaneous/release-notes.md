@@ -3,7 +3,23 @@ sidebar: auto
 ---
 
 # Release Notes
+### new function
 
+| Function points | Description | Remarks |
+| ---- | ---- | ---- |
+| Contains all UAP 3.0.0.0 | Refer to UAP3.0.0.0 Release Notes | |
+| Menu customization security audit | Provide audit function for menu customization | |
+| Blacklist | Blacklist and whitelist mechanism based on IP user login | Need to expand the classes that need to be audited |
+| UAP permission script simplification | Simplify the steps of UAP authentication and reduce code redundancy | |
+| UAP Client new cache function | Support cache files | |
+| Delete homepage | User can delete custom homepage | Display the tenant's default homepage after deletion |
+| Organization Management Function | UAP Organization Management | |
+
+### Bug fixes and optimization
+
+| Question | Description | Remarks |
+| ---- | ---- | ---- |
+| Optimize UAP login time | Optimize UAP login time is too long | |
 ## Version: UAP 3.0.0.0
 
 ### New Function
