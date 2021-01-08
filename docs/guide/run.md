@@ -252,6 +252,7 @@ The new internationalization file needs to be named according to the following r
     translation-${language_code} .json
 
 The language_code is the language you need to add, which must be consistent with the language code in 3.2. New internationalization files can be generated based on the default translation-en.json translation.
+
 * Back-end internationalization
 
 The back-end internationalization is mainly the internationalization page prompt, the new internationalization file needs to be placed in the uap package decompression directory:
@@ -259,6 +260,7 @@ The back-end internationalization is mainly the internationalization page prompt
 ${tomcat_home}/webapps/uap/WEB-INF/classes/
 
 The new internationalization file needs to be named according to the following rules: massages_${language_code}.properties
+
 * Menu internationalization
 The unified application platform provides a menu internationalization database script template, which is located in the following path of the release package:
     * doc/database script/language pack/version/uap_code_local_template.sql
@@ -289,6 +291,19 @@ Database database character set settings support new international languages
 <img :src="$withBase('/deploy/local2.png')" alt="Internationalized picture 2">
 
 After completing these two template file internationalization modifications, you can complete the menu new internationalization resource addition by directly executing the new file.
+
+## Menu icon configuration
+
+1. Copy the menu_icon directory located in the release package doc/icons/ path to
+${tomcat_home}/webapps/ next
+2. Menu customization interface configuration Select the corresponding picture and save the menu icon that needs to be configured
+3. Copy the corresponding menu icon picture to the menu_icon directory
+
+::: warning
+Note: Menu icon images are divided into before and after images. For example, user.png before clicking
+The name of the picture after clicking is user_hover.png.
+Menu icon images can only be in png format
+:::
 
 ## Tomcat run and close
 

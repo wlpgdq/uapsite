@@ -20,6 +20,8 @@ sidebar: auto
 | Question | Description | Remarks |
 | ---- | ---- | ---- |
 | Optimize UAP login time | Optimize UAP login time is too long | |
+| Interface display optimization | When a certain attribute of the display interface is too long, prompt optimization | |
+
 ## Version: UAP 3.0.0.0
 
 ### New Function

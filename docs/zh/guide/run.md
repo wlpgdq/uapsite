@@ -266,6 +266,9 @@ ${tomcat_home}/webapps/uap/WEB-INF/classes/
 
 新的国际化文件需要按照如下规则命名：massages_${language_code}.properties
 
+::: warning
+language_code应该与uiconfig.json文件配置的相同
+:::
 
 * 菜单国际化
 统一应用平台提供了菜单国际化数据库脚本模板，位于发布包的如下路径：
@@ -297,6 +300,19 @@ ${tomcat_home}/webapps/uap/WEB-INF/classes/
 <img :src="$withBase('/deploy/local2.png')" alt="国际化图片2">
 
 完成此两个模板文件国际化修改后，通过直接执行新的文件，完成菜单新国际化资源添加。
+
+## 菜单图标配置
+
+1. 把位于发布包doc/icons/路径下的menu_icon目录copy到
+${tomcat_home}/webapps/下
+2. 菜单定制界面配置把需要配置的菜单icon选择对应的图片并保存
+3. 把对应菜单图标图片copy到menu_icon目录下
+
+::: warning
+注：菜单图标图片分为点击前和点击后图片。比如点击前是user.png
+点击后图片名称就是 user_hover.png.
+菜单图标图片只能是png格式的图片
+:::
 
 ## tomcat运行和关闭
 
