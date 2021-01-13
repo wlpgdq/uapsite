@@ -246,7 +246,7 @@ The unified application platform is provided in English by default. If you need 
 * Front-end internationalization
 Front-end internationalization is mainly internationalized front-end interface elements. New internationalization files need to be placed in the uap-ui package decompression directory:
 
-$ {tomcat_home}/webapps/uap-ui/WEB-INF/classes/static/js/i18next/
+$ {tomcat_home}/webapps/uap-ui/WEB-INF/classes/static/ui/js/i18next/
 
 The new internationalization file needs to be named according to the following rules:
     translation-${language_code} .json

@@ -253,7 +253,7 @@ var Constant = {
 
 * 前端国际化
 前端国际化主要是国际化前端界面元素，新的国际化文件需要放置在uap-ui包解压目录下:
-${tomcat_home}/webapps/uap-ui/WEB-INF/classes/static/js/i18next/
+${tomcat_home}/webapps/uap-ui/WEB-INF/classes/static/ui/js/i18next/
 
 新的国际化文件需要按照如下规则命名：translation-${language_code}.json
 
